@@ -13,3 +13,68 @@ Diana,wind,hp,S2 CD,S1 ACC,DMG on Wind,DMG on Water,DMG from Water,DMG from Fire
 Mellia,wind,support,S1 ACC,S2 ACC,S3 ACC,DMG from Water,CD Recieved
 Beelzebub,dark,attack,S2 CD,CD as HP is Good,Single TGT CD,Lost HP ATK up,ATK INC Effect,Counter DMG,Life Drain,ATK Bar Revived
 Elucia,water,support,S2 Recovery,S1 ACC,S3 ACC,DMG from Wind,DMG from Water,Counter DMG,ADL DMG HP,ADL DMG ATK,ADL DMG DEF,ADL DMG SPD,CD Recieved
+Vigor,water,hp,S3 CD,S2 Recovery,S1 ACC,S3 ACC,DMG on Water,DMG on Fire,DMG from Wind,CD as HP is Bad,Single TGT CD,SPD INC Effect,ADL DMG HP,ADL DMG SPD,CD Recieved
+Icaru,water,def,S1 CD,S1 ACC,DMG on Fire,DMG on Light,DMG on Dark,ATK INC Effect,Counter DMG,Teamup DMG,ADL DMG DEF
+Lulu,water,support,S1 Recovery,S2 Recovery,S3 Recovery,DMG from Wind,DMG from Water,Lost HP DEF up,Lost HP SPD up,CD Recieved
+Attack Homunculus,water,attack,S3 CD,S1 ACC,S2 ACC,S3 ACC,DMG from Wind,DMG from Water,Lost HP DEF up,ADL DMG ATK,ADL DMG SPD,CD Recieved
+Belial,water,attack,S2 CD,DMG on Water,DMG on Fire,DMG on Light,DMG on Dark,CD as HP is Good,Single TGT CD,Lost HP ATK up,ATK Bar Revived
+Bolverk,water,hp,S3 Recovery,S1 ACC,DMG from Wind,DMG from Water,DMG from Light,DMG from Dark,Lost HP DEF up,Lost HP SPD up,CD Recieved
+Mo Long,water,hp,S1 ACC,S2 ACC,DMG on Wind,DMG from Wind,DMG from Water,Lost HP SPD up,Life Drain,ADL DMG HP,ADL DMG SPD,CD Recieved
+Theomars,water,attack,S1 CD,S2 ACC,DMG from Wind,DMG from Water,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP SPD up,ATK INC Effect
+Chandra,water,hp,S1 CD,S1 ACC,S3 ACC,DMG from Wind,DMG from Water,CD as HP is Bad,Single TGT CD,Lost HP DEF up,Lost HP SPD up,SPD INC Effect,Counter DMG,CD Recieved
+Shi Hou,water,attack,S3 CD,S1 ACC,S2 ACC,DMG on Water,DMG on Fire,DMG from Wind,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP SPD up,ADL DMG ATK,ADL DMG SPD
+Praha,water,support,S1 CD,S3 Recovery,S2 ACC,S3 ACC,DMG from Wind,DMG from Water,Single TGT CD,Lost HP SPD up,ADL DMG HP,ADL DMG ATK,ADL DMG DEF,ADL DMG SPD,CD Recieved
+Sigmarus,water,attack,S3 CD,S2 ACC,S3 ACC,DMG on Water,DMG on Fire,CD as HP is Good,CD as HP is Bad,Single TGT CD,ATK INC Effect
+Suiki,water,attack,S1 Recovery,S2 Recovery,S1 ACC,DMG on Wind,DMG on Light,DMG from Wind,DMG from Water,Lost HP ATK up,Lost HP DEF up,Lost HP SPD up,ATK INC Effect,Life Drain
+Abigail,water,attack,S3 CD,S1 ACC,S2 ACC,S3 ACC,DMG on Fire,CD as HP is Good,ATK INC Effect,ADL DMG ATK
+Covenant,water,attack,S3 CD,S2 ACC,DMG on Water,DMG on Fire,DMG on Light,CD as HP is Good,Single TGT CD,ATK INC Effect
+Sabrina,water,attack,S1 CD,S2 CD,S1 ACC,S2 ACC,CD as HP is Good,CD as HP is Bad,Single TGT CD,ATK INC Effect,Teamup DMG,ADL DMG ATK
+Talia,water,attack,S1 CD,S3 CD,CD as HP is Good,CD as HP is Bad,Single TGT CD,ATK INC Effect,Teamup DMG,ADL DMG ATK
+Chilling,water,attack,S1 CD,S3 Recovery,S1 ACC,S3 ACC,DMG on Water,DMG from Water,CD as HP is Good,Single TGT CD,SPD INC Effect,ADL DMG HP,ADL DMG ATK,ADL DMG SPD
+Stella,water,attack,S3 CD,S1 ACC,S2 ACC,DMG on Fire,DMG on Dark,CD as HP is Good,CD as HP is Bad,Single TGT CD,ATK INC Effect,ADL DMG ATK,ADL DMG SPD
+Lapis,water,attack,S3 CD,S3 Recovery,S1 ACC,S2 ACC,S3 ACC,CD as HP is Good,CD as HP is Bad,ATK INC Effect,Counter DMG,Life Drain,ADL DMG ATK
+Tetra,water,support,S1 CD,S3 Recovery,S1 ACC,DMG from Wind,DMG from Water,CD as HP is Bad,Single TGT CD,Lost HP DEF up,Lost HP SPD up,CD Recieved
+Galleon,water,hp,S2 CD,DMG on Water,DMG on Fire,DMG from Wind,DMG from Water,Single TGT CD,Lost HP ATK up,Lost HP SPD up,ATK INC Effect
+Aegir,water,attack,S2 CD,S3 CD,S3 Recovery,S2 ACC,S3 ACC,DMG on Water,DMG on Fire,DMG from Wind,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP DEF up,Lost HP SPD up,SPD INC Effect,CD Recieved
+Malaka,water,attack,S2 ACC,S3 ACC,DMG from Wind,ATK INC Effect,Bomb DMG,ADL DMG ATK,ADL DMG SPD
+Orion,water,support,S1 CD,S2 ACC,S3 ACC,DMG from Wind,DMG from Water,Lost HP DEF up,Lost HP SPD up,CD Recieved
+Xiao Lin,water,attack,S1 CD,S2 CD,S3 CD,S1 ACC,S2 ACC,DMG on Fire,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,ATK INC Effect,Counter DMG,Life Drain,ADL DMG ATK,CD Recieved
+Rigel,water,support,S1 CD,S2 CD,S1 ACC,S2 ACC,DMG on Water,DMG on Fire,DMG from Wind,DMG from Water,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP DEF up,Lost HP SPD up,ATK INC Effect,Counter DMG,ADL DMG HP,ADL DMG ATK,ADL DMG DEF,ADL DMG SPD,CD Recieved
+Luer,water,support,S1 ACC,S2 ACC,S3 ACC,DMG on Wind,DMG on Water,DMG on Fire,DMG on Light,DMG on Dark,DMG from Wind,DMG from Water,DMG from Dark,Lost HP ATK up,Lost HP DEF up,ATK INC Effect,CD Recieved
+Julie,water,attack,S3 CD,S1 ACC,S2 ACC,DMG on Water,DMG on Fire,CD as HP is Good,CD as HP is Bad,ATK INC Effect,ADL DMG ATK,ADL DMG SPD
+Sian,water,attack,S2 ACC,ATK INC Effect,Bomb DMG,HP Revived,ATK Bar Revived,CD Recieved
+Tractor,water,def,S1 CD,S1 Recovery,S1 ACC,DMG on Water,DMG on Fire,DMG from Wind,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP DEF up,Counter DMG,Life Drain,ADL DMG DEF,CD Recieved
+Gildong,water,attack,S3 CD,S1 ACC,S2 ACC,S3 ACC,CD as HP is Good,CD as HP is Bad,Single TGT CD,ADL DMG ATK
+Megan,water,support,S2 ACC,ATK INC Effect,DEF INC Effect
+Konamiya,water,support,S3 Recovery,S1 ACC,DMG from Wind,DMG from Water,Lost HP SPD up,ATK INC Effect,CD Recieved
+Tarq,water,attack,S2 CD,DMG on Fire,CD as HP is Good,CD as HP is Bad,Single TGT CD,SPD INC Effect,Teamup DMG
+Kahli,fire,attack,S2 CD,S1 ACC,DMG on Wind,DMG on Fire,DMG on Light,DMG on Dark,CD as HP is Good,Single TGT CD,ATK INC Effect,SPD INC Effect
+Sath,fire,attack,S2 ACC,S3 ACC,DMG from Water,CD Recieved
+Raoq,fire,attack,S1 CD,S1 ACC,DMG on Wind,DMG on Fire,DMG on Light,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP SPD up,ATK INC Effect,ADL DMG ATK,ADL DMG SPD
+Tatu,fire,attack,S1 ACC,S2 ACC,DMG from Wind,DMG from Water,CD Recieved
+Tomoe,fire,support,S2 ACC,S3 ACC,DMG from Water,DMG from Fire,DMG from Light,DMG from Dark,Lost HP DEF up,Lost HP SPD up,CD Recieved
+Ken,fire,attack,S3 CD,S2 ACC,DMG on Wind,CD as HP is Good,CD as HP is Bad,Single TGT CD,ATK INC Effect,ADL DMG ATK,ADL DMG SPD
+Fire RYU,fire,attack,S2 CD,S2 ACC,DMG on Wind,DMG on Fire,DMG from Water,DMG from Fire,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,ATK INC Effect,Life Drain,CD Recieved
+Masha,fire,attack,S2 CD,S2 ACC,DMG on Wind,DMG on Water,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP SPD up,ATK INC Effect,SPD INC Effect
+Baleygr,fire,attack,S3 CD,S1 ACC,CD as HP is Good,CD as HP is Bad,Single TGT CD,ATK INC Effect,ADL DMG ATK,CD Recieved
+Bellenus,fire,def,S3 CD,S1 ACC,S3 ACC,DMG on Wind,DMG on Fire,DMG from Water,CD as HP is Good,CD as HP is Bad,ATK INC Effect,Counter DMG,ADL DMG ATK
+Ophillia,fire,hp,S1 ACC,DMG from Water,DMG from Fire,Lost HP DEF up,Lost HP SPD up,Counter DMG,CD Recieved
+Xiong Fei,fire,def,S3 CD,S2 Recovery,S1 ACC,S3 ACC,DMG from Water,DMG from Fire,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP DEF up,ADL DMG DEF,CD Recieved
+Daphnis,fire,attack,S3 CD,S3 ACC,DMG on Wind,DMG on Fire,DMG on Light,DMG on Dark,CD as HP is Bad,Single TGT CD,Lost HP ATK up,ATK INC Effect
+Tesarion,fire,hp,S1 CD,S2 ACC,S3 ACC,DMG on Light,DMG from Water,DMG from Light,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP DEF up,Lost HP SPD up,ATK INC Effect,Counter DMG,CD Recieved
+Brandia,fire,attack,S3 CD,S1 ACC,S2 ACC,DMG on Wind,DMG on Fire,CD as HP is Good,CD as HP is Bad,Single TGT CD,ATK INC Effect
+Kumar,fire,hp,S1 CD,S2 Recovery,S3 ACC,DMG on Wind,DMG on Fire,DMG from Water,Single TGT CD,Lost HP DEF up,Lost HP SPD up,SPD INC Effect,Counter DMG,CD Recieved
+Mei Hou Wang,fire,def,S2 CD,S2 Recovery,S1 ACC,S2 ACC,DMG on Wind,DMG on Fire,DMG from Water,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP DEF up,Lost HP SPD up,Counter DMG,CD Recieved
+Perna,fire,hp,S2 CD,S3 Recovery,S1 ACC,DMG from Water,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP SPD up,ATK INC Effect,ATK Bar Revived
+Kaki,fire,attack,S1 Recovery,S1 ACC,DMG on Wind,DMG on Water,DMG on Fire,DMG on Light,DMG on Dark,Lost HP ATK up,Lost HP SPD up,ATK INC Effect,Counter DMG,CD Recieved
+Hongyeon,fire,support,S3 Recovery,S1 ACC,S2 ACC,DMG from Water,DMG from Fire,CD Recieved
+Carcano,fire,attack,S1 CD,S2 ACC,DMG on Wind,DMG on Fire,DMG from Water,DMG from Fire,DMG from Dark,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP DEF up,Lost HP SPD up,SPD INC Effect,Counter DMG,CD Recieved
+Shaina,fire,attack,S2 ACC,S3 ACC,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP SPD up,Teamup DMG,ADL DMG ATK,ADL DMG SPD,CD Recieved
+Harmonia,fire,support,S2 Recovery,S1 ACC,DMG from Water,DMG from Fire,Lost HP DEF up,Lost HP SPD up,ATK Bar Revived,CD Recieved
+Ludo,fire,attack,S1 ACC,S2 ACC,DMG from Water,DMG from Fire,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP DEF up,Lost HP SPD up,Counter DMG,ADL DMG HP,ADL DMG ATK,ADL DMG DEF,CD Recieved
+Khmun,fire,support,S2 CD,S2 Recovery,S1 ACC,DMG on Wind,DMG on Fire,DMG from Water,DMG from Fire,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP DEF up,Lost HP SPD up,SPD INC Effect,CD Recieved
+Lisa,fire,support,S2 ACC,DMG from Water,DMG from Fire,Lost HP DEF up,Lost HP SPD up,CD Recieved
+Astar,fire,attack,S1 CD,S2 CD,DMG on Dark,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Life Drain,ADL DMG ATK
+Hwahee,fire,attack,S3 CD,S2 Recovery,DMG on Wind,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,Lost HP SPD up,ATK INC Effect,ADL DMG ATK,CD Recieved
+Draco,fire,support,S1 CD,DMG from Water,DMG from Fire,Lost HP DEF up,Lost HP SPD up,ATK INC Effect,SPD INC Effect,DEF INC Effect,ADL DMG SPD,CD Recieved
+Antares,fire,attack,S1 CD,S2 CD,S2 Recovery,DMG from Water,DMG from Fire,CD as HP is Good,CD as HP is Bad,Single TGT CD,Lost HP ATK up,ATK INC Effect,Counter DMG,ADL DMG ATK,CD Recieved
