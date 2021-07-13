@@ -1,0 +1,15 @@
+
+Seara,wind,attack,S1 CD,S2 ACC,Single TGT CD,ATK INC Effect,Bomb DMG,ADL DMG HP,ADL DMG ATK,ADL DMG DEF,ADL DMG SPD
+Bastet,water,support,S2 ACC,DMG from Wind,DMG from Water,ATK INC Effect,ADL DMG HP,ADL DMG SPD,CD Recieved
+Rina,water,support,S1 Recovery,S2 Recovery,DMG from Wind,DMG from Water,DMG from Fire,DMG from Light,DMG from Dark,Lost HP DEF up,Counter DMG,Life Drain,CD Recieved
+Beth,water,attack,S2 CD,S3 CD,S3 ACC,DMG on Water,DMG on Fire,DMG on Light,CD as HP is Good,ATK INC Effect,ADL DMG ATK
+Anavel,water,support,S2 Recovery,S1 ACC,S3 ACC,DMG on Fire,DMG from Wind,DMG from Water,Lost HP DEF up,Lost HP SPD up,ADL DMG HP,ADL DMG ATK,ADL DMG SPD,CD Recieved
+Helena,fire,hp,S2 CD,S3 Recovery,S1 ACC,S2 ACC,DMG on Wind,DMG on Fire,DMG from Fire,CD as HP is Good,CD as HP is Bad,ATK INC Effect
+Rica,fire,attack,DMG on Wind,DMG from Water,DMG from Fire,Lost HP DEF up,Lost HP SPD up,ADL DMG HP,ADL DMG ATK,ADL DMG DEF,ADL DMG SPD,CD Recieved
+Sekmet,fire,support,S3 CD,S2 ACC,S3 ACC,DMG on Wind,DMG from Water,DMG from Fire,CD as HP is Good,CD as HP is Bad,Single TGT CD,ATK INC Effect,ADL DMG HP,ADL DMG ATK,ADL DMG SPD
+Charlotte,wind,attack,S3 CD,S3 ACC,DMG from Wind,DMG from Fire,CD as HP is Bad,Lost HP ATK up,Lost HP DEF up,Lost HP SPD up,ATK INC Effect,ADL DMG HP,ADL DMG ATK,ADL DMG SPD,CD Recieved
+Ethna,wind,attack,S3 CD,S2 ACC,S3 ACC,DMG on Wind,DMG on Water,DMG from Fire,CD as HP is Good,Single TGT CD,ATK INC Effect,ADL DMG ATK,ADL DMG SPD
+Diana,wind,hp,S2 CD,S1 ACC,DMG on Wind,DMG on Water,DMG from Water,DMG from Fire,CD as HP is Good,CD as HP is Bad,Single TGT CD,ATK INC Effect,ADL DMG ATK
+Mellia,wind,support,S1 ACC,S2 ACC,S3 ACC,DMG from Water,CD Recieved
+Beelzebub,dark,attack,S2 CD,CD as HP is Good,Single TGT CD,Lost HP ATK up,ATK INC Effect,Counter DMG,Life Drain,ATK Bar Revived
+Elucia,water,support,S2 Recovery,S1 ACC,S3 ACC,DMG from Wind,DMG from Water,Counter DMG,ADL DMG HP,ADL DMG ATK,ADL DMG DEF,ADL DMG SPD,CD Recieved
