@@ -182,7 +182,7 @@ for col in cols:
     listBox.heading(col, text=col)    
 listBox.grid(row=1, column=0, columnspan=10)
 
-showScores = Button(ws, text="Show scores", width=15, command=show).grid(row=4, column=0)
+showScores = Button(ws, text="Show Monsters", width=15, command=show).grid(row=4, column=0)
 closeButton = Button(ws, text="Close", width=15, command=exit).grid(row=4, column=1)
 
 
@@ -290,7 +290,7 @@ def open_win():
 
 
 # Label(ws, text= "Click the button to Open Popup Window", font= ('Helvetica 18')).place(relx=.5, rely=.5, anchor= CENTER)
-Button(ws, text= "Click Me", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_win).grid(row=4, column=2)
+Button(ws, text= "Add Monster", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_win).grid(row=4, column=2)
 
 # infinite loop 
 ws.mainloop()
