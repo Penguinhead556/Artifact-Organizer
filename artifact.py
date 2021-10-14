@@ -31,6 +31,22 @@ subproperties = [
     ["CD Recieved"]
 ]
 
+property_range = [
+    ["S1 CD", "S2 CD", "S3 CD", "S4 CD"],
+    ["S1 Recovery", "S2 Recovery", "S3 Recovery"],
+    ["S1 ACC", "S2 ACC", "S3 ACC"],
+    ["DMG on Wind", "DMG on Water", "DMG on Fire", "DMG on Light", "DMG on Dark"],
+    ["DMG from Wind", "DMG from Water", "DMG from Fire", "DMG from Light", "DMG from Dark"],
+    ["CD as HP is Good", "CD as HP is Bad", "Single TGT CD"],
+    ["Lost HP ATK up", "Lost HP DEF up", "Lost HP SPD up"],
+    ["ATK INC Effect", "SPD INC Effect", "DEF INC Effect"],
+    ["Counter DMG", "Teamup DMG", "Bomb DMG"],
+    ["Life Drain", "HP Revived", "ATK Bar Revived"],
+    ["ADL DMG HP", "ADL DMG ATK", "ADL DMG DEF", "ADL DMG SPD"],
+    ["CD Recieved"]
+]
+
+
 flat_subproperties = []
 
 for rows in subproperties:
@@ -186,7 +202,7 @@ showScores = Button(ws, text="Show Monsters", width=15, command=show).grid(row=4
 closeButton = Button(ws, text="Close", width=15, command=exit).grid(row=4, column=1)
 
 
-def open_win():
+def open_add_build():
     row_counter = 0
 
     #Create a Button to Open the Toplevel Window
@@ -287,10 +303,32 @@ def open_win():
 
     top.mainloop()
 
+def open_check_build():
+    row_counter = 0
 
+    Selected_Monster = listBox.item(listBox.focus())['values'][0]
+
+    #Create a Button to Open the Toplevel Window
+    top = Toplevel(ws)
+    top.title("Check Build")
+
+
+    Label(top, text= Selected_Monster).grid(row = row_counter, column = 0)
+   
+    row_counter = row_counter + 1
+
+    cols = ('Monster', 'Sub1', 'Sub2', 'Sub3', 'Sub4', 'Efficiency')
+    Current_Artifact_List = ttk.Treeview(top, columns=cols, show='headings')
+
+    for col in cols:
+        Current_Artifact_List.heading(col, text=col)    
+    Current_Artifact_List.grid(row=row_counter, column=0, columnspan=10)
+    
+    top.mainloop()
 
 # Label(ws, text= "Click the button to Open Popup Window", font= ('Helvetica 18')).place(relx=.5, rely=.5, anchor= CENTER)
-Button(ws, text= "Add Monster", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_win).grid(row=4, column=2)
+Button(ws, text= "Add Build", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_add_build).grid(row=4, column=2)
+Button(ws, text= "Check Build", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_check_build).grid(row=4, column=3)
 
 # infinite loop 
 ws.mainloop()
