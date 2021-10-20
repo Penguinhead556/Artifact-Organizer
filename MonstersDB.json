@@ -1,0 +1,22 @@
+{
+      "Seara": {
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "ADL DMG HP",
+                  "ADL DMG ATK",
+                  "ADL DMG DEF",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Juno": {
+            "Element": "fire",
+            "Type": "support",
+            "Substats": [
+                  "ADL DMG HP",
+                  "ADL DMG ATK",
+                  "ADL DMG DEF",
+                  "ADL DMG SPD"
+            ]
+      }
+}

@@ -2,14 +2,20 @@ from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
 import csv
+import json
 
 ws = Tk()
 ws.title('Artifact Tool')
 # ws.geometry('400x300')
 
-def display_selected(choice):
-    # choice = variable.get()
-    print(choice)
+Monster_Info = {}
+
+f = open("MonstersDB.json", "r")
+if (f.read() != ""):
+    f.seek(0)
+    Monster_Info = json.load(f)
+f.close()
+
 
 elements = ['-', 'fire','water', 'wind','light', 'dark']
 types = ['-', 'attack', 'hp', 'def', 'support']
@@ -32,18 +38,18 @@ subproperties = [
 ]
 
 property_range = [
-    ["S1 CD", "S2 CD", "S3 CD", "S4 CD"],
-    ["S1 Recovery", "S2 Recovery", "S3 Recovery"],
-    ["S1 ACC", "S2 ACC", "S3 ACC"],
-    ["DMG on Wind", "DMG on Water", "DMG on Fire", "DMG on Light", "DMG on Dark"],
-    ["DMG from Wind", "DMG from Water", "DMG from Fire", "DMG from Light", "DMG from Dark"],
-    ["CD as HP is Good", "CD as HP is Bad", "Single TGT CD"],
-    ["Lost HP ATK up", "Lost HP DEF up", "Lost HP SPD up"],
-    ["ATK INC Effect", "SPD INC Effect", "DEF INC Effect"],
-    ["Counter DMG", "Teamup DMG", "Bomb DMG"],
-    ["Life Drain", "HP Revived", "ATK Bar Revived"],
-    ["ADL DMG HP", "ADL DMG ATK", "ADL DMG DEF", "ADL DMG SPD"],
-    ["CD Recieved"]
+    [[4, 6], [4, 6], [4, 6], [4, 6]],
+    [[4, 6], [4, 6], [4, 6]],
+    [[4, 6], [4, 6], [4, 6]],
+    [[3, 5], [3, 5], [3, 5], [3, 5], [3, 5]],
+    [[4, 6], [4, 6], [4, 6], [4, 6], [4, 6]],
+    [[4, 6], [8, 12], [2, 4]],
+    [[9, 14], [9, 14], [9, 14]],
+    [[3, 5], [4, 6], [2, 4]],
+    [[2, 4], [2, 4], [2,  4]],
+    [[5, 8], [4, 6], [4, 6]],
+    [[0.2, 0.3], [2, 4], [2, 4], [25, 40]],
+    [[2, 4]]
 ]
 
 
@@ -52,96 +58,132 @@ flat_subproperties = []
 for rows in subproperties:
     flat_subproperties = flat_subproperties + rows
 
+flat_property_range = []
 
-# setting variable for Integers
-artifact_type = StringVar()
-artifact_type.set(elements[0])
-
-# creating widget
-elements_select = OptionMenu(
-    ws,
-    artifact_type,
-    *all_types,
-    command=display_selected
-)
-
-# positioning widget
-Label(ws, text = "Element or Type:").grid(row = 0, column = 0)
-elements_select.grid(row=0, column=1)
+for rows in property_range:
+    flat_property_range = flat_property_range + rows
 
 
-# setting variable for Integers
-Sub1 = StringVar()
-Sub1.set(elements[0])
-
-# creating widget
-elements_select = OptionMenu(
-    ws,
-    Sub1,
-    *flat_subproperties,
-    command=display_selected
-)
-
-# positioning widget
-Label(ws, text = "Sub1").grid(row = 0, column = 2)
-elements_select.grid(row=0, column=3)
-
-# setting variable for Integers
-Sub2 = StringVar()
-Sub2.set(elements[0])
-
-# creating widget
-elements_select = OptionMenu(
-    ws,
-    Sub2,
-    *flat_subproperties,
-    command=display_selected
-)
-
-# positioning widget
-Label(ws, text = "Sub2").grid(row = 0, column = 4)
-elements_select.grid(row=0, column=5)
+# def calculate_efficiency(artifact, monster):
 
 
-
-# setting variable for Integers
-Sub3 = StringVar()
-Sub3.set(elements[0])
-
-# creating widget
-elements_select = OptionMenu(
-    ws,
-    Sub3,
-    *flat_subproperties,
-    command=display_selected
-)
-
-# positioning widget
-Label(ws, text = "Sub3").grid(row = 0, column = 6)
-elements_select.grid(row=0, column=7)
+# label = Label(ws, text="High Scores", font=("Arial",30)).grid(row=0, columnspan=3)
+# create Treeview with 3 columns
+cols = ('Monster', 'Sub1', 'Sub2', 'Sub3', 'Sub4', 'Current Efficiency', 'Max Efficiency')
+listBox = ttk.Treeview(ws, columns=cols, show='headings')
+# set column headings
+for col in cols:
+    listBox.heading(col, text=col)    
+listBox.grid(row=1, column=0, columnspan=10)
 
 
-# setting variable for Integers
-Sub4 = StringVar()
-Sub4.set(elements[0])
-
-# creating widget
-elements_select = OptionMenu(
-    ws,
-    Sub4,
-    *flat_subproperties,
-    command=display_selected
-)
-
-# positioning widget
-Label(ws, text = "Sub4").grid(row = 0, column = 8)
-elements_select.grid(row=0, column=9)
-
-
-
+listBox.delete(*listBox.get_children())
+for key in Monster_Info:
+    listBox.insert("", "end", value=key)
 
 def show():
 
+    top= Toplevel(ws)
+    top.title("Configure Artifact")
+
+    # setting variable for Integers
+    artifact_type = StringVar()
+    artifact_type.set(elements[0])
+
+    # creating widget
+    elements_select = OptionMenu(
+        top,
+        artifact_type,
+        *all_types,
+        command=display_selected
+    )
+
+    # positioning widget
+    Label(top, text = "Element or Type:").grid(row = 0, column = 0)
+    elements_select.grid(row=0, column=1)
+
+
+    # setting variable for Integers
+    Sub1 = StringVar()
+    Sub1.set(elements[0])
+
+    # creating widget
+    elements_select = OptionMenu(
+        top,
+        Sub1,
+        *flat_subproperties,
+        command=display_selected
+    )
+
+    # positioning widget
+    Label(top, text = "Sub1").grid(row = 1, column = 0)
+    elements_select.grid(row=1, column=1)
+
+    sub1_value = StringVar()
+    sub1_value.set(elements[0])
+
+    e1 = Entry(top, textvariable=sub1_value).grid(row = 1, column = 2)
+
+    # setting variable for Integers
+    Sub2 = StringVar()
+
+    # creating widget
+    elements_select = OptionMenu(
+        top,
+        Sub2,
+        *flat_subproperties,
+        command=display_selected
+    )
+
+    # positioning widget
+    Label(top, text = "Sub2").grid(row = 2, column = 0)
+    elements_select.grid(row=2, column=1)
+
+    sub2_value = StringVar()
+    e2 = Entry(top, textvariable=sub2_value).grid(row = 2, column = 2)
+
+
+    # setting variable for Integers
+    Sub3 = StringVar()
+
+    # creating widget
+    elements_select = OptionMenu(
+        top,
+        Sub3,
+        *flat_subproperties,
+        command=display_selected
+    )
+
+    # positioning widget
+    Label(top, text = "Sub3").grid(row = 3, column = 0)
+    elements_select.grid(row=3, column=1)
+
+    sub3_value = StringVar()
+
+    e3 = Entry(top, textvariable=sub3_value).grid(row = 3, column = 2)
+
+
+    # setting variable for Integers
+    Sub4 = StringVar()
+
+    # creating widget
+    elements_select = OptionMenu(
+        top,
+        Sub4,
+        *flat_subproperties,
+        command=display_selected
+    )
+
+    # positioning widget
+    Label(top, text = "Sub4").grid(row = 4, column = 0)
+    elements_select.grid(row=4, column=1)
+
+    sub4_value = StringVar()
+
+    e4 = Entry(top, textvariable=sub4_value).grid(row = 4, column = 2)
+
+
+#############################################################################################
     Monster_info = []
     with open('MonstersDB.csv', newline='') as csvfile:
         spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
@@ -189,17 +231,6 @@ def show():
     for i in Suitable_Monsters:
         listBox.insert("", "end", values=i)
 
-# label = Label(ws, text="High Scores", font=("Arial",30)).grid(row=0, columnspan=3)
-# create Treeview with 3 columns
-cols = ('Monster', 'Sub1', 'Sub2', 'Sub3', 'Sub4')
-listBox = ttk.Treeview(ws, columns=cols, show='headings')
-# set column headings
-for col in cols:
-    listBox.heading(col, text=col)    
-listBox.grid(row=1, column=0, columnspan=10)
-
-showScores = Button(ws, text="Show Monsters", width=15, command=show).grid(row=4, column=0)
-closeButton = Button(ws, text="Close", width=15, command=exit).grid(row=4, column=1)
 
 
 def open_add_build():
@@ -277,26 +308,27 @@ def open_add_build():
         row_counter = row_counter + 1
 
     def save_monster(Monster_name, Element, Type, artifact_properties):
+        Current_Monster = {}
         data = []
+        substats = []
         for i in artifact_properties:
             data.append(i.get())
-        print(Monster_name.get())
-        print(Element.get())
-        print(Type.get())
-        print(data)
 
-        f = open("MonstersDB.csv", "a")
-        f.write(Monster_name.get())
-        f.write(",")
-        f.write(Element.get())
-        f.write(",")
-        f.write(Type.get())
         for i in range(len(data)):
             if data[i] == 1:
-                f.write(",")
-                f.write(flat_subproperties[i])
-        f.write("\n")
+                substats.append(flat_subproperties[i])
+
+        # Current_Monster["Monster"] = Monster_name.get()
+        Current_Monster["Element"] = Element.get()
+        Current_Monster["Type"] = Type.get()
+        Current_Monster["Substats"] = substats
+        
+        Monster_Info[Monster_name.get()] = Current_Monster
+
+        f = open("MonstersDB.json", "w")
+        json.dump(Monster_Info, f, indent = 6)
         f.close()
+
         top.destroy()
 
     save = Button(top, text = "save", command = lambda: save_monster(Monster_name, Element, Type, artifact_properties)).grid(row = row_counter)
@@ -326,9 +358,13 @@ def open_check_build():
     
     top.mainloop()
 
+
+Button(ws, text="Show Monsters", width=15, command=show).grid(row=4, column=0)
+
 # Label(ws, text= "Click the button to Open Popup Window", font= ('Helvetica 18')).place(relx=.5, rely=.5, anchor= CENTER)
-Button(ws, text= "Add Build", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_add_build).grid(row=4, column=2)
-Button(ws, text= "Check Build", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_check_build).grid(row=4, column=3)
+Button(ws, text= "Add Build", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_add_build).grid(row=4, column=1)
+Button(ws, text= "Update Monster", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_check_build).grid(row=4, column=2)
+Button(ws, text="Close", width=15, command=exit).grid(row=4, column=3)
 
 # infinite loop 
 ws.mainloop()
