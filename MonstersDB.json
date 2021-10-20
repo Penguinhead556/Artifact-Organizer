@@ -18,5 +18,15 @@
                   "ADL DMG DEF",
                   "ADL DMG SPD"
             ]
+      },
+      "Lushen": {
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "CD as HP is Good",
+                  "CD as HP is Bad",
+                  "ATK INC Effect"
+            ]
       }
 }

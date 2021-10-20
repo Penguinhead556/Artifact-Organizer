@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
+from tkinter.messagebox import showinfo
 from tkinter import ttk
 import csv
 import json
@@ -9,6 +10,7 @@ ws.title('Artifact Tool')
 # ws.geometry('400x300')
 
 Monster_Info = {}
+All_Monsters = []
 
 f = open("MonstersDB.json", "r")
 if (f.read() != ""):
@@ -80,6 +82,7 @@ listBox.grid(row=1, column=0, columnspan=10)
 listBox.delete(*listBox.get_children())
 for key in Monster_Info:
     listBox.insert("", "end", value=key)
+    All_Monsters.append(key)
 
 def show():
 
@@ -95,7 +98,6 @@ def show():
         top,
         artifact_type,
         *all_types,
-        command=display_selected
     )
 
     # positioning widget
@@ -112,7 +114,6 @@ def show():
         top,
         Sub1,
         *flat_subproperties,
-        command=display_selected
     )
 
     # positioning widget
@@ -132,7 +133,6 @@ def show():
         top,
         Sub2,
         *flat_subproperties,
-        command=display_selected
     )
 
     # positioning widget
@@ -151,7 +151,6 @@ def show():
         top,
         Sub3,
         *flat_subproperties,
-        command=display_selected
     )
 
     # positioning widget
@@ -171,7 +170,6 @@ def show():
         top,
         Sub4,
         *flat_subproperties,
-        command=display_selected
     )
 
     # positioning widget
@@ -257,8 +255,7 @@ def open_add_build():
     elements_select = OptionMenu(
     top,
     Element,
-    *elements,
-    command=display_selected
+    *elements
     )
 
     Label(top, text = "Element:").grid(row = row_counter, column = 0)
@@ -274,8 +271,7 @@ def open_add_build():
     types_select = OptionMenu(
     top,
     Type,
-    *types,
-    command=display_selected
+    *types
     )
 
     # positioning widget
@@ -325,29 +321,68 @@ def open_add_build():
         
         Monster_Info[Monster_name.get()] = Current_Monster
 
-        f = open("MonstersDB.json", "w")
-        json.dump(Monster_Info, f, indent = 6)
-        f.close()
-
         top.destroy()
 
     save = Button(top, text = "save", command = lambda: save_monster(Monster_name, Element, Type, artifact_properties)).grid(row = row_counter)
 
     top.mainloop()
 
-def open_check_build():
+def open_update_monster():
     row_counter = 0
-
-    Selected_Monster = listBox.item(listBox.focus())['values'][0]
 
     #Create a Button to Open the Toplevel Window
     top = Toplevel(ws)
     top.title("Check Build")
 
+    Monster = StringVar()
 
-    Label(top, text= Selected_Monster).grid(row = row_counter, column = 0)
-   
+    Monster.set(All_Monsters[0])
+
+    Label(top, text="Monster:").grid(row = row_counter, column = 0)
+
+    def checkkey(event):
+        
+        value = event.widget.get()
+        print(value)
+        
+        # get data from l
+        if value == '':
+            data = All_Monsters
+        else:
+            data = []
+            for item in All_Monsters:
+                if value.lower() in item.lower():
+                    data.append(item)                
+    
+        # update data in listbox
+        Monster_Select['values'] = data
+    
+    
+    #creating text box 
+    Monster_Select = ttk.Combobox(top, textvariable=Monster)
+    Monster_Select.bind('<KeyRelease>', checkkey)
+    Monster_Select['values'] = All_Monsters
+    Monster_Select.grid(row = row_counter, column = 1)
+
+    
+    
+    # setting variable for Integers
+    Artifact_Category = StringVar()
+
+    # creating widget
+    elements_select = OptionMenu(
+        top,
+        Artifact_Category,
+        *["Attribute", "Type"],
+    )
+
+    # positioning widget
+    Artifact_Category.set("Attribute")
+    Label(top, text="Artifact_Category:").grid(row = row_counter, column = 2)
+    elements_select.grid(row=row_counter, column=3)
+
     row_counter = row_counter + 1
+
 
     cols = ('Monster', 'Sub1', 'Sub2', 'Sub3', 'Sub4', 'Efficiency')
     Current_Artifact_List = ttk.Treeview(top, columns=cols, show='headings')
@@ -356,6 +391,7 @@ def open_check_build():
         Current_Artifact_List.heading(col, text=col)    
     Current_Artifact_List.grid(row=row_counter, column=0, columnspan=10)
     
+    
     top.mainloop()
 
 
@@ -363,8 +399,14 @@ Button(ws, text="Show Monsters", width=15, command=show).grid(row=4, column=0)
 
 # Label(ws, text= "Click the button to Open Popup Window", font= ('Helvetica 18')).place(relx=.5, rely=.5, anchor= CENTER)
 Button(ws, text= "Add Build", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_add_build).grid(row=4, column=1)
-Button(ws, text= "Update Monster", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_check_build).grid(row=4, column=2)
-Button(ws, text="Close", width=15, command=exit).grid(row=4, column=3)
+Button(ws, text= "Update Monster", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_update_monster).grid(row=4, column=2)
 
+def on_closing():
+    f = open("MonstersDB.json", "w")
+    json.dump(Monster_Info, f, indent = 6)
+    f.close()
+    ws.destroy()
+
+ws.protocol("WM_DELETE_WINDOW", on_closing)
 # infinite loop 
 ws.mainloop()
