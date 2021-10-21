@@ -1,1 +1,486 @@
-{}
+{
+      "Seara": {
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "S2 ACC",
+                  "Bomb DMG",
+                  "ADL DMG HP",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ],
+            "Artifacts": {
+                  "Element": [
+                        [
+                              "Single TGT CD",
+                              "5"
+                        ],
+                        [
+                              "ADL DMG SPD",
+                              "102"
+                        ],
+                        [
+                              "Bomb DMG",
+                              "4"
+                        ],
+                        [
+                              "DMG on Fire",
+                              "3"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL DMG ATK",
+                              "4"
+                        ],
+                        [
+                              "S1 CD",
+                              "10"
+                        ],
+                        [
+                              "S2 ACC",
+                              "10"
+                        ],
+                        [
+                              "ADL DMG HP",
+                              "0.6"
+                        ]
+                  ]
+            },
+            "Efficiency": {
+                  "Element": 44.38,
+                  "Type": 79.17
+            }
+      },
+      "Rina_1": {
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S1 Recovery",
+                  "S2 Recovery",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "DMG from Light",
+                  "CD Recieved"
+            ],
+            "Artifacts": {
+                  "Element": [
+                        [
+                              "S4 CD",
+                              "5"
+                        ],
+                        [
+                              "S4 CD",
+                              "4"
+                        ],
+                        [
+                              "CD Recieved",
+                              "2"
+                        ],
+                        [
+                              "HP Revived",
+                              "1"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S4 CD",
+                              "1"
+                        ],
+                        [
+                              "S1 Recovery",
+                              "16"
+                        ],
+                        [
+                              "ADL DMG SPD",
+                              "72"
+                        ],
+                        [
+                              "ADL DMG HP",
+                              "0.2"
+                        ]
+                  ]
+            },
+            "Efficiency": {
+                  "Element": 6.25,
+                  "Type": 33.33
+            }
+      },
+      "Rina_2": {
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S1 Recovery",
+                  "S2 Recovery",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "DMG from Light",
+                  "CD Recieved"
+            ],
+            "Artifacts": {
+                  "Element": [
+                        [
+                              "ADL DMG SPD",
+                              "59"
+                        ],
+                        [
+                              "DMG from Water",
+                              "16"
+                        ],
+                        [
+                              "DMG from Light",
+                              "5"
+                        ],
+                        [
+                              "DMG from Fire",
+                              "5"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "CD Recieved",
+                              "5"
+                        ],
+                        [
+                              "S4 CD",
+                              "4"
+                        ],
+                        [
+                              "S4 CD",
+                              "3"
+                        ],
+                        [
+                              "S1 Recovery",
+                              "18"
+                        ]
+                  ]
+            },
+            "Efficiency": {
+                  "Element": 43.75,
+                  "Type": 53.12
+            }
+      },
+      "Rina_3": {
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S1 Recovery",
+                  "S2 Recovery",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "DMG from Light",
+                  "CD Recieved"
+            ],
+            "Artifacts": {
+                  "Element": [
+                        [
+                              "CD Recieved",
+                              "7"
+                        ],
+                        [
+                              "DMG from Fire",
+                              "9"
+                        ],
+                        [
+                              "CD as HP is Good",
+                              "11"
+                        ],
+                        [
+                              "DMG on Light",
+                              "5"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S4 CD",
+                              "4"
+                        ],
+                        [
+                              "S1 CD",
+                              "12"
+                        ],
+                        [
+                              "S4 CD",
+                              "5"
+                        ],
+                        [
+                              "Lost HP SPD up",
+                              "5"
+                        ]
+                  ]
+            },
+            "Efficiency": {
+                  "Element": 21.88,
+                  "Type": 0.0
+            }
+      },
+      "Rina_4": {
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S1 Recovery",
+                  "S2 Recovery",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "DMG from Light",
+                  "CD Recieved"
+            ],
+            "Artifacts": {
+                  "Element": [
+                        [
+                              "CD as HP is Bad",
+                              "12"
+                        ],
+                        [
+                              "DMG on Water",
+                              "11"
+                        ],
+                        [
+                              "DMG from Water",
+                              "9"
+                        ],
+                        [
+                              "Life Drain",
+                              "7"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S1 Recovery",
+                              "4"
+                        ],
+                        [
+                              "CD as HP is Good",
+                              "14"
+                        ],
+                        [
+                              "ADL DMG HP",
+                              "0.5"
+                        ],
+                        [
+                              "Lost HP ATK up",
+                              "10"
+                        ]
+                  ]
+            },
+            "Efficiency": {
+                  "Element": 18.75,
+                  "Type": 8.33
+            }
+      },
+      "Rina_5": {
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S1 Recovery",
+                  "S2 Recovery",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "DMG from Light",
+                  "CD Recieved"
+            ],
+            "Artifacts": {
+                  "Element": [
+                        [
+                              "S4 CD",
+                              "2"
+                        ],
+                        [
+                              "S4 CD",
+                              "12"
+                        ],
+                        [
+                              "DMG on Wind",
+                              "10"
+                        ],
+                        [
+                              "ATK INC Effect",
+                              "3"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S4 CD",
+                              "4"
+                        ],
+                        [
+                              "Lost HP DEF up",
+                              "3"
+                        ],
+                        [
+                              "Teamup DMG",
+                              "10"
+                        ],
+                        [
+                              "S4 CD",
+                              "3"
+                        ]
+                  ]
+            },
+            "Efficiency": {
+                  "Element": 0.0,
+                  "Type": 0.0
+            }
+      },
+      "Praha": {
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S3 Recovery",
+                  "S2 ACC",
+                  "ADL DMG HP",
+                  "ADL DMG DEF",
+                  "ADL DMG SPD"
+            ],
+            "Artifacts": {
+                  "Element": [
+                        [
+                              "DMG from Wind",
+                              "14"
+                        ],
+                        [
+                              "ADL DMG DEF",
+                              "4"
+                        ],
+                        [
+                              "ADL DMG SPD",
+                              "49"
+                        ],
+                        [
+                              "Lost HP DEF up",
+                              "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost HP DEF up",
+                              "6"
+                        ],
+                        [
+                              "S3 Recovery",
+                              "9"
+                        ],
+                        [
+                              "HP Revived",
+                              "11"
+                        ],
+                        [
+                              "S4 CD",
+                              "6"
+                        ]
+                  ]
+            },
+            "Efficiency": {
+                  "Element": 27.81,
+                  "Type": 18.75
+            }
+      },
+      "Beth": {
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S3 ACC",
+                  "DMG on Fire",
+                  "DMG on Light",
+                  "ATK INC Effect",
+                  "ADL DMG ATK"
+            ],
+            "Artifacts": {
+                  "Element": [
+                        [
+                              "DMG on Dark",
+                              "3"
+                        ],
+                        [
+                              "DMG from Wind",
+                              "9"
+                        ],
+                        [
+                              "ATK INC Effect",
+                              "12"
+                        ],
+                        [
+                              "SPD INC Effect",
+                              "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "HP Revived",
+                              "7"
+                        ],
+                        [
+                              "Bomb DMG",
+                              "6"
+                        ],
+                        [
+                              "ADL DMG HP",
+                              "0.1"
+                        ],
+                        [
+                              "ADL DMG SPD",
+                              "71"
+                        ]
+                  ]
+            },
+            "Efficiency": {
+                  "Element": 30.0,
+                  "Type": 0.0
+            }
+      },
+      "Bastet": {
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S2 ACC",
+                  "ADL DMG HP",
+                  "ADL DMG DEF",
+                  "ADL DMG SPD",
+                  "CD Recieved"
+            ],
+            "Artifacts": {
+                  "Element": [
+                        [
+                              "SPD INC Effect",
+                              "5"
+                        ],
+                        [
+                              "DMG from Water",
+                              "14"
+                        ],
+                        [
+                              "CD Recieved",
+                              "3"
+                        ],
+                        [
+                              "DMG from Fire",
+                              "-4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Life Drain",
+                              "3"
+                        ],
+                        [
+                              "ADL DMG DEF",
+                              "7"
+                        ],
+                        [
+                              "ADL DMG SPD",
+                              "100"
+                        ],
+                        [
+                              "S4 CD",
+                              "-1"
+                        ]
+                  ]
+            },
+            "Efficiency": {
+                  "Element": 9.38,
+                  "Type": 53.12
+            }
+      }
+}

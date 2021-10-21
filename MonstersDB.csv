@@ -1,6 +1,6 @@
 Seara,wind,attack,S1 CD,S2 ACC,Bomb DMG,ADL DMG HP,ADL DMG ATK,ADL DMG SPD
 Rina,water,support,S1 Recovery,S2 Recovery,DMG from Wind,DMG from Water,DMG from Light,CD Recieved
-Praha,water,def,S3 Recovery,S2 ACC,ADL DMG HP,ADL DMG DEF,ADL DMG SPD
+Praha,water,support,S3 Recovery,S2 ACC,ADL DMG HP,ADL DMG DEF,ADL DMG SPD
 Beth,water,attack,S3 CD,S3 ACC,DMG on Fire,DMG on Light,ATK INC Effect,ADL DMG ATK
 Bastet,water,support,S2 ACC,ATK INC Effect,ADL DMG HP,ADL DMG DEF,ADL DMG SPD,CD Recieved
 Anavel,water,support,S2 Recovery,S3 ACC,Lost HP ATK up,Lost HP DEF up,Lost HP SPD up,ADL DMG HP,CD Recieved

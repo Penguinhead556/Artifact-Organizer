@@ -75,6 +75,14 @@ def calculate_efficiency(Artifact):
     
     return round(rolls / 8 *100, 2)
 
+def monster_efficiency(Monster, Artifact):
+    Monster_artifact = []
+    for property in Artifact:
+        if property[0] in Monster_Info[Monster]["Substats"]:
+            Monster_artifact.append([property[0], property[1]])
+
+    return (calculate_efficiency(Monster_artifact))
+
 # def calculate_efficiency(artifact, monster):
 
 
@@ -266,7 +274,6 @@ def open_add_build():
     top.title("Add Monster")
 
     Monster_name = StringVar()
-    Monster_name.set(elements[0])
 
     Label(top, text= "Monster Name:").grid(row = row_counter, column = 0)
     e1 = Entry(top, textvariable=Monster_name).grid(row = row_counter, column = 1)
@@ -354,7 +361,7 @@ def open_add_build():
         
         Monster_Info[Monster_name.get()] = Current_Monster
 
-        # update_List()
+        update_List()
 
         top.destroy()
 
@@ -397,6 +404,7 @@ def open_update_monster():
 
     cols = ('Monster', 'Sub1', 'Sub2', 'Sub3', 'Sub4', 'Efficiency')
     Current_Artifact_List = ttk.Treeview(top, columns=cols, show='headings')
+    curr_list_values = []
 
     for col in cols:
         Current_Artifact_List.heading(col, text=col)    
@@ -411,7 +419,7 @@ def open_update_monster():
             Category = Artifact_Category.get()
             for subs in Monster_Info[i]["Artifacts"][Category]:
                 tree_values.append(subs[0] + " : " + subs[1] + "%")
-            tree_values.append(calculate_efficiency(Monster_Info[i]["Artifacts"][Category]))
+            tree_values.append(Monster_Info[i]["Efficiency"][Category])
             Current_Artifact_List.insert("", "end", values=tree_values)
 
     
@@ -424,16 +432,16 @@ def open_update_monster():
         
         # get data from l
         if value == '':
-            data = All_Monsters
+            curr_list_values = All_Monsters
         else:
-            data = []
+            curr_list_values = []
             for item in All_Monsters:
                 if value.lower() in item.lower():
-                    data.append(item)                
+                    curr_list_values.append(item)                
     
         # update data in listbox
-        Monster_Select['values'] = data
-        update_tree(data)
+        Monster_Select['values'] = curr_list_values
+        update_tree(curr_list_values)
     
     
     #creating text box 
@@ -543,8 +551,8 @@ def open_update_monster():
             artifact_info.append([Sub3.get(), sub3_value.get()])
             artifact_info.append([Sub4.get(), sub4_value.get()])
             Monster_Info[Monster_to_Modify]["Artifacts"][Monster_Type] = artifact_info
-            Monster_Info[Monster_to_Modify]["Efficiency"][Monster_Type] = calculate_efficiency(artifact_info)
-            update_tree([Selected_Monster])
+            Monster_Info[Monster_to_Modify]["Efficiency"][Monster_Type] = monster_efficiency(Monster_to_Modify, artifact_info)
+            checkkey()
             add_artifacts_level.destroy()
 
         Button(add_artifacts_level, text="Apply", width=15, command=Apply_Artifact).grid(row=5, column=0)
@@ -553,7 +561,7 @@ def open_update_monster():
     top.mainloop()
 
 
-Button(ws, text="Show Monsters", width=15, command=show).grid(row=4, column=0)
+Button(ws, text="Input Artifact", width=15, command=show).grid(row=4, column=0)
 
 # Label(ws, text= "Click the button to Open Popup Window", font= ('Helvetica 18')).place(relx=.5, rely=.5, anchor= CENTER)
 Button(ws, text= "Add Build", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_add_build).grid(row=4, column=1)
