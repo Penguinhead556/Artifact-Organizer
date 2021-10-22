@@ -100,7 +100,7 @@ def update_List():
     # print(All_Monsters)
     listBox.delete(*listBox.get_children())
     for key in Monster_Info:
-        listBox.insert("", "end", value=key)
+        listBox.insert("", "end", value=[key, "", "", "", "", str(Monster_Info[key]["Efficiency"]["Element"]) + " | " + str(Monster_Info[key]["Efficiency"]["Type"])])
         All_Monsters.append(key)
 
 update_List()
@@ -125,6 +125,21 @@ def show():
     Label(top, text = "Element or Type:").grid(row = 0, column = 0)
     elements_select.grid(row=0, column=1)
 
+
+    # setting variable for Integers
+    rolls_remaining = StringVar()
+    rolls_remaining.set(4)
+
+    # creating widget
+    elements_select = OptionMenu(
+        top,
+        rolls_remaining,
+        *[4, 3, 2, 1],
+    )
+
+    # positioning widget
+    Label(top, text = "Rolls Remaining:").grid(row = 0, column = 2)
+    elements_select.grid(row=0, column=3)
 
     # setting variable for Integers
     Sub1 = StringVar()
@@ -241,7 +256,7 @@ def show():
                 if Sub4.get() in Monster_Info[key]["Substats"]:
                     Best_Case_Artifact.append([Sub4.get(), sub4_value.get()])
                 
-                max_efficiency = calculate_efficiency(Best_Case_Artifact) + (4/8*100)
+                max_efficiency = calculate_efficiency(Best_Case_Artifact) + (rolls_remaining.get()/8*100)
                 if max_efficiency > _efficiency:
                     listbox_entry = []
                     listbox_entry.append(key)
