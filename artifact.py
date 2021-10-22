@@ -3,7 +3,8 @@ from tkinter import messagebox
 from tkinter.messagebox import showinfo
 from tkinter import ttk
 import ctypes
-import csv
+import operator
+
 import json
 
 ws = Tk()
@@ -18,6 +19,8 @@ if (f.read() != ""):
     f.seek(0)
     Monster_Info = json.load(f)
 f.close()
+
+Monster_Info = dict(sorted(Monster_Info.items(), key=operator.itemgetter(0)))
 
 
 elements = ['-', 'fire','water', 'wind','light', 'dark']
