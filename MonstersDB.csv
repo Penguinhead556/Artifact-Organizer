@@ -52,7 +52,7 @@ Tomoe,fire,support,S3 ACC,DMG from Water,Lost HP DEF up,Lost HP SPD up,CD Reciev
 Ken,fire,attack,S3 CD,S3 ACC,CD as HP is Good,Single TGT CD,ATK INC Effect,ADL DMG ATK
 Fire Ryu,fire,attack,S2 CD,Single TGT CD,Lost HP ATK up,Lost HP SPD up,Counter DMG
 Masha,fire,attack,S2 ACC,DMG on Fire,CD as HP is Good,Single TGT CD,ATK INC Effect
-Balegeyr,fire,attack,S3 CD,CD as HP is Good,Single TGT CD,ATK INC Effect,ADL DMG ATK
+Baleygr,fire,attack,S3 CD,CD as HP is Good,Single TGT CD,ATK INC Effect,ADL DMG ATK
 Bellenus,fire,def,S2 CD,S3 ACC,DMG from Water,CD as HP is Good,ADL DMG ATK,CD Recieved
 Ophilia,fire,hp,S1 ACC,DMG from Water,Lost HP DEF up,Lost HP SPD up,CD Recieved
 Daphnis,fire,attack,S3 CD,S3 ACC,DMG on Wind,CD as HP is Bad,Single TGT CD,Lost HP ATK up,ATK INC Effect
@@ -62,11 +62,11 @@ Brandia,fire,attack,S3 CD,CD as HP is Good,CD as HP is Bad,Single TGT CD,ATK INC
 Kumar,fire,hp,S2 Recovery,Lost HP DEF up,Lost HP SPD up,SPD INC Effect,CD Recieved
 Mei Hou Wang,fire,def,S2 CD,S2 Recovery,S2 ACC,Single TGT CD,Lost HP ATK up,Lost HP DEF up,Lost HP SPD up,CD Recieved
 Perna,fire,hp,S2 CD,S3 Recovery,S1 ACC,Single TGT CD,Lost HP ATK up,Lost HP SPD up,ATK Bar Revived
-kaki,fire,attack,S1 Recovery,S1 ACC,DMG on Fire,ATK INC Effect,Life Drain,CD Recieved
+Kaki,fire,attack,S1 Recovery,S1 ACC,DMG on Fire,ATK INC Effect,Life Drain,CD Recieved
 Hongyeon,fire,support,S3 Recovery,S2 ACC,DMG from Wind,DMG from Water,Lost HP DEF up,CD Recieved
 Carcano,fire,attack,S1 CD,S3 ACC,CD as HP is Good,Single TGT CD,SPD INC Effect,Counter DMG
 Shaina,fire,attack,CD as HP is Good,Teamup DMG,ADL DMG ATK,ADL DMG SPD
-Harmonis,fire,support,S2 Recovery,DMG from Water,Lost HP DEF up,Lost HP SPD up,CD Recieved
+Harmonia,fire,support,S2 Recovery,DMG from Water,Lost HP DEF up,Lost HP SPD up,CD Recieved
 Khmun,fire,support,S2 CD,S2 Recovery,Single TGT CD,Lost HP DEF up,Lost HP SPD up,CD Recieved
 Astar,fire,attack,S1 CD,DMG on Dark,CD as HP is Bad,Single TGT CD,ADL DMG ATK
 Antares,fire,attack,S1 CD,S2 Recovery,DMG from Water,SPD INC Effect,Counter DMG,ADL DMG ATK
@@ -85,7 +85,7 @@ Tiana,wind,support,S2 CD,S1 ACC,DMG from Fire,Lost HP DEF up,Lost HP SPD up,ATK 
 Eladriel,wind,support,S2 Recovery,DMG from Wind,Lost HP DEF up,Lost HP SPD up,CD Recieved
 Lagmaron,wind,attack,S2 CD,S3 ACC,CD as HP is Good,Single TGT CD,ATK INC Effect,SPD INC Effect
 Teshar,wind,attack,S2 CD,DMG on Water,CD as HP is Good,Single TGT CD,ATK INC Effect
-Katerina,wind,attack,S3 CD,DMG on Water,CD as HP is Good,Single TGT CD,ATK INC Effect
+Katarina,wind,attack,S3 CD,DMG on Water,CD as HP is Good,Single TGT CD,ATK INC Effect
 Fuuki,wind,hp,S1 Recovery,S1 ACC,Lost HP ATK up,Lost HP DEF up,Lost HP SPD up,CD Recieved
 Mellia,wind,support,S2 ACC,S3 ACC,DMG from Wind,DMG from Water,Lost HP DEF up,CD Recieved
 Zenobia,wind,attack,S3 CD,S3 ACC,ATK INC Effect,Teamup DMG,ADL DMG ATK,ADL DMG SPD
@@ -100,7 +100,7 @@ Skogul,wind,hp,DMG from Wind,DMG from Fire,Lost HP DEF up,Lost HP SPD up,Life Dr
 Copper,wind,def,S3 CD,DMG on Water,CD as HP is Good,Single TGT CD,DEF INC Effect
 Eshir,light,hp,S2 Recovery,Lost HP SPD up,SPD INC Effect,ADL DMG HP,ADL DMG SPD
 Shamann,light,def,S1 CD,S2 CD,S1 Recovery,DMG on Dark,DMG from Dark,Single TGT CD,Lost HP SPD up
-belladeon,light,def,S3 Recovery,S1 ACC,Single TGT CD,Lost HP DEF up,Lost HP SPD up,CD Recieved
+Belladeon,light,def,S3 Recovery,S1 ACC,Single TGT CD,Lost HP DEF up,Lost HP SPD up,CD Recieved
 Jeanne,light,hp,S1 Recovery,S3 ACC,DMG from Wind,Lost HP DEF up,Lost HP SPD up,CD Recieved
 Elsharion,light,attack,S1 CD,S3 ACC,CD as HP is Good,Single TGT CD,ATK INC Effect,Counter DMG
 Gemini,light,attack,S2 ACC,S3 ACC,CD as HP is Bad,Single TGT CD,Lost HP DEF up,Lost HP SPD up,ADL DMG SPD

@@ -15,8 +15,10 @@ with open('MonstersDB.csv', newline='') as csvfile:
     for row in spamreader:
         Monster_info.append(row)
 
+temp = str.maketrans(" ", "_")
+
 for monster in Monster_info:
-    monster_name = monster[0]
+    monster_name = monster[0].translate(temp)
     element = monster[1]
     type = monster[2]
     if monster_name not in Json_Dictionary:
@@ -29,7 +31,10 @@ for monster in Monster_info:
         Json_Dictionary[monster_name]["Efficiency"]["Type"] = 0
     Json_Dictionary[monster_name]["Element"] = element
     Json_Dictionary[monster_name]["Type"] = type
-    Json_Dictionary[monster_name]["Substats"] = monster[3:]
+    substats = []
+    for stats in monster[3:]:
+        substats.append(stats.translate(temp))
+    Json_Dictionary[monster_name]["Substats"] = substats
 
 f = open("MonstersDB.json", "w")
 json.dump(Json_Dictionary, f, indent = 6)

@@ -1,0 +1,2403 @@
+{
+      "Akia": {
+            "Efficiency": {
+                  "Element": 0.0,
+                  "Type": 31.25
+            },
+            "Artifacts": {
+                  "Element": [
+                        [
+                              "ADL DMG HP",
+                              "0.5"
+                        ],
+                        [
+                              "S4 CD",
+                              "3"
+                        ],
+                        [
+                              "Lost HP DEF up",
+                              "18"
+                        ],
+                        [
+                              "ADL DMG DEF",
+                              "2"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost HP DEF up",
+                              "14"
+                        ],
+                        [
+                              "CD as HP is Bad",
+                              "15"
+                        ],
+                        [
+                              "S3 ACC",
+                              "15"
+                        ],
+                        [
+                              "ADL DMG DEF",
+                              "2"
+                        ]
+                  ]
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S3 ACC",
+                  "DMG from Water",
+                  "CD as HP is Good",
+                  "ATK INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Amduat": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "dark",
+            "Type": "support",
+            "Substats": [
+                  "S2 CD",
+                  "CD as HP is Good",
+                  "Lost HP SPD up",
+                  "ATK INC Effect",
+                  "SPD INC Effect"
+            ]
+      },
+      "Anavel": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S2 Recovery",
+                  "S3 ACC",
+                  "Lost HP ATK up",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "ADL DMG HP",
+                  "CD Recieved"
+            ]
+      },
+      "Antares": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "S2 Recovery",
+                  "DMG from Water",
+                  "SPD INC Effect",
+                  "Counter DMG",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Ariel": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S2 ACC",
+                  "S3 ACC",
+                  "DMG from Wind",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Aschubel": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "dark",
+            "Type": "attack",
+            "Substats": [
+                  "S2 ACC",
+                  "S3 ACC",
+                  "Single TGT CD",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Astar": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "DMG on Dark",
+                  "CD as HP is Bad",
+                  "Single TGT CD",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Attack Homonuclus": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S1 ACC",
+                  "S2 ACC",
+                  "S3 ACC",
+                  "DMG on Water",
+                  "DMG from Wind",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Balegeyr": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Bastet": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S2 ACC",
+                  "ATK INC Effect",
+                  "ADL DMG HP",
+                  "ADL DMG DEF",
+                  "ADL DMG SPD",
+                  "CD Recieved"
+            ]
+      },
+      "Beelzebub": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "dark",
+            "Type": "attack",
+            "Substats": [
+                  "S2 CD",
+                  "Single TGT CD",
+                  "Lost HP ATK up",
+                  "Life Drain",
+                  "ATK Bar Revived"
+            ]
+      },
+      "Belial": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S2 CD",
+                  "DMG on Water",
+                  "DMG on Light",
+                  "Single TGT CD",
+                  "Lost HP ATK up",
+                  "ATK Bar Revived"
+            ]
+      },
+      "Bellenus": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "def",
+            "Substats": [
+                  "S2 CD",
+                  "S3 ACC",
+                  "DMG from Water",
+                  "CD as HP is Good",
+                  "ADL DMG ATK",
+                  "CD Recieved"
+            ]
+      },
+      "Bernard": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "support",
+            "Substats": [
+                  "S2 ACC",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "SPD INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Beth": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S3 ACC",
+                  "DMG on Fire",
+                  "DMG on Light",
+                  "ATK INC Effect",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Bolverk": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "hp",
+            "Substats": [
+                  "S3 Recovery",
+                  "S1 ACC",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Borgnine": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "hp",
+            "Substats": [
+                  "S1 CD",
+                  "S2 CD",
+                  "S1 ACC",
+                  "S2 ACC",
+                  "Counter DMG",
+                  "CD Recieved"
+            ]
+      },
+      "Brandia": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "CD as HP is Good",
+                  "CD as HP is Bad",
+                  "Single TGT CD",
+                  "ATK INC Effect"
+            ]
+      },
+      "Bulldozer": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "hp",
+            "Substats": [
+                  "S3 CD",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "DEF INC Effect",
+                  "ADL DMG DEF"
+            ]
+      },
+      "Carcano": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "S3 ACC",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "SPD INC Effect",
+                  "Counter DMG"
+            ]
+      },
+      "Chandra": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "hp",
+            "Substats": [
+                  "S1 CD",
+                  "S1 ACC",
+                  "Single TGT CD",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "Counter DMG",
+                  "CD Recieved"
+            ]
+      },
+      "Charlotte": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S3 ACC",
+                  "DMG on Water",
+                  "CD as HP is Good",
+                  "ATK INC Effect",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Chasun": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "support",
+            "Substats": [
+                  "S2 Recovery",
+                  "DMG from Fire",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Chilling": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "S3 Recovery",
+                  "S3 ACC",
+                  "Single TGT CD",
+                  "SPD INC Effect",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Chloe": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "support",
+            "Substats": [
+                  "S2 Recovery",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Clara": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S3 ACC",
+                  "Lost HP SPD up",
+                  "SPD INC Effect",
+                  "ADL DMG SPD",
+                  "CD Recieved"
+            ]
+      },
+      "Coco": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S2 ACC",
+                  "DMG from Wind",
+                  "ATK INC Effect",
+                  "Counter DMG",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Copper": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "def",
+            "Substats": [
+                  "S3 CD",
+                  "DMG on Water",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "DEF INC Effect"
+            ]
+      },
+      "Covenant": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "DMG on Water",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ATK INC Effect"
+            ]
+      },
+      "Daphnis": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S3 ACC",
+                  "DMG on Wind",
+                  "CD as HP is Bad",
+                  "Single TGT CD",
+                  "Lost HP ATK up",
+                  "ATK INC Effect"
+            ]
+      },
+      "Diana": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "hp",
+            "Substats": [
+                  "S2 CD",
+                  "S1 ACC",
+                  "DMG from Water",
+                  "Single TGT CD",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Einheri": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "light",
+            "Type": "def",
+            "Substats": [
+                  "S3 CD",
+                  "S2 ACC",
+                  "DMG on Wind",
+                  "DMG on Water",
+                  "CD as HP is Good",
+                  "DEF INC Effect"
+            ]
+      },
+      "Eirgar": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "dark",
+            "Type": "attack",
+            "Substats": [
+                  "S2 ACC",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "Life Drain",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Eladriel": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "support",
+            "Substats": [
+                  "S2 Recovery",
+                  "DMG from Wind",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Elsharion": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "light",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "S3 ACC",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "Counter DMG"
+            ]
+      },
+      "Elucia": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S2 Recovery",
+                  "S1 ACC",
+                  "Counter DMG",
+                  "ADL DMG HP",
+                  "ADL DMG DEF",
+                  "CD Recieved"
+            ]
+      },
+      "Eshir": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "light",
+            "Type": "hp",
+            "Substats": [
+                  "S2 Recovery",
+                  "Lost HP SPD up",
+                  "SPD INC Effect",
+                  "ADL DMG HP",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Ethna": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S2 ACC",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Feng Yan": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "def",
+            "Substats": [
+                  "S1 ACC",
+                  "DMG on Water",
+                  "Counter DMG",
+                  "Life Drain",
+                  "ADL DMG DEF"
+            ]
+      },
+      "Fire Ryu": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S2 CD",
+                  "Single TGT CD",
+                  "Lost HP ATK up",
+                  "Lost HP SPD up",
+                  "Counter DMG"
+            ]
+      },
+      "Fran": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "light",
+            "Type": "support",
+            "Substats": [
+                  "S2 Recovery",
+                  "Lost HP ATK up",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "ATK INC Effect",
+                  "ADL DMG HP",
+                  "ADL DMG SPD",
+                  "CD Recieved"
+            ]
+      },
+      "Fuuki": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "hp",
+            "Substats": [
+                  "S1 Recovery",
+                  "S1 ACC",
+                  "Lost HP ATK up",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Galleon": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "hp",
+            "Substats": [
+                  "S2 CD",
+                  "DMG from Wind",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Ganymede": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "support",
+            "Substats": [
+                  "S3 CD",
+                  "S3 ACC",
+                  "DMG on Wind",
+                  "Single TGT CD",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Garo": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "S2 ACC",
+                  "Single TGT CD",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "Life Drain"
+            ]
+      },
+      "Gemini": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "light",
+            "Type": "attack",
+            "Substats": [
+                  "S2 ACC",
+                  "S3 ACC",
+                  "CD as HP is Bad",
+                  "Single TGT CD",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Haegang": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Harmonis": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "support",
+            "Substats": [
+                  "S2 Recovery",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Helena": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "hp",
+            "Substats": [
+                  "S2 CD",
+                  "S3 Recovery",
+                  "S1 ACC",
+                  "S2 ACC",
+                  "DMG from Fire",
+                  "CD as HP is Good",
+                  "CD as HP is Bad",
+                  "CD Recieved"
+            ]
+      },
+      "Hellea": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "dark",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S1 ACC",
+                  "S3 ACC",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Hongyeon": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "support",
+            "Substats": [
+                  "S3 Recovery",
+                  "S2 ACC",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "CD Recieved"
+            ]
+      },
+      "Hraesvelg": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "CD as HP is Good",
+                  "ATK INC Effect",
+                  "SPD INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Icaru": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "def",
+            "Substats": [
+                  "S1 ACC",
+                  "DMG on Water",
+                  "DMG on Light",
+                  "DMG on Dark",
+                  "ATK INC Effect",
+                  "ADL DMG DEF"
+            ]
+      },
+      "Imesety": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "support",
+            "Substats": [
+                  "S2 CD",
+                  "DMG from Fire",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "DEF INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Iona": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "light",
+            "Type": "support",
+            "Substats": [
+                  "S2 Recovery",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "Life Drain",
+                  "CD Recieved"
+            ]
+      },
+      "Jeanne": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "light",
+            "Type": "hp",
+            "Substats": [
+                  "S1 Recovery",
+                  "S3 ACC",
+                  "DMG from Wind",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Julie": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "DMG on Fire",
+                  "CD as HP is Bad",
+                  "ATK INC Effect",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Jultan": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "dark",
+            "Type": "hp",
+            "Substats": [
+                  "S3 ACC",
+                  "DMG on Dark",
+                  "DMG from Dark",
+                  "Lost HP DEF up",
+                  "ADL DMG HP",
+                  "CD Recieved"
+            ]
+      },
+      "Juno": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "support",
+            "Substats": [
+                  "S1 CD",
+                  "S3 Recovery",
+                  "ADL DMG HP",
+                  "ADL DMG ATK",
+                  "ADL DMG DEF",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Katerina": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "DMG on Water",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ATK INC Effect"
+            ]
+      },
+      "Ken": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S3 ACC",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Khali": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S2 CD",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "SPD INC Effect"
+            ]
+      },
+      "Khmun": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "support",
+            "Substats": [
+                  "S2 CD",
+                  "S2 Recovery",
+                  "Single TGT CD",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Kro": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "dark",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S3 ACC",
+                  "CD as HP is Good",
+                  "CD as HP is Bad",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "Teamup DMG"
+            ]
+      },
+      "Kumar": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "hp",
+            "Substats": [
+                  "S2 Recovery",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "SPD INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Lagmaron": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S2 CD",
+                  "S3 ACC",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "SPD INC Effect"
+            ]
+      },
+      "Loren": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "light",
+            "Type": "attack",
+            "Substats": [
+                  "S2 ACC",
+                  "S3 ACC",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "ADL DMG SPD",
+                  "CD Recieved"
+            ]
+      },
+      "Luer": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S3 ACC",
+                  "DMG on Water",
+                  "DMG on Fire",
+                  "DMG on Light",
+                  "Lost HP ATK up",
+                  "Lost HP SPD up",
+                  "ATK INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Lulu": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S1 Recovery",
+                  "S2 Recovery",
+                  "S3 Recovery",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Lushen": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "DMG on Water",
+                  "CD as HP is Good",
+                  "ATK INC Effect",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Malaka": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S2 ACC",
+                  "ATK INC Effect",
+                  "Bomb DMG",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Masha": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S2 ACC",
+                  "DMG on Fire",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ATK INC Effect"
+            ]
+      },
+      "Megan": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S2 ACC",
+                  "DMG from Wind",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Mei Hou Wang": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "def",
+            "Substats": [
+                  "S2 CD",
+                  "S2 Recovery",
+                  "S2 ACC",
+                  "Single TGT CD",
+                  "Lost HP ATK up",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Melissa": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "DMG on Water",
+                  "ATK INC Effect",
+                  "Teamup DMG",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Mellia": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "support",
+            "Substats": [
+                  "S2 ACC",
+                  "S3 ACC",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "CD Recieved"
+            ]
+      },
+      "Miho": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "dark",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "Single TGT CD",
+                  "Lost HP ATK up",
+                  "Lost HP SPD up",
+                  "Life Drain"
+            ]
+      },
+      "Mina": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "S2 CD",
+                  "DMG on Fire",
+                  "DMG on Dark",
+                  "CD as HP is Good",
+                  "Single TGT CD"
+            ]
+      },
+      "Mo Long": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "hp",
+            "Substats": [
+                  "S1 ACC",
+                  "S2 ACC",
+                  "DMG on Wind",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "ADL DMG HP",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Moore": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S2 ACC",
+                  "DMG on Water",
+                  "DMG on Fire",
+                  "ADL DMG HP",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Ophilia": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "hp",
+            "Substats": [
+                  "S1 ACC",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Orion": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S1 CD",
+                  "Single TGT CD",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "ADL DMG SPD",
+                  "CD Recieved"
+            ]
+      },
+      "Perna": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "hp",
+            "Substats": [
+                  "S2 CD",
+                  "S3 Recovery",
+                  "S1 ACC",
+                  "Single TGT CD",
+                  "Lost HP ATK up",
+                  "Lost HP SPD up",
+                  "ATK Bar Revived"
+            ]
+      },
+      "Praha": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S3 Recovery",
+                  "S2 ACC",
+                  "ADL DMG HP",
+                  "ADL DMG DEF",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Racuni": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "support",
+            "Substats": [
+                  "S3 Recovery",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "SPD INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Rica": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "DMG from Water",
+                  "ADL DMG HP",
+                  "ADL DMG ATK",
+                  "ADL DMG DEF",
+                  "ADL DMG SPD",
+                  "CD Recieved"
+            ]
+      },
+      "Rina": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S1 Recovery",
+                  "S2 Recovery",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "DMG from Light",
+                  "CD Recieved"
+            ]
+      },
+      "Sabrina": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "S1 ACC",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "Teamup DMG",
+                  "ADL DMG ATK"
+            ]
+      },
+      "Sath": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S2 ACC",
+                  "S3 ACC",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "CD Recieved"
+            ]
+      },
+      "Seara": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "S2 ACC",
+                  "Bomb DMG",
+                  "ADL DMG HP",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Sekmet": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "support",
+            "Substats": [
+                  "S3 CD",
+                  "S3 ACC",
+                  "ADL DMG HP",
+                  "ADL DMG ATK",
+                  "ADL DMG DEF",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Shaina": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "CD as HP is Good",
+                  "Teamup DMG",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Shamann": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "light",
+            "Type": "def",
+            "Substats": [
+                  "S1 CD",
+                  "S2 CD",
+                  "S1 Recovery",
+                  "DMG on Dark",
+                  "DMG from Dark",
+                  "Single TGT CD",
+                  "Lost HP SPD up"
+            ]
+      },
+      "Shi Hou": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S2 ACC",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Shimitae": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S2 CD",
+                  "S3 ACC",
+                  "ATK INC Effect",
+                  "SPD INC Effect",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Sian": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S2 ACC",
+                  "Lost HP ATK up",
+                  "Bomb DMG",
+                  "HP Revived",
+                  "ATK Bar Revived"
+            ]
+      },
+      "Sigmarus": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S2 CD",
+                  "S3 CD",
+                  "S3 ACC",
+                  "DMG from Water",
+                  "DMG from Fire",
+                  "CD as HP is Good",
+                  "Single TGT CD"
+            ]
+      },
+      "Skogul": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "hp",
+            "Substats": [
+                  "DMG from Wind",
+                  "DMG from Fire",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "Life Drain",
+                  "CD Recieved"
+            ]
+      },
+      "Stella": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S1 ACC",
+                  "S2 ACC",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "Suiki": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S1 ACC",
+                  "Lost HP ATK up",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "Counter DMG",
+                  "Life Drain"
+            ]
+      },
+      "Talia": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "S3 CD",
+                  "CD as HP is Bad",
+                  "Single TGT CD",
+                  "ATK INC Effect",
+                  "Teamup DMG"
+            ]
+      },
+      "Tatu": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S1 ACC",
+                  "S2 ACC",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "CD Recieved"
+            ]
+      },
+      "Teon": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "light",
+            "Type": "support",
+            "Substats": [
+                  "S3 Recovery",
+                  "S1 ACC",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "ATK INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Tesarion": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "hp",
+            "Substats": [
+                  "S1 CD",
+                  "S2 ACC",
+                  "Single TGT CD",
+                  "SPD INC Effect",
+                  "DEF INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Teshar": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S2 CD",
+                  "DMG on Water",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "ATK INC Effect"
+            ]
+      },
+      "Tetra": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "support",
+            "Substats": [
+                  "S3 Recovery",
+                  "S1 ACC",
+                  "DMG from Dark",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Theomars": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S1 CD",
+                  "S2 CD",
+                  "S2 ACC",
+                  "CD as HP is Good",
+                  "Single TGT CD",
+                  "Lost HP ATK up",
+                  "ATK INC Effect"
+            ]
+      },
+      "Tiana": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "support",
+            "Substats": [
+                  "S2 CD",
+                  "S1 ACC",
+                  "DMG from Fire",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "ATK INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Tomoe": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "support",
+            "Substats": [
+                  "S3 ACC",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Tractor": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "def",
+            "Substats": [
+                  "S1 CD",
+                  "S1 Recovery",
+                  "S1 ACC",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "Life Drain",
+                  "ADL DMG DEF",
+                  "CD Recieved"
+            ]
+      },
+      "Triana": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "support",
+            "Substats": [
+                  "S1 CD",
+                  "S2 Recovery",
+                  "DMG from Wind",
+                  "DMG from Fire",
+                  "SPD INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Triton": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "def",
+            "Substats": [
+                  "S3 ACC",
+                  "DMG from Wind",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Tyron": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S2 ACC",
+                  "S3 ACC",
+                  "DMG from Wind",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Verdehile": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S1 Recovery",
+                  "DMG from Water",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "Counter DMG",
+                  "CD Recieved"
+            ]
+      },
+      "Veromos": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "dark",
+            "Type": "support",
+            "Substats": [
+                  "S3 Recovery",
+                  "Single TGT CD",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "Vigor": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "water",
+            "Type": "hp",
+            "Substats": [
+                  "S2 Recovery",
+                  "Single TGT CD",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "SPD INC Effect",
+                  "CD Recieved"
+            ]
+      },
+      "Zenobia": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "wind",
+            "Type": "attack",
+            "Substats": [
+                  "S3 CD",
+                  "S3 ACC",
+                  "ATK INC Effect",
+                  "Teamup DMG",
+                  "ADL DMG ATK",
+                  "ADL DMG SPD"
+            ]
+      },
+      "belladeon": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "light",
+            "Type": "def",
+            "Substats": [
+                  "S3 Recovery",
+                  "S1 ACC",
+                  "Single TGT CD",
+                  "Lost HP DEF up",
+                  "Lost HP SPD up",
+                  "CD Recieved"
+            ]
+      },
+      "kaki": {
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
+            "Element": "fire",
+            "Type": "attack",
+            "Substats": [
+                  "S1 Recovery",
+                  "S1 ACC",
+                  "DMG on Fire",
+                  "ATK INC Effect",
+                  "Life Drain",
+                  "CD Recieved"
+            ]
+      }
+}

@@ -3,88 +3,14 @@ from tkinter import messagebox
 from tkinter.messagebox import showinfo
 from tkinter import ttk
 import ctypes
-import operator
-
 import json
+from artifact_helpers import *
+
+
 
 ws = Tk()
 ws.title('Artifact Tool')
-# ws.geometry('400x300')
-
-Monster_Info = {}
-All_Monsters = []
-
-f = open("MonstersDB.json", "r")
-if (f.read() != ""):
-    f.seek(0)
-    Monster_Info = json.load(f)
-f.close()
-
-Monster_Info = dict(sorted(Monster_Info.items(), key=operator.itemgetter(0)))
-
-
-elements = ['-', 'fire','water', 'wind','light', 'dark']
-types = ['-', 'attack', 'hp', 'def', 'support']
-
-all_types = elements+types
-
-subproperties = [
-    ["S1 CD", "S2 CD", "S3 CD", "S4 CD"],
-    ["S1 Recovery", "S2 Recovery", "S3 Recovery"],
-    ["S1 ACC", "S2 ACC", "S3 ACC"],
-    ["DMG on Wind", "DMG on Water", "DMG on Fire", "DMG on Light", "DMG on Dark"],
-    ["DMG from Wind", "DMG from Water", "DMG from Fire", "DMG from Light", "DMG from Dark"],
-    ["CD as HP is Good", "CD as HP is Bad", "Single TGT CD"],
-    ["Lost HP ATK up", "Lost HP DEF up", "Lost HP SPD up"],
-    ["ATK INC Effect", "SPD INC Effect", "DEF INC Effect"],
-    ["Counter DMG", "Teamup DMG", "Bomb DMG"],
-    ["Life Drain", "HP Revived", "ATK Bar Revived"],
-    ["ADL DMG HP", "ADL DMG ATK", "ADL DMG DEF", "ADL DMG SPD"],
-    ["CD Recieved"]
-]
-
-property_range = [
-    [[4, 6], [4, 6], [4, 6], [4, 6]],
-    [[4, 6], [4, 6], [4, 6]],
-    [[4, 6], [4, 6], [4, 6]],
-    [[3, 5], [3, 5], [3, 5], [3, 5], [3, 5]],
-    [[4, 6], [4, 6], [4, 6], [4, 6], [4, 6]],
-    [[4, 6], [8, 12], [2, 4]],
-    [[9, 14], [9, 14], [9, 14]],
-    [[3, 5], [4, 6], [2, 4]],
-    [[2, 4], [2, 4], [2,  4]],
-    [[5, 8], [4, 6], [4, 6]],
-    [[0.2, 0.3], [2, 4], [2, 4], [25, 40]],
-    [[2, 4]]
-]
-
-
-flat_subproperties = []
-
-for rows in subproperties:
-    flat_subproperties = flat_subproperties + rows
-
-flat_property_range = []
-
-for rows in property_range:
-    flat_property_range = flat_property_range + rows
-
-
-def calculate_efficiency(Artifact):
-    rolls = 0
-    for substats in Artifact:
-        substat_index = flat_subproperties.index(substats[0])
-        rolls = rolls + float(substats[1]) / flat_property_range[substat_index][1]
-    
-    return round(rolls / 8 *100, 2)
-
-def monster_efficiency(Monster, Artifact):
-    Monster_artifact = []
-    for property in Artifact:
-        if property[0] in Monster_Info[Monster]["Substats"]:
-            Monster_artifact.append([property[0], property[1]])
-
-    return (calculate_efficiency(Monster_artifact))
+# ws.geometry('400x300') 
 
 # def calculate_efficiency(artifact, monster):
 
@@ -146,7 +72,7 @@ def show():
 
     # setting variable for Integers
     Sub1 = StringVar()
-    Sub1.set(elements[0])
+    Sub1.set("")
 
     # creating widget
     elements_select = OptionMenu(
@@ -166,7 +92,7 @@ def show():
 
     # setting variable for Integers
     Sub2 = StringVar()
-    Sub2.set(elements[0])
+    Sub2.set("")
 
     # creating widget
     elements_select = OptionMenu(
@@ -186,7 +112,7 @@ def show():
 
     # setting variable for Integers
     Sub3 = StringVar()
-    Sub3.set(elements[0])
+    Sub3.set("")
 
     # creating widget
     elements_select = OptionMenu(
@@ -207,7 +133,7 @@ def show():
 
     # setting variable for Integers
     Sub4 = StringVar()
-    Sub4.set(elements[0])
+    Sub4.set("")
 
     # creating widget
     elements_select = OptionMenu(
@@ -231,12 +157,24 @@ def show():
     def find_monsters():
         Suitable_Monsters = []
 
+        current_artifact = []
+        if Sub1.get() != "":
+            current_artifact.append([Sub1.get(), sub1_value.get()])
+        if Sub2.get() != "":
+            current_artifact.append([Sub2.get(), sub2_value.get()])
+        if Sub3.get() != "":
+            current_artifact.append([Sub3.get(), sub3_value.get()])
+        if Sub4.get() != "":
+            current_artifact.append([Sub4.get(), sub4_value.get()])
+
         listbox_entry = []
         listbox_entry.append("Current Artifact")
         listbox_entry.append(Sub1.get() + " : " + sub1_value.get() + "%")
         listbox_entry.append(Sub2.get() + " : " + sub2_value.get() + "%")
         listbox_entry.append(Sub3.get() + " : " + sub3_value.get() + "%")
         listbox_entry.append(Sub4.get() + " : " + sub4_value.get() + "%")
+        listbox_entry.append(calculate_efficiency(current_artifact))
+        listbox_entry.append(calculate_efficiency(current_artifact) + (int(rolls_remaining.get())/8*100))
             
         Suitable_Monsters.append(listbox_entry)
 
@@ -259,12 +197,17 @@ def show():
                 if Sub4.get() in Monster_Info[key]["Substats"]:
                     Best_Case_Artifact.append([Sub4.get(), sub4_value.get()])
                 
-                max_efficiency = calculate_efficiency(Best_Case_Artifact) + (rolls_remaining.get()/8*100)
+                if Best_Case_Artifact != []:
+                    max_efficiency = calculate_efficiency(Best_Case_Artifact) + (int(rolls_remaining.get())/8*100)
+                else:
+                    max_efficiency = 0
                 if max_efficiency > _efficiency:
                     listbox_entry = []
                     listbox_entry.append(key)
                     for subs in Monster_Info[key]["Artifacts"][_artifact_type]:
                         listbox_entry.append(subs[0] + " : " + subs[1] + "%")
+                    while len(listbox_entry) < 5:
+                        listbox_entry.append("")
                     listbox_entry.append(_efficiency)
                     listbox_entry.append(max_efficiency)
                     Suitable_Monsters.append(listbox_entry)
@@ -274,6 +217,8 @@ def show():
 
         # tempList = [['Jim', '0.33'], ['Dave', '0.67'], ['James', '0.67'], ['Eden', '0.5']]
         # tempList.sort(key=lambda e: e[1], reverse=True)
+        # print(Suitable_Monsters)
+        Suitable_Monsters.sort(key = lambda Suitable_Monsters: Suitable_Monsters[6], reverse = True)
 
         listBox.delete(*listBox.get_children())
         for i in Suitable_Monsters:
