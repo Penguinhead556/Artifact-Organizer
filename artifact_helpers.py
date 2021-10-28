@@ -11,6 +11,12 @@ if (f.read() != ""):
     Monster_Info = json.load(f)
 f.close()
 
+f = open("Inventory.json", "r")
+if (f.read() != ""):
+    f.seek(0)
+    Inventory_data = json.load(f)
+f.close()
+
 Monster_Info = dict(sorted(Monster_Info.items(), key=operator.itemgetter(0)))
 
 
@@ -78,3 +84,5 @@ def monster_efficiency(Monster, Artifact):
     # print(Monster_artifact)
 
     return (calculate_efficiency(Monster_artifact))
+
+

@@ -1,4 +1,66 @@
 {
+      "21813": {
+            "Element": "",
+            "Type": "",
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            }
+      },
+      "25211": {
+            "Element": "",
+            "Type": "",
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [
+                        [
+                              "Lost_HP_DEF_up",
+                              "12"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "5"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Teamup_DMG",
+                              "5"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "35"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "3"
+                        ]
+                  ]
+            }
+      },
+      "25613": {
+            "Element": "",
+            "Type": "",
+            "Efficiency": {
+                  "Element": 0,
+                  "Type": 0
+            },
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            }
+      },
       "Abigail": {
             "Element": "",
             "Type": "",
@@ -37,11 +99,25 @@
       },
       "Akia": {
             "Efficiency": {
-                  "Element": 31.25,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 31.25
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "ADL_DMG_HP",
+                              "0.5"
+                        ],
+                        [
+                              "Lost_HP_DEF_up",
+                              "18"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "2"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "Lost_HP_DEF_up",
                               "14"
@@ -53,20 +129,6 @@
                         [
                               "S3_ACC",
                               "15"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "2"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "ADL_DMG_HP",
-                              "0.5"
-                        ],
-                        [
-                              "Lost_HP_DEF_up",
-                              "18"
                         ],
                         [
                               "ADL_DMG_DEF",
@@ -111,16 +173,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "S2_ACC",
-                              "3"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "DMG_from_Water",
                               "7"
                         ],
@@ -135,6 +187,16 @@
                         [
                               "DMG_from_Wind",
                               "5"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_ACC",
+                              "3"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "3"
                         ]
                   ]
             },
@@ -224,29 +286,11 @@
       },
       "Astar": {
             "Efficiency": {
-                  "Element": 32.29,
-                  "Type": 53.12
+                  "Element": 53.12,
+                  "Type": 32.29
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Teamup_DMG",
-                              "4"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "4"
-                        ],
-                        [
-                              "CD_as_HP_is_Bad",
-                              "31"
-                        ],
-                        [
-                              "S1_ACC",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Single_TGT_CD",
                               "8"
@@ -262,6 +306,24 @@
                         [
                               "Teamup_DMG",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Teamup_DMG",
+                              "4"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "4"
+                        ],
+                        [
+                              "CD_as_HP_is_Bad",
+                              "31"
+                        ],
+                        [
+                              "S1_ACC",
+                              "5"
                         ]
                   ]
             },
@@ -300,11 +362,25 @@
       },
       "Baleygr": {
             "Efficiency": {
-                  "Element": 52.08,
-                  "Type": 26.88
+                  "Element": 26.88,
+                  "Type": 52.08
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "ADL_DMG_ATK",
+                              "3"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "7"
+                        ],
+                        [
+                              "DMG_on_Light",
+                              "3"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "S3_CD",
                               "16"
@@ -321,20 +397,6 @@
                               "ADL_DMG_ATK",
                               "6"
                         ]
-                  ],
-                  "Type": [
-                        [
-                              "ADL_DMG_ATK",
-                              "3"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "7"
-                        ],
-                        [
-                              "DMG_on_Light",
-                              "3"
-                        ]
                   ]
             },
             "Element": "fire",
@@ -349,25 +411,11 @@
       },
       "Bastet": {
             "Efficiency": {
-                  "Element": 53.12,
-                  "Type": 9.38
+                  "Element": 9.38,
+                  "Type": 53.12
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Life_Drain",
-                              "3"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "7"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "100"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "SPD_INC_Effect",
                               "5"
@@ -384,6 +432,24 @@
                               "DMG_from_Fire",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "Life_Drain",
+                              "3"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "7"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "100"
+                        ],
+                        [
+                              "Single_TGT_CD",
+                              "6"
+                        ]
                   ]
             },
             "Element": "water",
@@ -399,29 +465,11 @@
       },
       "Beelzebub": {
             "Efficiency": {
-                  "Element": 53.27,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 53.27
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Lost_HP_ATK_up",
-                              "20"
-                        ],
-                        [
-                              "S2_CD",
-                              "17"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.4"
-                        ],
-                        [
-                              "S1_CD",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "CD_as_HP_is_Bad",
                               "10"
@@ -438,6 +486,24 @@
                               "ATK_INC_Effect",
                               "3"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_ATK_up",
+                              "20"
+                        ],
+                        [
+                              "S2_CD",
+                              "17"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.4"
+                        ],
+                        [
+                              "S1_CD",
+                              "3"
+                        ]
                   ]
             },
             "Element": "dark",
@@ -452,29 +518,11 @@
       },
       "Belial": {
             "Efficiency": {
-                  "Element": 48.21,
-                  "Type": 31.87
+                  "Element": 31.87,
+                  "Type": 48.21
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Lost_HP_ATK_up",
-                              "19"
-                        ],
-                        [
-                              "S2_CD",
-                              "15"
-                        ],
-                        [
-                              "HP_Revived",
-                              "8"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Single_TGT_CD",
                               "7"
@@ -491,6 +539,24 @@
                               "DMG_on_Water",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_ATK_up",
+                              "19"
+                        ],
+                        [
+                              "S2_CD",
+                              "15"
+                        ],
+                        [
+                              "HP_Revived",
+                              "8"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "5"
+                        ]
                   ]
             },
             "Element": "water",
@@ -506,29 +572,11 @@
       },
       "Belladeon": {
             "Efficiency": {
-                  "Element": 25.0,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 25.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S3_ACC",
-                              "5"
-                        ],
-                        [
-                              "S1_ACC",
-                              "12"
-                        ],
-                        [
-                              "S3_CD",
-                              "13"
-                        ],
-                        [
-                              "Teamup_DMG",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Water",
                               "14"
@@ -545,6 +593,24 @@
                               "SPD_INC_Effect",
                               "6"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S3_ACC",
+                              "5"
+                        ],
+                        [
+                              "S1_ACC",
+                              "12"
+                        ],
+                        [
+                              "S3_CD",
+                              "13"
+                        ],
+                        [
+                              "Teamup_DMG",
+                              "3"
+                        ]
                   ]
             },
             "Element": "light",
@@ -560,29 +626,11 @@
       },
       "Bellenus": {
             "Efficiency": {
-                  "Element": 25.0,
-                  "Type": 12.5
+                  "Element": 12.5,
+                  "Type": 25.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S1_CD",
-                              "4"
-                        ],
-                        [
-                              "S3_ACC",
-                              "12"
-                        ],
-                        [
-                              "S2_ACC",
-                              "7"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_SPD",
                               "74"
@@ -599,6 +647,24 @@
                               "ADL_DMG_ATK",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_CD",
+                              "4"
+                        ],
+                        [
+                              "S3_ACC",
+                              "12"
+                        ],
+                        [
+                              "S2_ACC",
+                              "7"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.5"
+                        ]
                   ]
             },
             "Element": "fire",
@@ -614,29 +680,11 @@
       },
       "Bernard": {
             "Efficiency": {
-                  "Element": 12.5,
-                  "Type": 8.33
+                  "Element": 8.33,
+                  "Type": 12.5
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S2_ACC",
-                              "6"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.7"
-                        ],
-                        [
-                              "S2_CD",
-                              "11"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "2"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Lost_HP_ATK_up",
                               "9"
@@ -653,6 +701,24 @@
                               "SPD_INC_Effect",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_ACC",
+                              "6"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.7"
+                        ],
+                        [
+                              "S2_CD",
+                              "11"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "2"
+                        ]
                   ]
             },
             "Element": "wind",
@@ -667,29 +733,11 @@
       },
       "Beth": {
             "Efficiency": {
-                  "Element": 0.0,
-                  "Type": 30.0
+                  "Element": 30.0,
+                  "Type": 0.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "HP_Revived",
-                              "7"
-                        ],
-                        [
-                              "Bomb_DMG",
-                              "6"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.1"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "71"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_on_Dark",
                               "3"
@@ -706,6 +754,24 @@
                               "SPD_INC_Effect",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "HP_Revived",
+                              "7"
+                        ],
+                        [
+                              "Bomb_DMG",
+                              "6"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.1"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "71"
+                        ]
                   ]
             },
             "Element": "water",
@@ -721,25 +787,11 @@
       },
       "Bolverk": {
             "Efficiency": {
-                  "Element": 8.33,
-                  "Type": 22.92
+                  "Element": 22.92,
+                  "Type": 8.33
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S1_ACC",
-                              "4"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
-                              "3"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "6"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "HP_Revived",
                               "9"
@@ -755,6 +807,20 @@
                         [
                               "DMG_from_Water",
                               "11"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_ACC",
+                              "4"
+                        ],
+                        [
+                              "ADL_DMG_ATK",
+                              "3"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "6"
                         ]
                   ]
             },
@@ -772,25 +838,11 @@
       },
       "Borgnine": {
             "Efficiency": {
-                  "Element": 12.5,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 12.5
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "CD_Recieved",
-                              "4"
-                        ],
-                        [
-                              "Single_TGT_CD",
-                              "3"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "101"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DEF_INC_Effect",
                               "7"
@@ -802,6 +854,20 @@
                         [
                               "ADL_DMG_ATK",
                               "2"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "CD_Recieved",
+                              "4"
+                        ],
+                        [
+                              "Single_TGT_CD",
+                              "3"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "101"
                         ]
                   ]
             },
@@ -818,29 +884,11 @@
       },
       "Brandia": {
             "Efficiency": {
-                  "Element": 26.25,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 26.25
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Bomb_DMG",
-                              "9"
-                        ],
-                        [
-                              "Single_TGT_CD",
-                              "6"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "3"
-                        ],
-                        [
-                              "Counter_DMG",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Bomb_DMG",
                               "1"
@@ -856,6 +904,24 @@
                         [
                               "DMG_on_Light",
                               "2"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Bomb_DMG",
+                              "9"
+                        ],
+                        [
+                              "Single_TGT_CD",
+                              "6"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "3"
+                        ],
+                        [
+                              "Counter_DMG",
+                              "3"
                         ]
                   ]
             },
@@ -883,25 +949,11 @@
       },
       "Bulldozer": {
             "Efficiency": {
-                  "Element": 54.17,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 54.17
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S3_CD",
-                              "11"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "10"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
-                              "4"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Dark",
                               "4"
@@ -913,6 +965,20 @@
                         [
                               "DMG_from_Wind",
                               "5"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S3_CD",
+                              "11"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "10"
+                        ],
+                        [
+                              "ADL_DMG_ATK",
+                              "4"
                         ]
                   ]
             },
@@ -928,29 +994,11 @@
       },
       "Carcano": {
             "Efficiency": {
-                  "Element": 27.08,
-                  "Type": 18.75
+                  "Element": 18.75,
+                  "Type": 27.08
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "CD_as_HP_is_Bad",
-                              "12"
-                        ],
-                        [
-                              "CD_as_HP_is_Good",
-                              "7"
-                        ],
-                        [
-                              "S2_ACC",
-                              "18"
-                        ],
-                        [
-                              "SPD_INC_Effect",
-                              "6"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Dark",
                               "16"
@@ -967,6 +1015,24 @@
                               "CD_as_HP_is_Bad",
                               "11"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "CD_as_HP_is_Bad",
+                              "12"
+                        ],
+                        [
+                              "CD_as_HP_is_Good",
+                              "7"
+                        ],
+                        [
+                              "S2_ACC",
+                              "18"
+                        ],
+                        [
+                              "SPD_INC_Effect",
+                              "6"
+                        ]
                   ]
             },
             "Element": "fire",
@@ -982,11 +1048,21 @@
       },
       "Chandra": {
             "Efficiency": {
-                  "Element": 18.75,
-                  "Type": 9.38
+                  "Element": 9.38,
+                  "Type": 18.75
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "SPD_INC_Effect",
+                              "8"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "3"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "SPD_INC_Effect",
                               "9"
@@ -1002,16 +1078,6 @@
                         [
                               "ADL_DMG_HP",
                               "0.3"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "SPD_INC_Effect",
-                              "8"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "3"
                         ]
                   ]
             },
@@ -1029,11 +1095,21 @@
       },
       "Charlotte": {
             "Efficiency": {
-                  "Element": 20.83,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 20.83
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "Lost_HP_ATK_up",
+                              "12"
+                        ],
+                        [
+                              "DMG_from_Water",
+                              "4"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "S3_ACC",
                               "7"
@@ -1045,16 +1121,6 @@
                         [
                               "S1_ACC",
                               "6"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "Lost_HP_ATK_up",
-                              "12"
-                        ],
-                        [
-                              "DMG_from_Water",
-                              "4"
                         ]
                   ]
             },
@@ -1072,11 +1138,25 @@
       },
       "Chasun": {
             "Efficiency": {
-                  "Element": 0.0,
-                  "Type": 8.04
+                  "Element": 8.04,
+                  "Type": 0.0
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "Lost_HP_SPD_up",
+                              "9"
+                        ],
+                        [
+                              "DMG_from_Water",
+                              "6"
+                        ],
+                        [
+                              "DMG_on_Dark",
+                              "12"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "S3_Recovery",
                               "14"
@@ -1093,20 +1173,6 @@
                               "DEF_INC_Effect",
                               "3"
                         ]
-                  ],
-                  "Type": [
-                        [
-                              "Lost_HP_SPD_up",
-                              "9"
-                        ],
-                        [
-                              "DMG_from_Water",
-                              "6"
-                        ],
-                        [
-                              "DMG_on_Dark",
-                              "12"
-                        ]
                   ]
             },
             "Element": "wind",
@@ -1121,29 +1187,11 @@
       },
       "Chilling": {
             "Efficiency": {
-                  "Element": 45.1,
-                  "Type": 12.5
+                  "Element": 12.5,
+                  "Type": 45.1
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ADL_DMG_SPD",
-                              "91"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "7"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "8"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "SPD_INC_Effect",
                               "6"
@@ -1159,6 +1207,24 @@
                         [
                               "Teamup_DMG",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_SPD",
+                              "91"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "7"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "8"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "3"
                         ]
                   ]
             },
@@ -1176,25 +1242,11 @@
       },
       "Chloe": {
             "Efficiency": {
-                  "Element": 41.67,
-                  "Type": 12.5
+                  "Element": 12.5,
+                  "Type": 41.67
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S3_CD",
-                              "6"
-                        ],
-                        [
-                              "S2_Recovery",
-                              "20"
-                        ],
-                        [
-                              "Counter_DMG",
-                              "4"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Lost_HP_ATK_up",
                               "33"
@@ -1211,6 +1263,20 @@
                               "CD_as_HP_is_Bad",
                               "9"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S3_CD",
+                              "6"
+                        ],
+                        [
+                              "S2_Recovery",
+                              "20"
+                        ],
+                        [
+                              "Counter_DMG",
+                              "4"
+                        ]
                   ]
             },
             "Element": "fire",
@@ -1225,25 +1291,11 @@
       },
       "Clara": {
             "Efficiency": {
-                  "Element": 14.58,
-                  "Type": 33.12
+                  "Element": 33.12,
+                  "Type": 14.58
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "SPD_INC_Effect",
-                              "7"
-                        ],
-                        [
-                              "Lost_HP_DEF_up",
-                              "9"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "6"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Lost_HP_ATK_up",
                               "11"
@@ -1259,6 +1311,20 @@
                         [
                               "Teamup_DMG",
                               "3"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "SPD_INC_Effect",
+                              "7"
+                        ],
+                        [
+                              "Lost_HP_DEF_up",
+                              "9"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "6"
                         ]
                   ]
             },
@@ -1305,29 +1371,11 @@
       },
       "Copper": {
             "Efficiency": {
-                  "Element": 22.92,
-                  "Type": 37.5
+                  "Element": 37.5,
+                  "Type": 22.92
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S2_CD",
-                              "9"
-                        ],
-                        [
-                              "S3_CD",
-                              "11"
-                        ],
-                        [
-                              "S1_ACC",
-                              "8"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ATK_Bar_Revived",
                               "10"
@@ -1344,6 +1392,24 @@
                               "Lost_HP_DEF_up",
                               "11"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_CD",
+                              "9"
+                        ],
+                        [
+                              "S3_CD",
+                              "11"
+                        ],
+                        [
+                              "S1_ACC",
+                              "8"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "3"
+                        ]
                   ]
             },
             "Element": "wind",
@@ -1358,25 +1424,11 @@
       },
       "Covenant": {
             "Efficiency": {
-                  "Element": 12.5,
-                  "Type": 22.5
+                  "Element": 22.5,
+                  "Type": 12.5
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ADL_DMG_DEF",
-                              "4"
-                        ],
-                        [
-                              "Counter_DMG",
-                              "7"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_on_Wind",
                               "2"
@@ -1388,6 +1440,20 @@
                         [
                               "Life_Drain",
                               "6"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_DEF",
+                              "4"
+                        ],
+                        [
+                              "Counter_DMG",
+                              "7"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "5"
                         ]
                   ]
             },
@@ -1403,29 +1469,11 @@
       },
       "Daphnis": {
             "Efficiency": {
-                  "Element": 20.0,
-                  "Type": 29.17
+                  "Element": 29.17,
+                  "Type": 20.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Bomb_DMG",
-                              "6"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "3"
-                        ],
-                        [
-                              "Lost_HP_ATK_up",
-                              "14"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "CD_as_HP_is_Bad",
                               "28"
@@ -1441,6 +1489,24 @@
                         [
                               "CD_Recieved",
                               "3"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Bomb_DMG",
+                              "6"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "3"
+                        ],
+                        [
+                              "Lost_HP_ATK_up",
+                              "14"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.3"
                         ]
                   ]
             },
@@ -1466,6 +1532,20 @@
             "Artifacts": {
                   "Element": [
                         [
+                              "Lost_HP_SPD_up",
+                              "12"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "63"
+                        ],
+                        [
+                              "ATK_Bar_Revived",
+                              "1"
+                        ]
+                  ],
+                  "Type": [
+                        [
                               "ADL_DMG_SPD",
                               "21"
                         ],
@@ -1480,20 +1560,6 @@
                         [
                               "Counter_DMG",
                               "2"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "Lost_HP_SPD_up",
-                              "12"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "63"
-                        ],
-                        [
-                              "ATK_Bar_Revived",
-                              "1"
                         ]
                   ]
             }
@@ -1520,20 +1586,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "S2_Recovery",
-                              "5"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "11"
-                        ],
-                        [
-                              "S4_CD",
-                              "4"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "DMG_from_Light",
                               "12"
                         ],
@@ -1543,6 +1595,20 @@
                         ],
                         [
                               "DMG_from_Wind",
+                              "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_Recovery",
+                              "5"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "11"
+                        ],
+                        [
+                              "S4_CD",
                               "4"
                         ]
                   ]
@@ -1558,24 +1624,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "S1_Recovery",
-                              "6"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
-                              "4"
-                        ],
-                        [
-                              "S2_ACC",
-                              "4"
-                        ],
-                        [
-                              "SPD_INC_Effect",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "DMG_from_Water",
                               "5"
                         ],
@@ -1590,6 +1638,24 @@
                         [
                               "Single_TGT_CD",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_Recovery",
+                              "6"
+                        ],
+                        [
+                              "ADL_DMG_ATK",
+                              "4"
+                        ],
+                        [
+                              "S2_ACC",
+                              "4"
+                        ],
+                        [
+                              "SPD_INC_Effect",
+                              "5"
                         ]
                   ]
             }
@@ -1608,29 +1674,11 @@
       },
       "Diana": {
             "Efficiency": {
-                  "Element": 8.33,
-                  "Type": 37.5
+                  "Element": 37.5,
+                  "Type": 8.33
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S2_ACC",
-                              "9"
-                        ],
-                        [
-                              "S1_CD",
-                              "10"
-                        ],
-                        [
-                              "S1_ACC",
-                              "4"
-                        ],
-                        [
-                              "Lost_HP_ATK_up",
-                              "13"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Teamup_DMG",
                               "2"
@@ -1646,6 +1694,24 @@
                         [
                               "Counter_DMG",
                               "7"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_ACC",
+                              "9"
+                        ],
+                        [
+                              "S1_CD",
+                              "10"
+                        ],
+                        [
+                              "S1_ACC",
+                              "4"
+                        ],
+                        [
+                              "Lost_HP_ATK_up",
+                              "13"
                         ]
                   ]
             },
@@ -1669,6 +1735,16 @@
             "Artifacts": {
                   "Element": [
                         [
+                              "DMG_on_Light",
+                              "6"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
                               "Lost_HP_DEF_up",
                               "6"
                         ],
@@ -1683,16 +1759,6 @@
                         [
                               "S4_CD",
                               "6"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "DMG_on_Light",
-                              "6"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "4"
                         ]
                   ]
             }
@@ -1711,29 +1777,11 @@
       },
       "Einheri": {
             "Efficiency": {
-                  "Element": 37.5,
-                  "Type": 12.5
+                  "Element": 12.5,
+                  "Type": 37.5
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "SPD_INC_Effect",
-                              "15"
-                        ],
-                        [
-                              "CD_as_HP_is_Good",
-                              "12"
-                        ],
-                        [
-                              "S3_CD",
-                              "6"
-                        ],
-                        [
-                              "Single_TGT_CD",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_SPD",
                               "128"
@@ -1750,6 +1798,24 @@
                               "Bomb_DMG",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "SPD_INC_Effect",
+                              "15"
+                        ],
+                        [
+                              "CD_as_HP_is_Good",
+                              "12"
+                        ],
+                        [
+                              "S3_CD",
+                              "6"
+                        ],
+                        [
+                              "Single_TGT_CD",
+                              "3"
+                        ]
                   ]
             },
             "Element": "light",
@@ -1765,11 +1831,25 @@
       },
       "Eirgar": {
             "Efficiency": {
-                  "Element": 7.5,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 7.5
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "Lost_HP_DEF_up",
+                              "11"
+                        ],
+                        [
+                              "DEF_INC_Effect",
+                              "6"
+                        ],
+                        [
+                              "Lost_HP_SPD_up",
+                              "5"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "ADL_DMG_DEF",
                               "10"
@@ -1786,20 +1866,6 @@
                               "CD_as_HP_is_Bad",
                               "18"
                         ]
-                  ],
-                  "Type": [
-                        [
-                              "Lost_HP_DEF_up",
-                              "11"
-                        ],
-                        [
-                              "DEF_INC_Effect",
-                              "6"
-                        ],
-                        [
-                              "Lost_HP_SPD_up",
-                              "5"
-                        ]
                   ]
             },
             "Element": "dark",
@@ -1814,29 +1880,11 @@
       },
       "Eladriel": {
             "Efficiency": {
-                  "Element": 2.68,
-                  "Type": 18.75
+                  "Element": 18.75,
+                  "Type": 2.68
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ADL_DMG_SPD",
-                              "97"
-                        ],
-                        [
-                              "Lost_HP_ATK_up",
-                              "7"
-                        ],
-                        [
-                              "Lost_HP_SPD_up",
-                              "3"
-                        ],
-                        [
-                              "ATK_Bar_Revived",
-                              "1"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Wind",
                               "9"
@@ -1852,6 +1900,24 @@
                         [
                               "DMG_from_Fire",
                               "6"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_SPD",
+                              "97"
+                        ],
+                        [
+                              "Lost_HP_ATK_up",
+                              "7"
+                        ],
+                        [
+                              "Lost_HP_SPD_up",
+                              "3"
+                        ],
+                        [
+                              "ATK_Bar_Revived",
+                              "1"
                         ]
                   ]
             },
@@ -1887,21 +1953,11 @@
       },
       "Elucia": {
             "Efficiency": {
-                  "Element": 0.0,
-                  "Type": 25.0
+                  "Element": 25.0,
+                  "Type": 0.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ATK_Bar_Revived",
-                              "4"
-                        ],
-                        [
-                              "Lost_HP_DEF_up",
-                              "14"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_on_Water",
                               "8"
@@ -1918,6 +1974,16 @@
                               "ADL_DMG_HP",
                               "0.3"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "ATK_Bar_Revived",
+                              "4"
+                        ],
+                        [
+                              "Lost_HP_DEF_up",
+                              "14"
+                        ]
                   ]
             },
             "Element": "water",
@@ -1933,29 +1999,11 @@
       },
       "Eshir": {
             "Efficiency": {
-                  "Element": 52.08,
-                  "Type": 41.47
+                  "Element": 41.47,
+                  "Type": 52.08
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S2_Recovery",
-                              "7"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.3"
-                        ],
-                        [
-                              "SPD_INC_Effect",
-                              "12"
-                        ],
-                        [
-                              "CD_as_HP_is_Bad",
-                              "15"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_SPD",
                               "87"
@@ -1972,6 +2020,24 @@
                               "ADL_DMG_DEF",
                               "2"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_Recovery",
+                              "7"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.3"
+                        ],
+                        [
+                              "SPD_INC_Effect",
+                              "12"
+                        ],
+                        [
+                              "CD_as_HP_is_Bad",
+                              "15"
+                        ]
                   ]
             },
             "Element": "light",
@@ -1986,25 +2052,11 @@
       },
       "Ethna": {
             "Efficiency": {
-                  "Element": 34.9,
-                  "Type": 12.5
+                  "Element": 12.5,
+                  "Type": 34.9
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S3_ACC",
-                              "14"
-                        ],
-                        [
-                              "S2_ACC",
-                              "10"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "45"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Water",
                               "16"
@@ -2021,6 +2073,20 @@
                               "CD_as_HP_is_Good",
                               "6"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S3_ACC",
+                              "14"
+                        ],
+                        [
+                              "S2_ACC",
+                              "10"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "45"
+                        ]
                   ]
             },
             "Element": "wind",
@@ -2036,11 +2102,21 @@
       },
       "Feng_Yan": {
             "Efficiency": {
-                  "Element": 15.62,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 15.62
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "DMG_from_Water",
+                              "6"
+                        ],
+                        [
+                              "DMG_from_Light",
+                              "9"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "ADL_DMG_HP",
                               "0.5"
@@ -2057,16 +2133,6 @@
                               "Counter_DMG",
                               "5"
                         ]
-                  ],
-                  "Type": [
-                        [
-                              "DMG_from_Water",
-                              "6"
-                        ],
-                        [
-                              "DMG_from_Light",
-                              "9"
-                        ]
                   ]
             },
             "Element": "wind",
@@ -2081,25 +2147,11 @@
       },
       "Fire_Ryu": {
             "Efficiency": {
-                  "Element": 9.82,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 9.82
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Lost_HP_SPD_up",
-                              "11"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "2"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "7"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_on_Fire",
                               "3"
@@ -2116,6 +2168,20 @@
                               "DEF_INC_Effect",
                               "3"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_SPD_up",
+                              "11"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "2"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "7"
+                        ]
                   ]
             },
             "Element": "fire",
@@ -2130,25 +2196,11 @@
       },
       "Fran": {
             "Efficiency": {
-                  "Element": 11.61,
-                  "Type": 23.21
+                  "Element": 23.21,
+                  "Type": 11.61
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Lost_HP_DEF_up",
-                              "10"
-                        ],
-                        [
-                              "Lost_HP_SPD_up",
-                              "3"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "6"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Lost_HP_DEF_up",
                               "5"
@@ -2160,6 +2212,20 @@
                         [
                               "ADL_DMG_ATK",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_DEF_up",
+                              "10"
+                        ],
+                        [
+                              "Lost_HP_SPD_up",
+                              "3"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "6"
                         ]
                   ]
             },
@@ -2190,25 +2256,11 @@
       },
       "Fuuki": {
             "Efficiency": {
-                  "Element": 39.58,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 39.58
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S1_ACC",
-                              "9"
-                        ],
-                        [
-                              "S1_Recovery",
-                              "10"
-                        ],
-                        [
-                              "CD_as_HP_is_Good",
-                              "11"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_on_Water",
                               "5"
@@ -2220,6 +2272,20 @@
                         [
                               "ADL_DMG_DEF",
                               "2"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_ACC",
+                              "9"
+                        ],
+                        [
+                              "S1_Recovery",
+                              "10"
+                        ],
+                        [
+                              "CD_as_HP_is_Good",
+                              "11"
                         ]
                   ]
             },
@@ -2236,29 +2302,11 @@
       },
       "Galleon": {
             "Efficiency": {
-                  "Element": 0.0,
-                  "Type": 5.0
+                  "Element": 5.0,
+                  "Type": 0.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ADL_DMG_ATK",
-                              "10"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.2"
-                        ],
-                        [
-                              "Lost_HP_DEF_up",
-                              "17"
-                        ],
-                        [
-                              "DEF_INC_Effect",
-                              "4"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Light",
                               "7"
@@ -2275,6 +2323,24 @@
                               "ATK_INC_Effect",
                               "2"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_ATK",
+                              "10"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.2"
+                        ],
+                        [
+                              "Lost_HP_DEF_up",
+                              "17"
+                        ],
+                        [
+                              "DEF_INC_Effect",
+                              "4"
+                        ]
                   ]
             },
             "Element": "water",
@@ -2289,29 +2355,11 @@
       },
       "Ganymede": {
             "Efficiency": {
-                  "Element": 8.33,
-                  "Type": 19.38
+                  "Element": 19.38,
+                  "Type": 8.33
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "SPD_INC_Effect",
-                              "21"
-                        ],
-                        [
-                              "S3_CD",
-                              "4"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "3"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_SPD",
                               "62"
@@ -2328,6 +2376,24 @@
                               "CD_as_HP_is_Bad",
                               "11"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "SPD_INC_Effect",
+                              "21"
+                        ],
+                        [
+                              "S3_CD",
+                              "4"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "3"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "5"
+                        ]
                   ]
             },
             "Element": "wind",
@@ -2343,11 +2409,21 @@
       },
       "Garo": {
             "Efficiency": {
-                  "Element": 12.5,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 12.5
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "CD_Recieved",
+                              "7"
+                        ],
+                        [
+                              "DEF_INC_Effect",
+                              "4"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "S2_CD",
                               "10"
@@ -2363,16 +2439,6 @@
                         [
                               "Teamup_DMG",
                               "1"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "CD_Recieved",
-                              "7"
-                        ],
-                        [
-                              "DEF_INC_Effect",
-                              "4"
                         ]
                   ]
             },
@@ -2409,45 +2475,57 @@
             ]
       },
       "Gildong": {
-            "Element": "",
-            "Type": "",
+            "Element": "water",
+            "Type": "attack",
+            "Substats": [
+                  "S1_CD",
+                  "S2_CD",
+                  "S3_CD",
+                  "S4_CD",
+                  "S1_Recovery",
+                  "S2_Recovery",
+                  "S3_Recovery",
+                  "S1_ACC",
+                  "S2_ACC",
+                  "S3_ACC",
+                  "DMG_on_Wind",
+                  "DMG_on_Water",
+                  "DMG_on_Fire",
+                  "DMG_on_Light",
+                  "DMG_on_Dark",
+                  "DMG_from_Wind",
+                  "DMG_from_Water",
+                  "DMG_from_Fire",
+                  "DMG_from_Light",
+                  "DMG_from_Dark",
+                  "CD_as_HP_is_Good",
+                  "CD_as_HP_is_Bad",
+                  "Single_TGT_CD",
+                  "Lost_HP_ATK_up",
+                  "Lost_HP_DEF_up",
+                  "Lost_HP_SPD_up",
+                  "ATK_INC_Effect",
+                  "SPD_INC_Effect",
+                  "DEF_INC_Effect",
+                  "Counter_DMG",
+                  "Teamup_DMG",
+                  "Bomb_DMG",
+                  "Life_Drain",
+                  "HP_Revived",
+                  "ATK_Bar_Revived",
+                  "ADL_DMG_HP",
+                  "ADL_DMG_ATK",
+                  "ADL_DMG_DEF",
+                  "ADL_DMG_SPD",
+                  "CD_Recieved"
+            ],
+            "Artifacts": {
+                  "Element": [],
+                  "Type": []
+            },
             "Efficiency": {
                   "Element": 0,
                   "Type": 0
-            },
-            "Artifacts": {
-                  "Element": [
-                        [
-                              "Lost_HP_SPD_up",
-                              "8"
-                        ],
-                        [
-                              "ATK_Bar_Revived",
-                              "5"
-                        ],
-                        [
-                              "Bomb_DMG",
-                              "2"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "Life_Drain",
-                              "3"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "5"
-                        ],
-                        [
-                              "DMG_on_Dark",
-                              "11"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
-                              "2"
-                        ]
-                  ]
             }
       },
       "Gin": {
@@ -2459,24 +2537,6 @@
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Lost_HP_SPD_up",
-                              "9"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "3"
-                        ],
-                        [
-                              "S2_CD",
-                              "8"
-                        ],
-                        [
-                              "S1_Recovery",
-                              "6"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Teamup_DMG",
                               "2"
@@ -2492,6 +2552,24 @@
                         [
                               "CD_Recieved",
                               "2"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_SPD_up",
+                              "9"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "3"
+                        ],
+                        [
+                              "S2_CD",
+                              "8"
+                        ],
+                        [
+                              "S1_Recovery",
+                              "6"
                         ]
                   ]
             }
@@ -2544,20 +2622,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "S1_ACC",
-                              "23"
-                        ],
-                        [
-                              "S2_CD",
-                              "3"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "2"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "Lost_HP_ATK_up",
                               "46"
                         ],
@@ -2573,30 +2637,30 @@
                               "Lost_HP_SPD_up",
                               "13"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_ACC",
+                              "23"
+                        ],
+                        [
+                              "S2_CD",
+                              "3"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "2"
+                        ]
                   ]
             }
       },
       "Helena": {
             "Efficiency": {
-                  "Element": 52.08,
-                  "Type": 10.42
+                  "Element": 10.42,
+                  "Type": 52.08
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Single_TGT_CD",
-                              "6"
-                        ],
-                        [
-                              "S2_CD",
-                              "8"
-                        ],
-                        [
-                              "S2_ACC",
-                              "17"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Light",
                               "5"
@@ -2612,6 +2676,20 @@
                         [
                               "DMG_on_Light",
                               "7"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Single_TGT_CD",
+                              "6"
+                        ],
+                        [
+                              "S2_CD",
+                              "8"
+                        ],
+                        [
+                              "S2_ACC",
+                              "17"
                         ]
                   ]
             },
@@ -2630,29 +2708,11 @@
       },
       "Hellea": {
             "Efficiency": {
-                  "Element": 31.25,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 31.25
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Life_Drain",
-                              "5"
-                        ],
-                        [
-                              "S3_CD",
-                              "9"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "9"
-                        ],
-                        [
-                              "S1_ACC",
-                              "6"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Wind",
                               "11"
@@ -2667,6 +2727,24 @@
                         ],
                         [
                               "DMG_on_Fire",
+                              "6"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Life_Drain",
+                              "5"
+                        ],
+                        [
+                              "S3_CD",
+                              "9"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "9"
+                        ],
+                        [
+                              "S1_ACC",
                               "6"
                         ]
                   ]
@@ -2705,12 +2783,46 @@
       },
       "Hraesvelg": {
             "Efficiency": {
-                  "Element": 0,
-                  "Type": 0
+                  "Element": 17.5,
+                  "Type": 45.0
             },
             "Artifacts": {
-                  "Element": [],
-                  "Type": []
+                  "Element": [
+                        [
+                              "DMG_from_Wind",
+                              "6"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "7"
+                        ],
+                        [
+                              "Lost_HP_SPD_up",
+                              "11"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "2"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S3_CD",
+                              "10"
+                        ],
+                        [
+                              "CD_as_HP_is_Good",
+                              "6"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "13"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.3"
+                        ]
+                  ]
             },
             "Element": "wind",
             "Type": "attack",
@@ -2753,20 +2865,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "Teamup_DMG",
-                              "6"
-                        ],
-                        [
-                              "S1_CD",
-                              "11"
-                        ],
-                        [
-                              "S2_ACC",
-                              "4"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "DMG_from_Water",
                               "4"
                         ],
@@ -2781,6 +2879,20 @@
                         [
                               "DMG_on_Wind",
                               "5"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Teamup_DMG",
+                              "6"
+                        ],
+                        [
+                              "S1_CD",
+                              "11"
+                        ],
+                        [
+                              "S2_ACC",
+                              "4"
                         ]
                   ]
             },
@@ -2803,20 +2915,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "Lost_HP_ATK_up",
-                              "18"
-                        ],
-                        [
-                              "S3_CD",
-                              "10"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.2"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "Teamup_DMG",
                               "15"
                         ],
@@ -2831,6 +2929,20 @@
                         [
                               "DMG_on_Light",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_ATK_up",
+                              "18"
+                        ],
+                        [
+                              "S3_CD",
+                              "10"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.2"
                         ]
                   ]
             },
@@ -2847,21 +2959,11 @@
       },
       "Iona": {
             "Efficiency": {
-                  "Element": 6.25,
-                  "Type": 22.77
+                  "Element": 22.77,
+                  "Type": 6.25
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S2_Recovery",
-                              "3"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "12"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "CD_Recieved",
                               "3"
@@ -2873,6 +2975,16 @@
                         [
                               "Lost_HP_SPD_up",
                               "6"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_Recovery",
+                              "3"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "12"
                         ]
                   ]
             },
@@ -2900,29 +3012,11 @@
       },
       "Jeanne": {
             "Efficiency": {
-                  "Element": 50.6,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 50.6
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S1_Recovery",
-                              "11"
-                        ],
-                        [
-                              "S1_ACC",
-                              "4"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "8"
-                        ],
-                        [
-                              "Lost_HP_SPD_up",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_SPD",
                               "62"
@@ -2939,6 +3033,24 @@
                               "ADL_DMG_HP",
                               "0.1"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_Recovery",
+                              "11"
+                        ],
+                        [
+                              "S1_ACC",
+                              "4"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "8"
+                        ],
+                        [
+                              "Lost_HP_SPD_up",
+                              "3"
+                        ]
                   ]
             },
             "Element": "light",
@@ -2954,25 +3066,11 @@
       },
       "Julie": {
             "Efficiency": {
-                  "Element": 15.62,
-                  "Type": 21.88
+                  "Element": 21.88,
+                  "Type": 15.62
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "HP_Revived",
-                              "4"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
-                              "5"
-                        ],
-                        [
-                              "DEF_INC_Effect",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Light",
                               "9"
@@ -2989,6 +3087,20 @@
                               "DMG_on_Water",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "HP_Revived",
+                              "4"
+                        ],
+                        [
+                              "ADL_DMG_ATK",
+                              "5"
+                        ],
+                        [
+                              "DEF_INC_Effect",
+                              "5"
+                        ]
                   ]
             },
             "Element": "water",
@@ -3003,29 +3115,11 @@
       },
       "Jultan": {
             "Efficiency": {
-                  "Element": 16.67,
-                  "Type": 41.96
+                  "Element": 41.96,
+                  "Type": 16.67
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ADL_DMG_HP",
-                              "0.4"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "8"
-                        ],
-                        [
-                              "Lost_HP_SPD_up",
-                              "12"
-                        ],
-                        [
-                              "DEF_INC_Effect",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Lost_HP_DEF_up",
                               "19"
@@ -3042,6 +3136,24 @@
                               "DMG_from_Dark",
                               "12"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_HP",
+                              "0.4"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "8"
+                        ],
+                        [
+                              "Lost_HP_SPD_up",
+                              "12"
+                        ],
+                        [
+                              "DEF_INC_Effect",
+                              "3"
+                        ]
                   ]
             },
             "Element": "dark",
@@ -3057,25 +3169,11 @@
       },
       "Juno": {
             "Efficiency": {
-                  "Element": 47.92,
-                  "Type": 17.81
+                  "Element": 17.81,
+                  "Type": 47.92
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S1_CD",
-                              "14"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "6"
-                        ],
-                        [
-                              "S2_CD",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_on_Light",
                               "10"
@@ -3091,6 +3189,20 @@
                         [
                               "ADL_DMG_SPD",
                               "27"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_CD",
+                              "14"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "6"
+                        ],
+                        [
+                              "S2_CD",
+                              "5"
                         ]
                   ]
             },
@@ -3119,25 +3231,11 @@
       },
       "Kaki": {
             "Efficiency": {
-                  "Element": 28.75,
-                  "Type": 33.44
+                  "Element": 33.44,
+                  "Type": 28.75
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ATK_INC_Effect",
-                              "4"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
-                              "4"
-                        ],
-                        [
-                              "S1_ACC",
-                              "9"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DEF_INC_Effect",
                               "3"
@@ -3153,6 +3251,20 @@
                         [
                               "Life_Drain",
                               "7"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ATK_INC_Effect",
+                              "4"
+                        ],
+                        [
+                              "ADL_DMG_ATK",
+                              "4"
+                        ],
+                        [
+                              "S1_ACC",
+                              "9"
                         ]
                   ]
             },
@@ -3187,12 +3299,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "ADL_DMG_SPD",
-                              "23"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "Lost_HP_ATK_up",
                               "7"
                         ],
@@ -3203,6 +3309,12 @@
                         [
                               "ADL_DMG_ATK",
                               "7"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_SPD",
+                              "23"
                         ]
                   ]
             },
@@ -3238,29 +3350,11 @@
       },
       "Khali": {
             "Efficiency": {
-                  "Element": 35.42,
-                  "Type": 31.25
+                  "Element": 31.25,
+                  "Type": 35.42
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "CD_as_HP_is_Good",
-                              "5"
-                        ],
-                        [
-                              "S2_CD",
-                              "12"
-                        ],
-                        [
-                              "Lost_HP_DEF_up",
-                              "52"
-                        ],
-                        [
-                              "S4_CD",
-                              "4"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_on_Dark",
                               "5"
@@ -3277,6 +3371,24 @@
                               "Bomb_DMG",
                               "3"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "CD_as_HP_is_Good",
+                              "5"
+                        ],
+                        [
+                              "S2_CD",
+                              "12"
+                        ],
+                        [
+                              "Lost_HP_DEF_up",
+                              "52"
+                        ],
+                        [
+                              "S4_CD",
+                              "4"
+                        ]
                   ]
             },
             "Element": "fire",
@@ -3291,25 +3403,11 @@
       },
       "Khmun": {
             "Efficiency": {
-                  "Element": 3.57,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 3.57
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Counter_DMG",
-                              "6"
-                        ],
-                        [
-                              "Lost_HP_DEF_up",
-                              "4"
-                        ],
-                        [
-                              "Lost_HP_ATK_up",
-                              "13"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Life_Drain",
                               "15"
@@ -3325,6 +3423,20 @@
                         [
                               "Bomb_DMG",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Counter_DMG",
+                              "6"
+                        ],
+                        [
+                              "Lost_HP_DEF_up",
+                              "4"
+                        ],
+                        [
+                              "Lost_HP_ATK_up",
+                              "13"
                         ]
                   ]
             },
@@ -3353,29 +3465,11 @@
       },
       "Kro": {
             "Efficiency": {
-                  "Element": 27.5,
-                  "Type": 9.38
+                  "Element": 9.38,
+                  "Type": 27.5
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ATK_INC_Effect",
-                              "6"
-                        ],
-                        [
-                              "DEF_INC_Effect",
-                              "9"
-                        ],
-                        [
-                              "S1_CD",
-                              "3"
-                        ],
-                        [
-                              "S3_CD",
-                              "6"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Lost_HP_DEF_up",
                               "8"
@@ -3391,6 +3485,24 @@
                         [
                               "ADL_DMG_SPD",
                               "23"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ATK_INC_Effect",
+                              "6"
+                        ],
+                        [
+                              "DEF_INC_Effect",
+                              "9"
+                        ],
+                        [
+                              "S1_CD",
+                              "3"
+                        ],
+                        [
+                              "S3_CD",
+                              "6"
                         ]
                   ]
             },
@@ -3427,29 +3539,11 @@
       },
       "Lagmaron": {
             "Efficiency": {
-                  "Element": 68.75,
-                  "Type": 12.5
+                  "Element": 12.5,
+                  "Type": 68.75
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S2_CD",
-                              "22"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "26"
-                        ],
-                        [
-                              "Single_TGT_CD",
-                              "4"
-                        ],
-                        [
-                              "SPD_INC_Effect",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Lost_HP_ATK_up",
                               "33"
@@ -3464,6 +3558,24 @@
                         ],
                         [
                               "ATK_Bar_Revived",
+                              "5"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_CD",
+                              "22"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "26"
+                        ],
+                        [
+                              "Single_TGT_CD",
+                              "4"
+                        ],
+                        [
+                              "SPD_INC_Effect",
                               "5"
                         ]
                   ]
@@ -3529,29 +3641,11 @@
       },
       "Loren": {
             "Efficiency": {
-                  "Element": 4.46,
-                  "Type": 9.38
+                  "Element": 9.38,
+                  "Type": 4.46
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S1_CD",
-                              "5"
-                        ],
-                        [
-                              "Life_Drain",
-                              "8"
-                        ],
-                        [
-                              "Lost_HP_DEF_up",
-                              "5"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
-                              "4"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_ATK",
                               "7"
@@ -3567,6 +3661,24 @@
                         [
                               "CD_Recieved",
                               "3"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_CD",
+                              "5"
+                        ],
+                        [
+                              "Life_Drain",
+                              "8"
+                        ],
+                        [
+                              "Lost_HP_DEF_up",
+                              "5"
+                        ],
+                        [
+                              "ADL_DMG_ATK",
+                              "4"
                         ]
                   ]
             },
@@ -3607,11 +3719,21 @@
       },
       "Luer": {
             "Efficiency": {
-                  "Element": 13.39,
-                  "Type": 12.5
+                  "Element": 12.5,
+                  "Type": 13.39
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "Teamup_DMG",
+                              "2"
+                        ],
+                        [
+                              "DMG_on_Water",
+                              "5"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "Bomb_DMG",
                               "3"
@@ -3626,16 +3748,6 @@
                         ],
                         [
                               "S3_Recovery",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "Teamup_DMG",
-                              "2"
-                        ],
-                        [
-                              "DMG_on_Water",
                               "5"
                         ]
                   ]
@@ -3655,21 +3767,11 @@
       },
       "Lulu": {
             "Efficiency": {
-                  "Element": 0.0,
-                  "Type": 14.58
+                  "Element": 14.58,
+                  "Type": 0.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ADL_DMG_HP",
-                              "0.1"
-                        ],
-                        [
-                              "Lost_HP_ATK_up",
-                              "13"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Wind",
                               "7"
@@ -3685,6 +3787,16 @@
                         [
                               "DMG_on_Fire",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_HP",
+                              "0.1"
+                        ],
+                        [
+                              "Lost_HP_ATK_up",
+                              "13"
                         ]
                   ]
             },
@@ -3703,11 +3815,25 @@
       },
       "Lushen": {
             "Efficiency": {
-                  "Element": 20.83,
-                  "Type": 45.0
+                  "Element": 45.0,
+                  "Type": 20.83
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "DMG_from_Light",
+                              "9"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "13"
+                        ],
+                        [
+                              "ADL_DMG_ATK",
+                              "4"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "ADL_DMG_HP",
                               "0.4"
@@ -3722,20 +3848,6 @@
                         ],
                         [
                               "S1_CD",
-                              "4"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "DMG_from_Light",
-                              "9"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "13"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
                               "4"
                         ]
                   ]
@@ -3770,24 +3882,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "S2_CD",
-                              "10"
-                        ],
-                        [
-                              "Life_Drain",
-                              "10"
-                        ],
-                        [
-                              "ATK_Bar_Revived",
-                              "7"
-                        ],
-                        [
-                              "CD_as_HP_is_Bad",
-                              "8"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "Lost_HP_ATK_up",
                               "16"
                         ],
@@ -3803,6 +3897,24 @@
                               "ATK_Bar_Revived",
                               "1"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_CD",
+                              "10"
+                        ],
+                        [
+                              "Life_Drain",
+                              "10"
+                        ],
+                        [
+                              "ATK_Bar_Revived",
+                              "7"
+                        ],
+                        [
+                              "CD_as_HP_is_Bad",
+                              "8"
+                        ]
                   ]
             },
             "Element": "water",
@@ -3817,29 +3929,11 @@
       },
       "Masha": {
             "Efficiency": {
-                  "Element": 26.04,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 26.04
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Single_TGT_CD",
-                              "3"
-                        ],
-                        [
-                              "S2_ACC",
-                              "8"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "8"
-                        ],
-                        [
-                              "S2_CD",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Fire",
                               "16"
@@ -3855,6 +3949,24 @@
                         [
                               "DMG_on_Wind",
                               "3"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Single_TGT_CD",
+                              "3"
+                        ],
+                        [
+                              "S2_ACC",
+                              "8"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "8"
+                        ],
+                        [
+                              "S2_CD",
+                              "5"
                         ]
                   ]
             },
@@ -3878,6 +3990,16 @@
             "Artifacts": {
                   "Element": [
                         [
+                              "ATK_INC_Effect",
+                              "9"
+                        ],
+                        [
+                              "DMG_on_Wind",
+                              "3"
+                        ]
+                  ],
+                  "Type": [
+                        [
                               "S3_Recovery",
                               "3"
                         ],
@@ -3893,44 +4015,16 @@
                               "S1_ACC",
                               "7"
                         ]
-                  ],
-                  "Type": [
-                        [
-                              "ATK_INC_Effect",
-                              "9"
-                        ],
-                        [
-                              "DMG_on_Wind",
-                              "3"
-                        ]
                   ]
             }
       },
       "Megan": {
             "Efficiency": {
-                  "Element": 11.61,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 11.61
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Lost_HP_SPD_up",
-                              "13"
-                        ],
-                        [
-                              "S1_ACC",
-                              "11"
-                        ],
-                        [
-                              "Lost_HP_ATK_up",
-                              "3"
-                        ],
-                        [
-                              "Life_Drain",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_HP",
                               "0.4"
@@ -3947,6 +4041,24 @@
                               "DEF_INC_Effect",
                               "5"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_SPD_up",
+                              "13"
+                        ],
+                        [
+                              "S1_ACC",
+                              "11"
+                        ],
+                        [
+                              "Lost_HP_ATK_up",
+                              "3"
+                        ],
+                        [
+                              "Life_Drain",
+                              "3"
+                        ]
                   ]
             },
             "Element": "water",
@@ -3961,29 +4073,11 @@
       },
       "Mei_Hou_Wang": {
             "Efficiency": {
-                  "Element": 27.23,
-                  "Type": 12.5
+                  "Element": 12.5,
+                  "Type": 27.23
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Lost_HP_SPD_up",
-                              "13"
-                        ],
-                        [
-                              "S1_CD",
-                              "9"
-                        ],
-                        [
-                              "S2_Recovery",
-                              "3"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_HP",
                               "0.1"
@@ -3999,6 +4093,24 @@
                         [
                               "DMG_from_Light",
                               "5"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_SPD_up",
+                              "13"
+                        ],
+                        [
+                              "S1_CD",
+                              "9"
+                        ],
+                        [
+                              "S2_Recovery",
+                              "3"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "3"
                         ]
                   ]
             },
@@ -4017,29 +4129,11 @@
       },
       "Melissa": {
             "Efficiency": {
-                  "Element": 0.0,
-                  "Type": 48.75
+                  "Element": 48.75,
+                  "Type": 0.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ADL_DMG_HP",
-                              "0.3"
-                        ],
-                        [
-                              "ATK_Bar_Revived",
-                              "8"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "8"
-                        ],
-                        [
-                              "CD_as_HP_is_Bad",
-                              "19"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_on_Dark",
                               "3"
@@ -4056,6 +4150,24 @@
                               "ADL_DMG_DEF",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_HP",
+                              "0.3"
+                        ],
+                        [
+                              "ATK_Bar_Revived",
+                              "8"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "8"
+                        ],
+                        [
+                              "CD_as_HP_is_Bad",
+                              "19"
+                        ]
                   ]
             },
             "Element": "wind",
@@ -4070,11 +4182,25 @@
       },
       "Mellia": {
             "Efficiency": {
-                  "Element": 12.5,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 12.5
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "DMG_on_Wind",
+                              "2"
+                        ],
+                        [
+                              "DMG_on_Dark",
+                              "11"
+                        ],
+                        [
+                              "HP_Revived",
+                              "3"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "Lost_HP_ATK_up",
                               "17"
@@ -4091,20 +4217,6 @@
                               "S2_ACC",
                               "6"
                         ]
-                  ],
-                  "Type": [
-                        [
-                              "DMG_on_Wind",
-                              "2"
-                        ],
-                        [
-                              "DMG_on_Dark",
-                              "11"
-                        ],
-                        [
-                              "HP_Revived",
-                              "3"
-                        ]
                   ]
             },
             "Element": "wind",
@@ -4120,11 +4232,21 @@
       },
       "Miho": {
             "Efficiency": {
-                  "Element": 9.38,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 9.38
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "DMG_on_Light",
+                              "4"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "2"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "Lost_HP_DEF_up",
                               "5"
@@ -4140,16 +4262,6 @@
                         [
                               "CD_Recieved",
                               "4"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "DMG_on_Light",
-                              "4"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "2"
                         ]
                   ]
             },
@@ -4173,24 +4285,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "ADL_DMG_ATK",
-                              "8"
-                        ],
-                        [
-                              "Bomb_DMG",
-                              "4"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "11"
-                        ],
-                        [
-                              "Lost_HP_SPD_up",
-                              "9"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "DMG_from_Water",
                               "5"
                         ],
@@ -4206,34 +4300,34 @@
                               "DEF_INC_Effect",
                               "2"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_ATK",
+                              "8"
+                        ],
+                        [
+                              "Bomb_DMG",
+                              "4"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "11"
+                        ],
+                        [
+                              "Lost_HP_SPD_up",
+                              "9"
+                        ]
                   ]
             }
       },
       "Mina": {
             "Efficiency": {
-                  "Element": 6.25,
-                  "Type": 12.5
+                  "Element": 12.5,
+                  "Type": 6.25
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Lost_HP_SPD_up",
-                              "23"
-                        ],
-                        [
-                              "S3_CD",
-                              "11"
-                        ],
-                        [
-                              "Single_TGT_CD",
-                              "2"
-                        ],
-                        [
-                              "Teamup_DMG",
-                              "9"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_SPD",
                               "98"
@@ -4250,6 +4344,24 @@
                               "DMG_from_Water",
                               "14"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_SPD_up",
+                              "23"
+                        ],
+                        [
+                              "S3_CD",
+                              "11"
+                        ],
+                        [
+                              "Single_TGT_CD",
+                              "2"
+                        ],
+                        [
+                              "Teamup_DMG",
+                              "9"
+                        ]
                   ]
             },
             "Element": "water",
@@ -4265,11 +4377,25 @@
       },
       "Mo_Long": {
             "Efficiency": {
-                  "Element": 45.54,
-                  "Type": 12.5
+                  "Element": 12.5,
+                  "Type": 45.54
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "DMG_from_Water",
+                              "15"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.3"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "4"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "S2_ACC",
                               "12"
@@ -4285,20 +4411,6 @@
                         [
                               "ADL_DMG_HP",
                               "0.3"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "DMG_from_Water",
-                              "15"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.3"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "4"
                         ]
                   ]
             },
@@ -4324,20 +4436,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "ADL_DMG_DEF",
-                              "8"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.4"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "59"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "ADL_DMG_HP",
                               "0.5"
                         ],
@@ -4353,16 +4451,44 @@
                               "ADL_DMG_SPD",
                               "26"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_DEF",
+                              "8"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.4"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "59"
+                        ]
                   ]
             }
       },
       "Moore": {
             "Efficiency": {
-                  "Element": 0.0,
-                  "Type": 17.71
+                  "Element": 17.71,
+                  "Type": 0.0
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "Counter_DMG",
+                              "3"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.2"
+                        ],
+                        [
+                              "ADL_DMG_ATK",
+                              "3"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "DEF_INC_Effect",
                               "2"
@@ -4378,20 +4504,6 @@
                         [
                               "CD_Recieved",
                               "2"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "Counter_DMG",
-                              "3"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.2"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
-                              "3"
                         ]
                   ]
             },
@@ -4420,25 +4532,11 @@
       },
       "Ophilia": {
             "Efficiency": {
-                  "Element": 10.27,
-                  "Type": 15.62
+                  "Element": 15.62,
+                  "Type": 10.27
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "CD_Recieved",
-                              "1"
-                        ],
-                        [
-                              "Lost_HP_DEF_up",
-                              "8"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.1"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "SPD_INC_Effect",
                               "12"
@@ -4454,6 +4552,20 @@
                         [
                               "DMG_on_Water",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "CD_Recieved",
+                              "1"
+                        ],
+                        [
+                              "Lost_HP_DEF_up",
+                              "8"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.1"
                         ]
                   ]
             },
@@ -4497,24 +4609,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "ADL_DMG_ATK",
-                              "4"
-                        ],
-                        [
-                              "S3_CD",
-                              "6"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.5"
-                        ],
-                        [
-                              "S2_Recovery",
-                              "16"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "DMG_from_Water",
                               "9"
                         ],
@@ -4530,30 +4624,34 @@
                               "Lost_HP_ATK_up",
                               "9"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_ATK",
+                              "4"
+                        ],
+                        [
+                              "S3_CD",
+                              "6"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.5"
+                        ],
+                        [
+                              "S2_Recovery",
+                              "16"
+                        ]
                   ]
             }
       },
       "Perna": {
             "Efficiency": {
-                  "Element": 25.0,
-                  "Type": 4.46
+                  "Element": 4.46,
+                  "Type": 25.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S1_ACC",
-                              "3"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "3"
-                        ],
-                        [
-                              "S2_CD",
-                              "6"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Water",
                               "12"
@@ -4569,6 +4667,20 @@
                         [
                               "Lost_HP_ATK_up",
                               "5"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_ACC",
+                              "3"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "3"
+                        ],
+                        [
+                              "S2_CD",
+                              "6"
                         ]
                   ]
             },
@@ -4594,20 +4706,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "CD_Recieved",
-                              "3"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "5"
-                        ],
-                        [
-                              "S3_CD",
-                              "6"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "ADL_DMG_DEF",
                               "4"
                         ],
@@ -4619,34 +4717,30 @@
                               "ADL_DMG_SPD",
                               "60"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "CD_Recieved",
+                              "3"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "5"
+                        ],
+                        [
+                              "S3_CD",
+                              "6"
+                        ]
                   ]
             }
       },
       "Praha": {
             "Efficiency": {
-                  "Element": 52.08,
-                  "Type": 27.81
+                  "Element": 27.81,
+                  "Type": 52.08
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S3_ACC",
-                              "5"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "5"
-                        ],
-                        [
-                              "S2_ACC",
-                              "20"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Wind",
                               "14"
@@ -4663,6 +4757,24 @@
                               "Lost_HP_DEF_up",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S3_ACC",
+                              "5"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "5"
+                        ],
+                        [
+                              "S2_ACC",
+                              "20"
+                        ],
+                        [
+                              "ADL_DMG_ATK",
+                              "3"
+                        ]
                   ]
             },
             "Element": "water",
@@ -4677,29 +4789,11 @@
       },
       "Racuni": {
             "Efficiency": {
-                  "Element": 31.55,
-                  "Type": 34.38
+                  "Element": 34.38,
+                  "Type": 31.55
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S3_Recovery",
-                              "10"
-                        ],
-                        [
-                              "Lost_HP_ATK_up",
-                              "12"
-                        ],
-                        [
-                              "Lost_HP_DEF_up",
-                              "12"
-                        ],
-                        [
-                              "S1_CD",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_DEF",
                               "8"
@@ -4716,6 +4810,24 @@
                               "CD_Recieved",
                               "1"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S3_Recovery",
+                              "10"
+                        ],
+                        [
+                              "Lost_HP_ATK_up",
+                              "12"
+                        ],
+                        [
+                              "Lost_HP_DEF_up",
+                              "12"
+                        ],
+                        [
+                              "S1_CD",
+                              "3"
+                        ]
                   ]
             },
             "Element": "fire",
@@ -4730,29 +4842,11 @@
       },
       "Rica": {
             "Efficiency": {
-                  "Element": 46.77,
-                  "Type": 53.02
+                  "Element": 53.02,
+                  "Type": 46.77
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S3_ACC",
-                              "14"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.2"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
-                              "7"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "53"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Water",
                               "8"
@@ -4768,6 +4862,24 @@
                         [
                               "DMG_on_Fire",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S3_ACC",
+                              "14"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.2"
+                        ],
+                        [
+                              "ADL_DMG_ATK",
+                              "7"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "53"
                         ]
                   ]
             },
@@ -4793,6 +4905,20 @@
                   "Element": [
                         [
                               "CD_Recieved",
+                              "4"
+                        ],
+                        [
+                              "ATK_Bar_Revived",
+                              "4"
+                        ],
+                        [
+                              "DMG_from_Wind",
+                              "14"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "CD_Recieved",
                               "2"
                         ],
                         [
@@ -4807,20 +4933,6 @@
                               "S1_ACC",
                               "14"
                         ]
-                  ],
-                  "Type": [
-                        [
-                              "CD_Recieved",
-                              "4"
-                        ],
-                        [
-                              "ATK_Bar_Revived",
-                              "4"
-                        ],
-                        [
-                              "DMG_from_Wind",
-                              "14"
-                        ]
                   ]
             }
       },
@@ -4832,6 +4944,16 @@
             "Artifacts": {
                   "Element": [
                         [
+                              "DMG_on_Wind",
+                              "10"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "3"
+                        ]
+                  ],
+                  "Type": [
+                        [
                               "Lost_HP_DEF_up",
                               "3"
                         ],
@@ -4841,16 +4963,6 @@
                         ],
                         [
                               "Counter_DMG",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "DMG_on_Wind",
-                              "10"
-                        ],
-                        [
-                              "ATK_INC_Effect",
                               "3"
                         ]
                   ]
@@ -4876,24 +4988,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "S1_ACC",
-                              "9"
-                        ],
-                        [
-                              "Counter_DMG",
-                              "2"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.8"
-                        ],
-                        [
-                              "Teamup_DMG",
-                              "2"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "ATK_INC_Effect",
                               "6"
                         ],
@@ -4908,6 +5002,24 @@
                         [
                               "DMG_from_Wind",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_ACC",
+                              "9"
+                        ],
+                        [
+                              "Counter_DMG",
+                              "2"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.8"
+                        ],
+                        [
+                              "Teamup_DMG",
+                              "2"
                         ]
                   ]
             }
@@ -4926,29 +5038,11 @@
       },
       "Sabrina": {
             "Efficiency": {
-                  "Element": 37.5,
-                  "Type": 45.62
+                  "Element": 45.62,
+                  "Type": 37.5
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Single_TGT_CD",
-                              "3"
-                        ],
-                        [
-                              "Teamup_DMG",
-                              "9"
-                        ],
-                        [
-                              "S2_Recovery",
-                              "10"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Lost_HP_DEF_up",
                               "33"
@@ -4965,6 +5059,24 @@
                               "ADL_DMG_ATK",
                               "2"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "Single_TGT_CD",
+                              "3"
+                        ],
+                        [
+                              "Teamup_DMG",
+                              "9"
+                        ],
+                        [
+                              "S2_Recovery",
+                              "10"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "3"
+                        ]
                   ]
             },
             "Element": "water",
@@ -4980,25 +5092,11 @@
       },
       "Sath": {
             "Efficiency": {
-                  "Element": 18.75,
-                  "Type": 26.49
+                  "Element": 26.49,
+                  "Type": 18.75
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ADL_DMG_SPD",
-                              "85"
-                        ],
-                        [
-                              "HP_Revived",
-                              "3"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "6"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Water",
                               "11"
@@ -5010,6 +5108,20 @@
                         [
                               "Lost_HP_DEF_up",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_SPD",
+                              "85"
+                        ],
+                        [
+                              "HP_Revived",
+                              "3"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "6"
                         ]
                   ]
             },
@@ -5026,29 +5138,11 @@
       },
       "Seara": {
             "Efficiency": {
-                  "Element": 79.17,
-                  "Type": 44.38
+                  "Element": 44.38,
+                  "Type": 79.17
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ADL_DMG_ATK",
-                              "4"
-                        ],
-                        [
-                              "S1_CD",
-                              "10"
-                        ],
-                        [
-                              "S2_ACC",
-                              "10"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.6"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Single_TGT_CD",
                               "5"
@@ -5065,6 +5159,24 @@
                               "DMG_on_Fire",
                               "3"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_ATK",
+                              "4"
+                        ],
+                        [
+                              "S1_CD",
+                              "10"
+                        ],
+                        [
+                              "S2_ACC",
+                              "10"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.6"
+                        ]
                   ]
             },
             "Element": "wind",
@@ -5080,11 +5192,21 @@
       },
       "Sekmet": {
             "Efficiency": {
-                  "Element": 72.92,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 72.92
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "DMG_from_Water",
+                              "6"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "12"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "S3_CD",
                               "14"
@@ -5100,16 +5222,6 @@
                         [
                               "S3_ACC",
                               "7"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "DMG_from_Water",
-                              "6"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "12"
                         ]
                   ]
             },
@@ -5144,29 +5256,11 @@
       },
       "Shamann": {
             "Efficiency": {
-                  "Element": 38.69,
-                  "Type": 37.5
+                  "Element": 37.5,
+                  "Type": 38.69
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S1_Recovery",
-                              "10"
-                        ],
-                        [
-                              "Lost_HP_SPD_up",
-                              "20"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.3"
-                        ],
-                        [
-                              "SPD_INC_Effect",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_ATK",
                               "3"
@@ -5182,6 +5276,24 @@
                         [
                               "Lost_HP_ATK_up",
                               "10"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_Recovery",
+                              "10"
+                        ],
+                        [
+                              "Lost_HP_SPD_up",
+                              "20"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.3"
+                        ],
+                        [
+                              "SPD_INC_Effect",
+                              "5"
                         ]
                   ]
             },
@@ -5205,24 +5317,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "S2_CD",
-                              "13"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "7"
-                        ],
-                        [
-                              "SPD_INC_Effect",
-                              "5"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "1"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "DMG_from_Light",
                               "4"
                         ],
@@ -5237,6 +5331,24 @@
                         [
                               "DMG_from_Dark",
                               "6"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_CD",
+                              "13"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "7"
+                        ],
+                        [
+                              "SPD_INC_Effect",
+                              "5"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "1"
                         ]
                   ]
             },
@@ -5253,29 +5365,11 @@
       },
       "Shimitae": {
             "Efficiency": {
-                  "Element": 56.25,
-                  "Type": 36.25
+                  "Element": 36.25,
+                  "Type": 56.25
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "CD_Recieved",
-                              "4"
-                        ],
-                        [
-                              "S2_CD",
-                              "6"
-                        ],
-                        [
-                              "S3_ACC",
-                              "15"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_ATK",
                               "6"
@@ -5292,6 +5386,24 @@
                               "DMG_on_Water",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "CD_Recieved",
+                              "4"
+                        ],
+                        [
+                              "S2_CD",
+                              "6"
+                        ],
+                        [
+                              "S3_ACC",
+                              "15"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "5"
+                        ]
                   ]
             },
             "Element": "wind",
@@ -5307,25 +5419,11 @@
       },
       "Sian": {
             "Efficiency": {
-                  "Element": 0.0,
-                  "Type": 8.33
+                  "Element": 8.33,
+                  "Type": 0.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "CD_Recieved",
-                              "3"
-                        ],
-                        [
-                              "S1_Recovery",
-                              "3"
-                        ],
-                        [
-                              "S1_ACC",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "HP_Revived",
                               "2"
@@ -5341,6 +5439,20 @@
                         [
                               "ATK_Bar_Revived",
                               "2"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "CD_Recieved",
+                              "3"
+                        ],
+                        [
+                              "S1_Recovery",
+                              "3"
+                        ],
+                        [
+                              "S1_ACC",
+                              "3"
                         ]
                   ]
             },
@@ -5362,20 +5474,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "ADL_DMG_HP",
-                              "0.6"
-                        ],
-                        [
-                              "Teamup_DMG",
-                              "3"
-                        ],
-                        [
-                              "Bomb_DMG",
-                              "4"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "Bomb_DMG",
                               "8"
                         ],
@@ -5389,6 +5487,20 @@
                         ],
                         [
                               "Teamup_DMG",
+                              "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_HP",
+                              "0.6"
+                        ],
+                        [
+                              "Teamup_DMG",
+                              "3"
+                        ],
+                        [
+                              "Bomb_DMG",
                               "4"
                         ]
                   ]
@@ -5419,29 +5531,11 @@
       },
       "Skogul": {
             "Efficiency": {
-                  "Element": 3.57,
-                  "Type": 18.45
+                  "Element": 18.45,
+                  "Type": 3.57
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Lost_HP_SPD_up",
-                              "4"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "39"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "15"
-                        ],
-                        [
-                              "ATK_Bar_Revived",
-                              "2"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_on_Light",
                               "5"
@@ -5457,6 +5551,24 @@
                         [
                               "Lost_HP_ATK_up",
                               "10"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_SPD_up",
+                              "4"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "39"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "15"
+                        ],
+                        [
+                              "ATK_Bar_Revived",
+                              "2"
                         ]
                   ]
             },
@@ -5485,29 +5597,11 @@
       },
       "Stella": {
             "Efficiency": {
-                  "Element": 16.25,
-                  "Type": 34.38
+                  "Element": 34.38,
+                  "Type": 16.25
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Teamup_DMG",
-                              "5"
-                        ],
-                        [
-                              "ADL_DMG_ATK",
-                              "2"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "5"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "32"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_ATK",
                               "3"
@@ -5523,6 +5617,24 @@
                         [
                               "Lost_HP_ATK_up",
                               "13"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Teamup_DMG",
+                              "5"
+                        ],
+                        [
+                              "ADL_DMG_ATK",
+                              "2"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "5"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "32"
                         ]
                   ]
             },
@@ -5541,25 +5653,11 @@
       },
       "Suiki": {
             "Efficiency": {
-                  "Element": 0.0,
-                  "Type": 6.25
+                  "Element": 6.25,
+                  "Type": 0.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ADL_DMG_SPD",
-                              "57"
-                        ],
-                        [
-                              "Teamup_DMG",
-                              "2"
-                        ],
-                        [
-                              "S2_Recovery",
-                              "10"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_DEF",
                               "4"
@@ -5571,6 +5669,20 @@
                         [
                               "DMG_on_Water",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_SPD",
+                              "57"
+                        ],
+                        [
+                              "Teamup_DMG",
+                              "2"
+                        ],
+                        [
+                              "S2_Recovery",
+                              "10"
                         ]
                   ]
             },
@@ -5593,20 +5705,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "ADL_DMG_SPD",
-                              "114"
-                        ],
-                        [
-                              "Life_Drain",
-                              "2"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "DMG_from_Fire",
                               "6"
                         ],
@@ -5621,6 +5719,20 @@
                         [
                               "ATK_Bar_Revived",
                               "1"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_SPD",
+                              "114"
+                        ],
+                        [
+                              "Life_Drain",
+                              "2"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "3"
                         ]
                   ]
             },
@@ -5645,24 +5757,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "Teamup_DMG",
-                              "6"
-                        ],
-                        [
-                              "Life_Drain",
-                              "8"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "104"
-                        ],
-                        [
-                              "Lost_HP_DEF_up",
-                              "10"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "Life_Drain",
                               "9"
                         ],
@@ -5678,30 +5772,34 @@
                               "ATK_INC_Effect",
                               "5"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "Teamup_DMG",
+                              "6"
+                        ],
+                        [
+                              "Life_Drain",
+                              "8"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "104"
+                        ],
+                        [
+                              "Lost_HP_DEF_up",
+                              "10"
+                        ]
                   ]
             }
       },
       "Tatu": {
             "Efficiency": {
-                  "Element": 25.0,
-                  "Type": 20.83
+                  "Element": 20.83,
+                  "Type": 25.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S2_CD",
-                              "7"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "8"
-                        ],
-                        [
-                              "ATK_Bar_Revived",
-                              "2"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Water",
                               "10"
@@ -5718,6 +5816,20 @@
                               "DMG_from_Dark",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_CD",
+                              "7"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "8"
+                        ],
+                        [
+                              "ATK_Bar_Revived",
+                              "2"
+                        ]
                   ]
             },
             "Element": "fire",
@@ -5733,25 +5845,11 @@
       },
       "Teon": {
             "Efficiency": {
-                  "Element": 27.08,
-                  "Type": 23.57
+                  "Element": 23.57,
+                  "Type": 27.08
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Lost_HP_ATK_up",
-                              "5"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "13"
-                        ],
-                        [
-                              "SPD_INC_Effect",
-                              "4"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_SPD",
                               "25"
@@ -5766,6 +5864,20 @@
                         ],
                         [
                               "Lost_HP_DEF_up",
+                              "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_ATK_up",
+                              "5"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "13"
+                        ],
+                        [
+                              "SPD_INC_Effect",
                               "4"
                         ]
                   ]
@@ -5783,29 +5895,11 @@
       },
       "Tesarion": {
             "Efficiency": {
-                  "Element": 29.17,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 29.17
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S2_ACC",
-                              "14"
-                        ],
-                        [
-                              "S3_ACC",
-                              "3"
-                        ],
-                        [
-                              "Lost_HP_DEF_up",
-                              "10"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ATK_INC_Effect",
                               "7"
@@ -5821,6 +5915,24 @@
                         [
                               "ADL_DMG_DEF",
                               "11"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_ACC",
+                              "14"
+                        ],
+                        [
+                              "S3_ACC",
+                              "3"
+                        ],
+                        [
+                              "Lost_HP_DEF_up",
+                              "10"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "5"
                         ]
                   ]
             },
@@ -5843,6 +5955,20 @@
             "Artifacts": {
                   "Element": [
                         [
+                              "Lost_HP_DEF_up",
+                              "11"
+                        ],
+                        [
+                              "Lost_HP_ATK_up",
+                              "5"
+                        ],
+                        [
+                              "ATK_Bar_Revived",
+                              "5"
+                        ]
+                  ],
+                  "Type": [
+                        [
                               "Counter_DMG",
                               "9"
                         ],
@@ -5858,20 +5984,6 @@
                               "ATK_Bar_Revived",
                               "4"
                         ]
-                  ],
-                  "Type": [
-                        [
-                              "Lost_HP_DEF_up",
-                              "11"
-                        ],
-                        [
-                              "Lost_HP_ATK_up",
-                              "5"
-                        ],
-                        [
-                              "ATK_Bar_Revived",
-                              "5"
-                        ]
                   ]
             },
             "Element": "wind",
@@ -5886,29 +5998,11 @@
       },
       "Tetra": {
             "Efficiency": {
-                  "Element": 38.54,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 38.54
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S3_Recovery",
-                              "11"
-                        ],
-                        [
-                              "S1_Recovery",
-                              "9"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "5"
-                        ],
-                        [
-                              "ADL_DMG_HP",
-                              "0.4"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_on_Light",
                               "4"
@@ -5925,6 +6019,24 @@
                               "DMG_from_Fire",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "S3_Recovery",
+                              "11"
+                        ],
+                        [
+                              "S1_Recovery",
+                              "9"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "5"
+                        ],
+                        [
+                              "ADL_DMG_HP",
+                              "0.4"
+                        ]
                   ]
             },
             "Element": "water",
@@ -5940,11 +6052,25 @@
       },
       "Theomars": {
             "Efficiency": {
-                  "Element": 45.0,
-                  "Type": 7.14
+                  "Element": 7.14,
+                  "Type": 45.0
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "Lost_HP_DEF_up",
+                              "11"
+                        ],
+                        [
+                              "Lost_HP_ATK_up",
+                              "8"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "25"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "ADL_DMG_SPD",
                               "65"
@@ -5960,20 +6086,6 @@
                         [
                               "ATK_INC_Effect",
                               "8"
-                        ]
-                  ],
-                  "Type": [
-                        [
-                              "Lost_HP_DEF_up",
-                              "11"
-                        ],
-                        [
-                              "Lost_HP_ATK_up",
-                              "8"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "25"
                         ]
                   ]
             },
@@ -5991,29 +6103,11 @@
       },
       "Tiana": {
             "Efficiency": {
-                  "Element": 19.79,
-                  "Type": 27.08
+                  "Element": 27.08,
+                  "Type": 19.79
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S1_CD",
-                              "6"
-                        ],
-                        [
-                              "S1_ACC",
-                              "5"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "3"
-                        ],
-                        [
-                              "Counter_DMG",
-                              "2"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "CD_as_HP_is_Bad",
                               "12"
@@ -6029,6 +6123,24 @@
                         [
                               "ADL_DMG_HP",
                               "0.2"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S1_CD",
+                              "6"
+                        ],
+                        [
+                              "S1_ACC",
+                              "5"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "3"
+                        ],
+                        [
+                              "Counter_DMG",
+                              "2"
                         ]
                   ]
             },
@@ -6052,24 +6164,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "ADL_DMG_HP",
-                              "0.7"
-                        ],
-                        [
-                              "S1_ACC",
-                              "10"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "6"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "2"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "DMG_on_Wind",
                               "7"
                         ],
@@ -6085,6 +6179,24 @@
                               "CD_as_HP_is_Good",
                               "13"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_HP",
+                              "0.7"
+                        ],
+                        [
+                              "S1_ACC",
+                              "10"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "6"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "2"
+                        ]
                   ]
             },
             "Element": "fire",
@@ -6099,25 +6211,11 @@
       },
       "Tractor": {
             "Efficiency": {
-                  "Element": 7.14,
-                  "Type": 12.5
+                  "Element": 12.5,
+                  "Type": 7.14
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "Lost_HP_DEF_up",
-                              "8"
-                        ],
-                        [
-                              "S2_ACC",
-                              "11"
-                        ],
-                        [
-                              "SPD_INC_Effect",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_DEF",
                               "4"
@@ -6129,6 +6227,20 @@
                         [
                               "DMG_on_Dark",
                               "3"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Lost_HP_DEF_up",
+                              "8"
+                        ],
+                        [
+                              "S2_ACC",
+                              "11"
+                        ],
+                        [
+                              "SPD_INC_Effect",
+                              "5"
                         ]
                   ]
             },
@@ -6147,25 +6259,11 @@
       },
       "Triana": {
             "Efficiency": {
-                  "Element": 0.0,
-                  "Type": 27.08
+                  "Element": 27.08,
+                  "Type": 0.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "HP_Revived",
-                              "5"
-                        ],
-                        [
-                              "Bomb_DMG",
-                              "3"
-                        ],
-                        [
-                              "ADL_DMG_SPD",
-                              "61"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Fire",
                               "9"
@@ -6177,6 +6275,20 @@
                         [
                               "DEF_INC_Effect",
                               "7"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "HP_Revived",
+                              "5"
+                        ],
+                        [
+                              "Bomb_DMG",
+                              "3"
+                        ],
+                        [
+                              "ADL_DMG_SPD",
+                              "61"
                         ]
                   ]
             },
@@ -6212,29 +6324,11 @@
       },
       "Tyron": {
             "Efficiency": {
-                  "Element": 18.75,
-                  "Type": 44.79
+                  "Element": 44.79,
+                  "Type": 18.75
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S2_CD",
-                              "8"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "8"
-                        ],
-                        [
-                              "S3_ACC",
-                              "9"
-                        ],
-                        [
-                              "CD_as_HP_is_Bad",
-                              "10"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "DMG_from_Water",
                               "14"
@@ -6250,6 +6344,24 @@
                         [
                               "Lost_HP_ATK_up",
                               "5"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_CD",
+                              "8"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "8"
+                        ],
+                        [
+                              "S3_ACC",
+                              "9"
+                        ],
+                        [
+                              "CD_as_HP_is_Bad",
+                              "10"
                         ]
                   ]
             },
@@ -6267,29 +6379,11 @@
       },
       "Verdehile": {
             "Efficiency": {
-                  "Element": 0.0,
-                  "Type": 29.46
+                  "Element": 29.46,
+                  "Type": 0.0
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "ADL_DMG_ATK",
-                              "2"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "6"
-                        ],
-                        [
-                              "Teamup_DMG",
-                              "6"
-                        ],
-                        [
-                              "S1_CD",
-                              "5"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "Lost_HP_SPD_up",
                               "19"
@@ -6306,6 +6400,24 @@
                               "CD_Recieved",
                               "4"
                         ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_ATK",
+                              "2"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "6"
+                        ],
+                        [
+                              "Teamup_DMG",
+                              "6"
+                        ],
+                        [
+                              "S1_CD",
+                              "5"
+                        ]
                   ]
             },
             "Element": "fire",
@@ -6321,11 +6433,25 @@
       },
       "Veromos": {
             "Efficiency": {
-                  "Element": 20.54,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 20.54
             },
             "Artifacts": {
                   "Element": [
+                        [
+                              "DMG_from_Fire",
+                              "14"
+                        ],
+                        [
+                              "ATK_Bar_Revived",
+                              "4"
+                        ],
+                        [
+                              "ADL_DMG_DEF",
+                              "6"
+                        ]
+                  ],
+                  "Type": [
                         [
                               "ADL_DMG_HP",
                               "0.2"
@@ -6342,20 +6468,6 @@
                               "S3_Recovery",
                               "6"
                         ]
-                  ],
-                  "Type": [
-                        [
-                              "DMG_from_Fire",
-                              "14"
-                        ],
-                        [
-                              "ATK_Bar_Revived",
-                              "4"
-                        ],
-                        [
-                              "ADL_DMG_DEF",
-                              "6"
-                        ]
                   ]
             },
             "Element": "dark",
@@ -6370,25 +6482,11 @@
       },
       "Vigor": {
             "Efficiency": {
-                  "Element": 12.5,
-                  "Type": 0.0
+                  "Element": 0.0,
+                  "Type": 12.5
             },
             "Artifacts": {
                   "Element": [
-                        [
-                              "S2_Recovery",
-                              "6"
-                        ],
-                        [
-                              "S3_CD",
-                              "5"
-                        ],
-                        [
-                              "DEF_INC_Effect",
-                              "3"
-                        ]
-                  ],
-                  "Type": [
                         [
                               "ADL_DMG_DEF",
                               "6"
@@ -6404,6 +6502,20 @@
                         [
                               "DMG_on_Fire",
                               "4"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "S2_Recovery",
+                              "6"
+                        ],
+                        [
+                              "S3_CD",
+                              "5"
+                        ],
+                        [
+                              "DEF_INC_Effect",
+                              "3"
                         ]
                   ]
             },
@@ -6428,16 +6540,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "DEF_INC_Effect",
-                              "4"
-                        ],
-                        [
-                              "CD_Recieved",
-                              "2"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "Lost_HP_SPD_up",
                               "5"
                         ],
@@ -6448,6 +6550,16 @@
                         [
                               "Lost_HP_ATK_up",
                               "5"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "DEF_INC_Effect",
+                              "4"
+                        ],
+                        [
+                              "CD_Recieved",
+                              "2"
                         ]
                   ]
             }
@@ -6474,20 +6586,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "ADL_DMG_SPD",
-                              "94"
-                        ],
-                        [
-                              "S3_Recovery",
-                              "5"
-                        ],
-                        [
-                              "ATK_INC_Effect",
-                              "2"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "HP_Revived",
                               "4"
                         ],
@@ -6498,6 +6596,20 @@
                         [
                               "DMG_from_Fire",
                               "9"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "ADL_DMG_SPD",
+                              "94"
+                        ],
+                        [
+                              "S3_Recovery",
+                              "5"
+                        ],
+                        [
+                              "ATK_INC_Effect",
+                              "2"
                         ]
                   ]
             }
@@ -6524,24 +6636,6 @@
             "Artifacts": {
                   "Element": [
                         [
-                              "Single_TGT_CD",
-                              "7"
-                        ],
-                        [
-                              "CD_as_HP_is_Good",
-                              "15"
-                        ],
-                        [
-                              "Counter_DMG",
-                              "4"
-                        ],
-                        [
-                              "S1_CD",
-                              "7"
-                        ]
-                  ],
-                  "Type": [
-                        [
                               "ADL_DMG_DEF",
                               "6"
                         ],
@@ -6556,6 +6650,24 @@
                         [
                               "ATK_INC_Effect",
                               "2"
+                        ]
+                  ],
+                  "Type": [
+                        [
+                              "Single_TGT_CD",
+                              "7"
+                        ],
+                        [
+                              "CD_as_HP_is_Good",
+                              "15"
+                        ],
+                        [
+                              "Counter_DMG",
+                              "4"
+                        ],
+                        [
+                              "S1_CD",
+                              "7"
                         ]
                   ]
             }

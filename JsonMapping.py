@@ -209,6 +209,23 @@ Mapping_Dict = dict(
         (220, "ADL_DMG_DEF"),
         (221, "ADL_DMG_SPD"),
         (214, "CD_Recieved")
+    ]),
+    Artifact_Type = dict([
+        (1, "Element"),
+        (2, "Type")
+    ]),
+    Elements = dict([
+        (1, "water"),
+        (2, "fire"),
+        (3, "wind"),
+        (4, "light"),
+        (5, "dark")
+    ]),
+    Types = dict([
+        (1, "attack"),
+        (2, "def"),
+        (3, "hp"),
+        (4, "support"),
     ])
 )
 

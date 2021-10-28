@@ -1,0 +1,6740 @@
+[
+      {
+            "Rolls": 0,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "12"
+                  ],
+                  [
+                        "S2_Recovery",
+                        "15"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ],
+                  [
+                        "S3_CD",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ],
+                  [
+                        "S3_CD",
+                        "6"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "2"
+                  ],
+                  [
+                        "Life_Drain",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "28"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "S2_Recovery",
+                        "5"
+                  ],
+                  [
+                        "S1_CD",
+                        "4"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "4"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "4"
+                  ],
+                  [
+                        "S3_ACC",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 2,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ],
+                  [
+                        "S2_Recovery",
+                        "9"
+                  ],
+                  [
+                        "S2_ACC",
+                        "6"
+                  ],
+                  [
+                        "S1_CD",
+                        "9"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Good",
+                        "4"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "4"
+                  ],
+                  [
+                        "S3_CD",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "5"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ],
+                  [
+                        "S3_CD",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "ATK_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "S2_CD",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "10"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "S1_Recovery",
+                        "5"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "8"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "S2_Recovery",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "5"
+                  ],
+                  [
+                        "Life_Drain",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "14"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "3"
+                  ],
+                  [
+                        "S1_Recovery",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "36"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Good",
+                        "4"
+                  ],
+                  [
+                        "S3_ACC",
+                        "6"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ],
+                  [
+                        "S2_Recovery",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 3,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Teamup_DMG",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "32"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "S1_ACC",
+                        "5"
+                  ],
+                  [
+                        "S1_Recovery",
+                        "4"
+                  ],
+                  [
+                        "S3_CD",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "35"
+                  ],
+                  [
+                        "S3_Recovery",
+                        "5"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "10"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "2"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ],
+                  [
+                        "S1_ACC",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "S2_CD",
+                        "4"
+                  ],
+                  [
+                        "S3_CD",
+                        "6"
+                  ],
+                  [
+                        "S1_Recovery",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ],
+                  [
+                        "S1_Recovery",
+                        "4"
+                  ],
+                  [
+                        "S1_ACC",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Single_TGT_CD",
+                        "3"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "31"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "S3_CD",
+                        "4"
+                  ],
+                  [
+                        "S4_CD",
+                        "5"
+                  ],
+                  [
+                        "S3_Recovery",
+                        "4"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Lost_HP_ATK_up",
+                        "11"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Lost_HP_ATK_up",
+                        "10"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "11"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "4"
+                  ],
+                  [
+                        "S3_CD",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "S1_ACC",
+                        "5"
+                  ],
+                  [
+                        "S2_CD",
+                        "6"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Lost_HP_SPD_up",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "11"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Lost_HP_DEF_up",
+                        "15"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "5"
+                  ],
+                  [
+                        "S4_CD",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 1,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "S3_CD",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "70"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "11"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "4"
+                  ],
+                  [
+                        "S3_CD",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "S2_ACC",
+                        "15"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.4"
+                  ],
+                  [
+                        "S1_ACC",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "5"
+                  ],
+                  [
+                        "S2_ACC",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "CD_Recieved",
+                        "5"
+                  ],
+                  [
+                        "S1_CD",
+                        "5"
+                  ],
+                  [
+                        "S3_Recovery",
+                        "11"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "attack",
+            "subproperties": [
+                  [
+                        "S4_CD",
+                        "5"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "3"
+                  ],
+                  [
+                        "S1_Recovery",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "3"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "4"
+                  ],
+                  [
+                        "Life_Drain",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Water",
+                        "2"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "4"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "3"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "1"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "38"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_DEF",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "6"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "9"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "7"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "10"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "6"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "8"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Lost_HP_DEF_up",
+                        "12"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Water",
+                        "5"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Dark",
+                        "6"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "26"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "39"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "4"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Fire",
+                        "3"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Fire",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "4"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Water",
+                        "3"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "9"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "6"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Fire",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Water",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "4"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "7"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "Life_Drain",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Lost_HP_SPD_up",
+                        "10"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "34"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "6"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "11"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Wind",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Good",
+                        "5"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "9"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "9"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_DEF",
+                        "2"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "HP_Revived",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "3"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "9"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Water",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "30"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "3"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Good",
+                        "6"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Lost_HP_ATK_up",
+                        "14"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "6"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "2"
+                  ],
+                  [
+                        "HP_Revived",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "33"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "3"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "11"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Single_TGT_CD",
+                        "2"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "8"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "13"
+                  ],
+                  [
+                        "HP_Revived",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "11"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Fire",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "3"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "12"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "Life_Drain",
+                        "7"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "3"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Water",
+                        "4"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "4"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "6"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "4"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "2"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ATK_Bar_Revived",
+                        "5"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "11"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "34"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Fire",
+                        "4"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "9"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "4"
+                  ],
+                  [
+                        "HP_Revived",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ATK_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "9"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ATK_Bar_Revived",
+                        "5"
+                  ],
+                  [
+                        "HP_Revived",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Fire",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "15"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "25"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "8"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "6"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "11"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "7"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "4"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ],
+                  [
+                        "Life_Drain",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Fire",
+                        "6"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Water",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "9"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "9"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "6"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "CD_Recieved",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_from_Fire",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "dark",
+            "subproperties": [
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "S3_ACC",
+                        "9"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "10"
+                  ],
+                  [
+                        "HP_Revived",
+                        "4"
+                  ],
+                  [
+                        "S2_ACC",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "S3_CD",
+                        "6"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "1"
+                  ],
+                  [
+                        "Life_Drain",
+                        "2"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "2"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ],
+                  [
+                        "S1_ACC",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "27"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "S2_CD",
+                        "3"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 2,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "6"
+                  ],
+                  [
+                        "S2_CD",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "S1_CD",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ],
+                  [
+                        "HP_Revived",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "12"
+                  ],
+                  [
+                        "S1_ACC",
+                        "6"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "S4_CD",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "39"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "S3_Recovery",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "HP_Revived",
+                        "6"
+                  ],
+                  [
+                        "S2_ACC",
+                        "6"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "S3_ACC",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "14"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "4"
+                  ],
+                  [
+                        "S1_CD",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "S2_Recovery",
+                        "5"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ],
+                  [
+                        "S1_ACC",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "38"
+                  ],
+                  [
+                        "HP_Revived",
+                        "4"
+                  ],
+                  [
+                        "S2_CD",
+                        "5"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "10"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "14"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "26"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "ATK_Bar_Revived",
+                        "4"
+                  ],
+                  [
+                        "S1_ACC",
+                        "6"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Good",
+                        "6"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "S2_Recovery",
+                        "4"
+                  ],
+                  [
+                        "S1_Recovery",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "11"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "S1_ACC",
+                        "4"
+                  ],
+                  [
+                        "S3_ACC",
+                        "4"
+                  ],
+                  [
+                        "S1_CD",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ],
+                  [
+                        "Life_Drain",
+                        "7"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "S3_CD",
+                        "4"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "CD_Recieved",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "14"
+                  ],
+                  [
+                        "S3_ACC",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "S1_ACC",
+                        "4"
+                  ],
+                  [
+                        "S3_Recovery",
+                        "5"
+                  ],
+                  [
+                        "S2_ACC",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "def",
+            "subproperties": [
+                  [
+                        "S1_CD",
+                        "5"
+                  ],
+                  [
+                        "S2_CD",
+                        "6"
+                  ],
+                  [
+                        "S2_Recovery",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_from_Dark",
+                        "6"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "1"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_from_Fire",
+                        "14"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.1"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "7"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "9"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "14"
+                  ],
+                  [
+                        "HP_Revived",
+                        "1"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "87"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "6"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "8"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ATK_Bar_Revived",
+                        "2"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_on_Fire",
+                        "5"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "25"
+                  ],
+                  [
+                        "Life_Drain",
+                        "7"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 3,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "8"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "4"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "5"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Lost_HP_ATK_up",
+                        "12"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "11"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Bad",
+                        "9"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "29"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Lost_HP_DEF_up",
+                        "10"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "14"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "10"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ADL_DMG_DEF",
+                        "4"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "36"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "Life_Drain",
+                        "8"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Lost_HP_ATK_up",
+                        "10"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "6"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_on_Water",
+                        "3"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_on_Fire",
+                        "5"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Single_TGT_CD",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "6"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 2,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Bad",
+                        "27"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "5"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "Life_Drain",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_on_Wind",
+                        "5"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "HP_Revived",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "6"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "14"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "8"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "6"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ADL_DMG_DEF",
+                        "2"
+                  ],
+                  [
+                        "Life_Drain",
+                        "8"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_on_Wind",
+                        "3"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ATK_Bar_Revived",
+                        "6"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "12"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "18"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Lost_HP_DEF_up",
+                        "6"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "1"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "17"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ATK_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "9"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "10"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "CD_Recieved",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "106"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Lost_HP_SPD_up",
+                        "21"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "12"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Lost_HP_DEF_up",
+                        "13"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "35"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "10"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "9"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_from_Dark",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "12"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Single_TGT_CD",
+                        "2"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "12"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "CD_Recieved",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ADL_DMG_DEF",
+                        "4"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "4"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "11"
+                  ],
+                  [
+                        "Life_Drain",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "fire",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "13"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "9"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "3"
+                  ],
+                  [
+                        "S1_ACC",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "S2_CD",
+                        "5"
+                  ],
+                  [
+                        "S4_CD",
+                        "5"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "3"
+                  ],
+                  [
+                        "S4_CD",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ],
+                  [
+                        "S2_ACC",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "S3_Recovery",
+                        "6"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "S3_CD",
+                        "6"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Good",
+                        "4"
+                  ],
+                  [
+                        "S3_Recovery",
+                        "5"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "4"
+                  ],
+                  [
+                        "S1_Recovery",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "S3_Recovery",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "11"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "2"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "33"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "14"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "S2_Recovery",
+                        "4"
+                  ],
+                  [
+                        "S2_ACC",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "Single_TGT_CD",
+                        "2"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "27"
+                  ],
+                  [
+                        "S3_Recovery",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "Lost_HP_SPD_up",
+                        "12"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ],
+                  [
+                        "HP_Revived",
+                        "5"
+                  ],
+                  [
+                        "S3_Recovery",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "S3_CD",
+                        "6"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "11"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "ATK_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "4"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 2,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "ATK_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "S3_CD",
+                        "10"
+                  ],
+                  [
+                        "S2_CD",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.5"
+                  ],
+                  [
+                        "S1_ACC",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "9"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "S2_CD",
+                        "4"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "4"
+                  ],
+                  [
+                        "S4_CD",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "ATK_Bar_Revived",
+                        "4"
+                  ],
+                  [
+                        "S2_Recovery",
+                        "5"
+                  ],
+                  [
+                        "S1_Recovery",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Bad",
+                        "10"
+                  ],
+                  [
+                        "S3_ACC",
+                        "6"
+                  ],
+                  [
+                        "Life_Drain",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "S3_Recovery",
+                        "4"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "5"
+                  ],
+                  [
+                        "S2_ACC",
+                        "4"
+                  ],
+                  [
+                        "S1_CD",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "hp",
+            "subproperties": [
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ],
+                  [
+                        "S3_CD",
+                        "5"
+                  ],
+                  [
+                        "S3_Recovery",
+                        "6"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Water",
+                        "11"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "12"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Wind",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "4"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "3"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "35"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Fire",
+                        "6"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "23"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "2"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "21"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "Lost_HP_ATK_up",
+                        "10"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "11"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Light",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "6"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "30"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "3"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Dark",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Fire",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Fire",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "11"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DEF_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "9"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Water",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "11"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "9"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Fire",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "4"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "39"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "5"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "6"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "9"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "9"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Bad",
+                        "9"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "5"
+                  ],
+                  [
+                        "HP_Revived",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "2"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "6"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "6"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "11"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "ATK_Bar_Revived",
+                        "6"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "12"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "3"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "3"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "10"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "CD_Recieved",
+                        "2"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "25"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "12"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "11"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Bad",
+                        "10"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "14"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "Single_TGT_CD",
+                        "4"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "26"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "2"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "4"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "10"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DEF_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "Life_Drain",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "7"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "9"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "14"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "10"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Fire",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "4"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "38"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "13"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "4"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "3"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Water",
+                        "4"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "6"
+                  ],
+                  [
+                        "Life_Drain",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "5"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "8"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "Lost_HP_SPD_up",
+                        "11"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "light",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "30"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "S1_Recovery",
+                        "6"
+                  ],
+                  [
+                        "S2_CD",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "S3_Recovery",
+                        "5"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "ADL_DMG_DEF",
+                        "2"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ],
+                  [
+                        "S3_ACC",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "Lost_HP_SPD_up",
+                        "11"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "10"
+                  ],
+                  [
+                        "HP_Revived",
+                        "5"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "S4_CD",
+                        "6"
+                  ],
+                  [
+                        "S2_CD",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Good",
+                        "5"
+                  ],
+                  [
+                        "S2_CD",
+                        "6"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "Lost_HP_DEF_up",
+                        "13"
+                  ],
+                  [
+                        "S3_Recovery",
+                        "5"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "S2_Recovery",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "11"
+                  ],
+                  [
+                        "S1_ACC",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "S3_CD",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "S2_ACC",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "Lost_HP_DEF_up",
+                        "11"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "4"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Bad",
+                        "10"
+                  ],
+                  [
+                        "S2_CD",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "support",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Bad",
+                        "8"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "2"
+                  ],
+                  [
+                        "S2_ACC",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Bad",
+                        "9"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "6"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "Lost_HP_ATK_up",
+                        "13"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "4"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "8"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "7"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "Teamup_DMG",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ],
+                  [
+                        "Life_Drain",
+                        "6"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "ATK_Bar_Revived",
+                        "6"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_from_Water",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_on_Water",
+                        "3"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "Lost_HP_ATK_up",
+                        "13"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "5"
+                  ],
+                  [
+                        "HP_Revived",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "ATK_Bar_Revived",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "27"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "9"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ],
+                  [
+                        "Life_Drain",
+                        "6"
+                  ],
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "5"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "4"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_on_Wind",
+                        "4"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "Lost_HP_SPD_up",
+                        "9"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "25"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "Single_TGT_CD",
+                        "2"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "28"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "4"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "Lost_HP_DEF_up",
+                        "9"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "2"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "36"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "Single_TGT_CD",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "26"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_from_Dark",
+                        "6"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_on_Wind",
+                        "3"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_from_Fire",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "14"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DEF_INC_Effect",
+                        "3"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "10"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "ADL_DMG_SPD",
+                        "32"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "5"
+                  ],
+                  [
+                        "Life_Drain",
+                        "6"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "6"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "4"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "11"
+                  ],
+                  [
+                        "Life_Drain",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "DMG_from_Dark",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "13"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "ATK_Bar_Revived",
+                        "6"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "11"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Bad",
+                        "9"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "38"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Good",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "11"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 2,
+            "type": "water",
+            "subproperties": [
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "9"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "Lost_HP_ATK_up",
+                        "6"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "6"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "Counter_DMG",
+                        "1"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ],
+                  [
+                        "ATK_Bar_Revived",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 1,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Bad",
+                        "8"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "8"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "12"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_on_Wind",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "37"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_ATK_up",
+                        "9"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.2"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "14"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "Lost_HP_ATK_up",
+                        "11"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "ATK_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "5"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "6"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_on_Fire",
+                        "3"
+                  ],
+                  [
+                        "CD_Recieved",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 1,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_from_Dark",
+                        "10"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "9"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "10"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Good",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "ADL_DMG_HP",
+                        "0.3"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ],
+                  [
+                        "DEF_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "CD_Recieved",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "4"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ],
+                  [
+                        "ADL_DMG_ATK",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "6"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "2"
+                  ],
+                  [
+                        "ATK_INC_Effect",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "ATK_Bar_Revived",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "4"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ],
+                  [
+                        "DMG_on_Fire",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Bad",
+                        "12"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Dark",
+                        "4"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "6"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "5"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "10"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_from_Fire",
+                        "5"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "2"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "ADL_DMG_ATK",
+                        "2"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "2"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 2,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "9"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "66"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "6"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "12"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "3"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "1"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "Life_Drain",
+                        "8"
+                  ],
+                  [
+                        "DMG_from_Light",
+                        "6"
+                  ],
+                  [
+                        "DMG_from_Water",
+                        "6"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "6"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "11"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "SPD_INC_Effect",
+                        "4"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "ADL_DMG_DEF",
+                        "7"
+                  ],
+                  [
+                        "Counter_DMG",
+                        "7"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "62"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_on_Fire",
+                        "4"
+                  ],
+                  [
+                        "CD_as_HP_is_Bad",
+                        "12"
+                  ],
+                  [
+                        "DMG_from_Dark",
+                        "5"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_on_Dark",
+                        "5"
+                  ],
+                  [
+                        "HP_Revived",
+                        "6"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "CD_as_HP_is_Good",
+                        "6"
+                  ],
+                  [
+                        "DMG_from_Fire",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Wind",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "HP_Revived",
+                        "6"
+                  ],
+                  [
+                        "Teamup_DMG",
+                        "2"
+                  ],
+                  [
+                        "Single_TGT_CD",
+                        "4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 0,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "Lost_HP_DEF_up",
+                        "3"
+                  ],
+                  [
+                        "DMG_on_Light",
+                        "11"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "6"
+                  ],
+                  [
+                        "ADL_DMG_HP",
+                        "0.4"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_from_Dark",
+                        "4"
+                  ],
+                  [
+                        "ADL_DMG_SPD",
+                        "32"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_on_Fire",
+                        "4"
+                  ],
+                  [
+                        "Lost_HP_SPD_up",
+                        "13"
+                  ],
+                  [
+                        "Bomb_DMG",
+                        "2"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_from_Wind",
+                        "4"
+                  ],
+                  [
+                        "SPD_INC_Effect",
+                        "5"
+                  ],
+                  [
+                        "ADL_DMG_DEF",
+                        "3"
+                  ]
+            ]
+      },
+      {
+            "Rolls": 4,
+            "type": "wind",
+            "subproperties": [
+                  [
+                        "DMG_from_Light",
+                        "5"
+                  ],
+                  [
+                        "DMG_on_Water",
+                        "3"
+                  ],
+                  [
+                        "Lost_HP_DEF_up",
+                        "9"
+                  ]
+            ]
+      }
+]

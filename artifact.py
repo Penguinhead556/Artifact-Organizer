@@ -7,16 +7,138 @@ import json
 from artifact_helpers import *
 
 
-
 ws = Tk()
 ws.title('Artifact Tool')
-# ws.geometry('400x300') 
 
-# def calculate_efficiency(artifact, monster):
+Label(ws, text = "Artifact Index:").grid(row = 0, column = 0)
+
+type_label = StringVar()
+type_label.set("Type is: -")
+Label(ws, textvariable = type_label).grid(row = 0, column = 4)
 
 
-# label = Label(ws, text="High Scores", font=("Arial",30)).grid(row=0, columnspan=3)
-# create Treeview with 3 columns
+Artifact_Index = StringVar()
+Artifact_Index.set(0)
+e2 = Entry(ws, textvariable=Artifact_Index).grid(row = 0, column = 1)
+
+
+# setting variable for Integers
+rolls_remaining = StringVar()
+rolls_remaining.set(0)
+
+# setting variable for Integers
+artifact_type = StringVar()
+artifact_type.set(elements[0])
+
+# setting variable for Integers
+Sub1 = StringVar()
+Sub1.set("")
+
+sub1_value = StringVar()
+sub1_value.set(0)
+
+# setting variable for Integers
+Sub2 = StringVar()
+Sub2.set("")
+
+sub2_value = StringVar()
+sub2_value.set(0)
+
+# setting variable for Integers
+Sub3 = StringVar()
+Sub3.set("")
+
+sub3_value = StringVar()
+sub3_value.set(0)
+
+# setting variable for Integers
+Sub4 = StringVar()
+Sub4.set("")
+
+sub4_value = StringVar()
+sub4_value.set(0)
+
+def find_monsters(subproperties, type, rolls):
+    output = []
+
+    listbox_entry = []
+    listbox_entry.append("Current Artifact")
+
+    artifact_type.set(type)
+
+    if 1 <= len(subproperties):
+        listbox_entry.append(subproperties[0])
+        Sub1.set(subproperties[0][0])
+        sub1_value.set(subproperties[0][1])
+    else:
+        listbox_entry.append("")
+        Sub1.set("")
+        sub1_value.set(0)
+
+    if 2 <= len(subproperties):
+        listbox_entry.append(subproperties[1])
+        Sub2.set(subproperties[1][0])
+        sub2_value.set(subproperties[1][1])
+    else:
+        listbox_entry.append("")
+        Sub2.set("")
+        sub2_value.set(0)
+
+    if 3 <= len(subproperties):
+        listbox_entry.append(subproperties[2])
+        Sub3.set(subproperties[2][0])
+        sub3_value.set(subproperties[2][1])
+    else:
+        listbox_entry.append("")
+        Sub3.set("")
+        sub3_value.set(0)
+
+    if 4 <= len(subproperties):
+        listbox_entry.append(subproperties[3])
+        Sub4.set(subproperties[3][0])
+        sub4_value.set(subproperties[3][1])
+    else:
+        listbox_entry.append("")
+        Sub4.set("")
+        sub4_value.set(0)
+
+    listbox_entry.append(calculate_efficiency(subproperties))
+    listbox_entry.append(calculate_efficiency(subproperties) + (rolls/8*100))
+        
+    output.append(listbox_entry)
+
+
+    for key in Monster_Info:
+        if type in elements:
+            _artifact_type = "Element"
+            _efficiency = Monster_Info[key]["Efficiency"]["Element"]
+        elif type in types:
+            _artifact_type = "Type"
+            _efficiency = Monster_Info[key]["Efficiency"]["Type"]
+        if Monster_Info[key][_artifact_type] == type:
+            Best_Case_Artifact = []
+            for curr_sub in subproperties:
+                if curr_sub[0] in Monster_Info[key]["Substats"]:
+                    Best_Case_Artifact.append(curr_sub)
+            
+            if Best_Case_Artifact != []:
+                max_efficiency = calculate_efficiency(Best_Case_Artifact) + (rolls/8*100)
+            else:
+                max_efficiency = 0
+            if max_efficiency > _efficiency:
+                listbox_entry = []
+                listbox_entry.append(key)
+                for subs in Monster_Info[key]["Artifacts"][_artifact_type]:
+                    listbox_entry.append(subs[0] + " : " + subs[1] + "%")
+                while len(listbox_entry) < 5:
+                    listbox_entry.append("")
+                listbox_entry.append(_efficiency)
+                listbox_entry.append(max_efficiency)
+                output.append(listbox_entry)
+                
+    
+    return output
+
 cols = ('Monster', 'Sub1', 'Sub2', 'Sub3', 'Sub4', 'Current Efficiency', 'Max Efficiency')
 listBox = ttk.Treeview(ws, columns=cols, show='headings')
 # set column headings
@@ -34,14 +156,27 @@ def update_List():
 
 update_List()
 
+
+def load():
+    type_label.set("Type is: " + Inventory_data[int(Artifact_Index.get())]["type"])
+
+    Suitable_Monsters = find_monsters(Inventory_data[int(Artifact_Index.get())]["subproperties"], Inventory_data[int(Artifact_Index.get())]["type"], Inventory_data[int(Artifact_Index.get())]["Rolls"])
+
+    Suitable_Monsters.sort(key = lambda Suitable_Monsters: Suitable_Monsters[6], reverse = True)
+
+    listBox.delete(*listBox.get_children())
+    for i in Suitable_Monsters:
+        listBox.insert("", "end", values=i)
+
+def next():
+    Artifact_Index.set(int(Artifact_Index.get()) + 1)
+    load()
+
 def show():
 
     top= Toplevel(ws)
     top.title("Configure Artifact")
 
-    # setting variable for Integers
-    artifact_type = StringVar()
-    artifact_type.set(elements[0])
 
     # creating widget
     elements_select = OptionMenu(
@@ -55,24 +190,16 @@ def show():
     elements_select.grid(row=0, column=1)
 
 
-    # setting variable for Integers
-    rolls_remaining = StringVar()
-    rolls_remaining.set(4)
-
     # creating widget
     elements_select = OptionMenu(
         top,
         rolls_remaining,
-        *[4, 3, 2, 1],
+        *[4, 3, 2, 1, 0],
     )
 
     # positioning widget
     Label(top, text = "Rolls Remaining:").grid(row = 0, column = 2)
     elements_select.grid(row=0, column=3)
-
-    # setting variable for Integers
-    Sub1 = StringVar()
-    Sub1.set("")
 
     # creating widget
     elements_select = OptionMenu(
@@ -85,14 +212,8 @@ def show():
     Label(top, text = "Sub1").grid(row = 1, column = 0)
     elements_select.grid(row=1, column=1)
 
-    sub1_value = StringVar()
-    sub1_value.set(0)
 
     e1 = Entry(top, textvariable=sub1_value).grid(row = 1, column = 2)
-
-    # setting variable for Integers
-    Sub2 = StringVar()
-    Sub2.set("")
 
     # creating widget
     elements_select = OptionMenu(
@@ -105,14 +226,8 @@ def show():
     Label(top, text = "Sub2").grid(row = 2, column = 0)
     elements_select.grid(row=2, column=1)
 
-    sub2_value = StringVar()
-    sub2_value.set(0)
+
     e2 = Entry(top, textvariable=sub2_value).grid(row = 2, column = 2)
-
-
-    # setting variable for Integers
-    Sub3 = StringVar()
-    Sub3.set("")
 
     # creating widget
     elements_select = OptionMenu(
@@ -125,15 +240,7 @@ def show():
     Label(top, text = "Sub3").grid(row = 3, column = 0)
     elements_select.grid(row=3, column=1)
 
-    sub3_value = StringVar()
-    sub3_value.set(0)
-
     e3 = Entry(top, textvariable=sub3_value).grid(row = 3, column = 2)
-
-
-    # setting variable for Integers
-    Sub4 = StringVar()
-    Sub4.set("")
 
     # creating widget
     elements_select = OptionMenu(
@@ -146,87 +253,90 @@ def show():
     Label(top, text = "Sub4").grid(row = 4, column = 0)
     elements_select.grid(row=4, column=1)
 
-    sub4_value = StringVar()
-    sub4_value.set(0)
-
     e4 = Entry(top, textvariable=sub4_value).grid(row = 4, column = 2)
-
 
 ############################################################################################
 
-    def find_monsters():
-        Suitable_Monsters = []
+    def display_Monsters():
+        
 
-        current_artifact = []
+        subproperties = []
         if Sub1.get() != "":
-            current_artifact.append([Sub1.get(), sub1_value.get()])
+            subproperties.append([Sub1.get(), sub1_value.get()])
         if Sub2.get() != "":
-            current_artifact.append([Sub2.get(), sub2_value.get()])
+            subproperties.append([Sub2.get(), sub2_value.get()])
         if Sub3.get() != "":
-            current_artifact.append([Sub3.get(), sub3_value.get()])
+            subproperties.append([Sub3.get(), sub3_value.get()])
         if Sub4.get() != "":
-            current_artifact.append([Sub4.get(), sub4_value.get()])
-
-        listbox_entry = []
-        listbox_entry.append("Current Artifact")
-        listbox_entry.append(Sub1.get() + " : " + sub1_value.get() + "%")
-        listbox_entry.append(Sub2.get() + " : " + sub2_value.get() + "%")
-        listbox_entry.append(Sub3.get() + " : " + sub3_value.get() + "%")
-        listbox_entry.append(Sub4.get() + " : " + sub4_value.get() + "%")
-        listbox_entry.append(calculate_efficiency(current_artifact))
-        listbox_entry.append(calculate_efficiency(current_artifact) + (int(rolls_remaining.get())/8*100))
-            
-        Suitable_Monsters.append(listbox_entry)
+            subproperties.append([Sub4.get(), sub4_value.get()])
 
 
-        for key in Monster_Info:
-            if artifact_type.get() in elements:
-                _artifact_type = "Element"
-                _efficiency = Monster_Info[key]["Efficiency"]["Element"]
-            elif artifact_type.get() in types:
-                _artifact_type = "Type"
-                _efficiency = Monster_Info[key]["Efficiency"]["Type"]
-            if Monster_Info[key][_artifact_type] == artifact_type.get():
-                Best_Case_Artifact = []
-                if Sub1.get() in Monster_Info[key]["Substats"]:
-                    Best_Case_Artifact.append([Sub1.get(), sub1_value.get()])
-                if Sub2.get() in Monster_Info[key]["Substats"]:
-                    Best_Case_Artifact.append([Sub2.get(), sub2_value.get()])
-                if Sub3.get() in Monster_Info[key]["Substats"]:
-                    Best_Case_Artifact.append([Sub3.get(), sub3_value.get()])
-                if Sub4.get() in Monster_Info[key]["Substats"]:
-                    Best_Case_Artifact.append([Sub4.get(), sub4_value.get()])
-                
-                if Best_Case_Artifact != []:
-                    max_efficiency = calculate_efficiency(Best_Case_Artifact) + (int(rolls_remaining.get())/8*100)
-                else:
-                    max_efficiency = 0
-                if max_efficiency > _efficiency:
-                    listbox_entry = []
-                    listbox_entry.append(key)
-                    for subs in Monster_Info[key]["Artifacts"][_artifact_type]:
-                        listbox_entry.append(subs[0] + " : " + subs[1] + "%")
-                    while len(listbox_entry) < 5:
-                        listbox_entry.append("")
-                    listbox_entry.append(_efficiency)
-                    listbox_entry.append(max_efficiency)
-                    Suitable_Monsters.append(listbox_entry)
+        Suitable_Monsters = find_monsters(subproperties, artifact_type.get(), int(rolls_remaining.get()))
 
-        # Suitable_Monsters = Suitable_Monsters4 + Suitable_Monsters3 + Suitable_Monsters2
-        # print(Suitable_Monsters)
-
-        # tempList = [['Jim', '0.33'], ['Dave', '0.67'], ['James', '0.67'], ['Eden', '0.5']]
-        # tempList.sort(key=lambda e: e[1], reverse=True)
-        # print(Suitable_Monsters)
         Suitable_Monsters.sort(key = lambda Suitable_Monsters: Suitable_Monsters[6], reverse = True)
 
         listBox.delete(*listBox.get_children())
         for i in Suitable_Monsters:
             listBox.insert("", "end", values=i)
 
+        type_label.set("Type is: " + artifact_type.get())
+
         top.destroy()
 
-    Button(top, text="Find Monsters", width=15, command=find_monsters).grid(row=5, column=0)
+    Button(top, text="Find Monsters", width=15, command=display_Monsters).grid(row=5, column=0)
+
+
+def Inventory():
+    top= Toplevel(ws)
+    top.title("Configure Artifact")
+
+    cols = ('ID', 'Type', 'Sub1', 'Sub2', 'Sub3', 'Sub4', 'Current Efficiency', 'Max Efficiency')
+    Inventory_Listbox = ttk.Treeview(top, columns=cols, show='headings')
+
+    for col in cols:
+        Inventory_Listbox.heading(col, text=col)    
+    Inventory_Listbox.grid(row=0, column=0, columnspan=10)
+
+    Ndex = 0
+    for Art in Inventory_data:
+        inv_box_values = []
+        inv_box_values.append(str(Ndex))
+        inv_box_values.append(Art["type"])
+        for i in range(4):
+            if i < len(Art["subproperties"]):
+                inv_box_values.append(Art["subproperties"][i])
+            else:
+                inv_box_values.append("")
+        _efficiency = calculate_efficiency(Art["subproperties"])
+        inv_box_values.append(str(_efficiency))
+        inv_box_values.append(str(_efficiency + Art["Rolls"] * 12.5))
+
+        Inventory_Listbox.insert("", "end", value = inv_box_values)
+
+        Ndex = Ndex + 1
+
+
+    def display_Monsters():
+        if Inventory_Listbox.focus() == "":
+            ctypes.windll.user32.MessageBoxW(0, "Please Select a Monster", "error", 1)
+        else:
+            Selected_Artifact = Inventory_data[int(Inventory_Listbox.item(Inventory_Listbox.focus())['values'][0])]
+
+        Artifact_Index.set(Inventory_Listbox.item(Inventory_Listbox.focus())['values'][0])
+        
+        Suitable_Monsters = find_monsters(Selected_Artifact["subproperties"], Selected_Artifact["type"], Selected_Artifact["Rolls"])
+
+        Suitable_Monsters.sort(key = lambda Suitable_Monsters: Suitable_Monsters[6], reverse = True)
+
+        listBox.delete(*listBox.get_children())
+        for i in Suitable_Monsters:
+            listBox.insert("", "end", values=i)
+
+        type_label.set("Type is: " + Selected_Artifact["type"])
+
+        top.destroy()
+
+    Button(top, text="Find Monsters", width=15, command=display_Monsters).grid(row=5, column=0)
 
 
 def open_add_build():
@@ -275,13 +385,6 @@ def open_add_build():
     Label(top, text = "Type:").grid(row = row_counter, column = 0)
     types_select.grid(row = row_counter, column = 1)
     row_counter = row_counter + 1
-
-    # var1 = IntVar()
-    # var2 = IntVar()
-    # c1 = Checkbutton(top, text='Python',variable=var1, onvalue=1, offvalue=0)
-    # c1.pack()
-    # c2 = Checkbutton(top, text='C++',variable=var2, onvalue=1, offvalue=0)
-    # c2.pack()
 
     artifact_properties = []
     artifact_checkboxes = []
@@ -523,12 +626,16 @@ def open_update_monster():
     Button(top, text="Change Artifacts", width=15, command=add_artifacts).grid(row=row_counter, column=0)
     top.mainloop()
 
+Button(ws, text="Load", width=15, command=load).grid(row=0, column=2)
+Button(ws, text="Next", width=15, command=next).grid(row=0, column=3)
+
 
 Button(ws, text="Input Artifact", width=15, command=show).grid(row=4, column=0)
+Button(ws, text="Inventory", width=15, command=Inventory).grid(row=4, column=1)
 
 # Label(ws, text= "Click the button to Open Popup Window", font= ('Helvetica 18')).place(relx=.5, rely=.5, anchor= CENTER)
-Button(ws, text= "Add Build", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_add_build).grid(row=4, column=1)
-Button(ws, text= "Update Monster", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_update_monster).grid(row=4, column=2)
+Button(ws, text= "Add Build", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_add_build).grid(row=4, column=2)
+Button(ws, text= "Update Monster", background= "white", foreground= "blue", font= ('Helvetica 13 bold'), command= open_update_monster).grid(row=4, column=3)
 
 def on_closing():
     f = open("MonstersDB.json", "w")

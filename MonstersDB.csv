@@ -17,7 +17,7 @@ Vigor,water,hp,S2 Recovery,Single TGT CD,Lost HP DEF up,Lost HP SPD up,SPD INC E
 Icaru,water,def,S1 ACC,DMG on Water,DMG on Light,DMG on Dark,ATK INC Effect,ADL DMG DEF
 Elucia,water,support,S2 Recovery,S1 ACC,Counter DMG,ADL DMG HP,ADL DMG DEF,CD Recieved
 Lulu,water,support,S1 Recovery,S2 Recovery,S3 Recovery,DMG from Wind,DMG from Water,Lost HP DEF up,Lost HP SPD up,CD Recieved
-Attack Homonuclus,water,attack,S3 CD,S1 ACC,S2 ACC,S3 ACC,DMG on Water,DMG from Wind,Lost HP DEF up,Lost HP SPD up,CD Recieved
+Water Homonuclus,water,attack,S3 CD,S1 ACC,S2 ACC,S3 ACC,DMG on Water,DMG from Wind,Lost HP DEF up,Lost HP SPD up,CD Recieved
 Borgnine,water,hp,S1 CD,S2 CD,S1 ACC,S2 ACC,Counter DMG,CD Recieved
 Moore,water,attack,S2 ACC,DMG on Water,DMG on Fire,ADL DMG HP,ADL DMG ATK,ADL DMG SPD
 Haegang,water,support,DMG from Wind,DMG from Water,Lost HP DEF up,Lost HP SPD up,CD Recieved
@@ -71,7 +71,7 @@ Khmun,fire,support,S2 CD,S2 Recovery,Single TGT CD,Lost HP DEF up,Lost HP SPD up
 Astar,fire,attack,S1 CD,DMG on Dark,CD as HP is Bad,Single TGT CD,ADL DMG ATK
 Antares,fire,attack,S1 CD,S2 Recovery,DMG from Water,SPD INC Effect,Counter DMG,ADL DMG ATK
 Chloe,fire,support,S2 Recovery,DMG from Water,Lost HP DEF up,Lost HP SPD up,CD Recieved
-Verdehile,fire,attack,S1 Recovery,DMG from Water,Lost HP DEF up,Lost HP SPD up,Counter DMG,CD Recieved
+Verdehile,fire,attack,S1 Recovery,DMG from Water,Lost HP DEF up,Lost HP SPD up,Counter DMG,CD Recieved,Teamup DMG
 Clara,fire,attack,S3 ACC,Lost HP SPD up,SPD INC Effect,ADL DMG SPD,CD Recieved
 Garo,fire,attack,S1 CD,S2 ACC,Single TGT CD,Lost HP DEF up,Lost HP SPD up,Life Drain
 Akia,fire,attack,S3 ACC,DMG from Water,CD as HP is Good,ATK INC Effect,CD Recieved

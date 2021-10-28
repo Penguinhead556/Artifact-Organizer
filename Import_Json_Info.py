@@ -10,7 +10,10 @@ Monster_data = Json_Data["unit_list"]
 
 for monster in Monster_data:
     if monster["unit_level"] == 40:
-        name = Mapping_Dict["Monsters"][monster["unit_master_id"]]["Name"]
+        if monster["unit_master_id"] in Mapping_Dict["Monsters"]:
+            name = Mapping_Dict["Monsters"][monster["unit_master_id"]]["Name"]
+        else:
+            name = monster["unit_master_id"]
         if name not in Monster_Info:
             Monster_Info[name] = {}
             Monster_Info[name]["Element"] = ""
@@ -23,9 +26,9 @@ for monster in Monster_data:
             Monster_Info[name]["Efficiency"]["Type"] = 0
         for artifact in monster["artifacts"]:
             if artifact["type"] == 1:
-                type = "Type"
-            elif artifact["type"] == 2:
                 type = "Element"
+            elif artifact["type"] == 2:
+                type = "Type"
             subs = []
             for subproperties in artifact["sec_effects"]:
                 if subproperties[0] in Mapping_Dict["Artifacts"]:
@@ -38,4 +41,46 @@ for monster in Monster_data:
 
 f = open("MonstersDB.json", "w")
 json.dump(Monster_Info, f, indent = 6)
+f.close()
+
+Inventory = []
+artifacts_inventory = Json_Data["artifacts"]
+
+for i in range(len(artifacts_inventory)):
+    artifact = {}
+    Powerup_lvl = artifacts_inventory[i]["pri_effect"][2]
+    if Powerup_lvl < 3:
+        Rolls = 4
+    elif Powerup_lvl < 6:
+        Rolls = 3
+    elif Powerup_lvl < 9:
+        Rolls = 2
+    elif Powerup_lvl < 12:
+        Rolls = 1
+    else:
+        Rolls = 0
+
+    artifact["Rolls"] = Rolls
+    Artifact_Type = Mapping_Dict["Artifact_Type"][artifacts_inventory[i]["type"]]
+
+    if Artifact_Type == "Element":
+        artifact["type"] = Mapping_Dict["Elements"][artifacts_inventory[i]["attribute"]]
+    elif Artifact_Type == "Type":
+        artifact["type"] = Mapping_Dict["Types"][artifacts_inventory[i]["unit_style"]]
+
+    artifact_subs = []
+
+    for subs in artifacts_inventory[i]["sec_effects"]:
+        if subs[0] in Mapping_Dict["Artifacts"]:
+            artifact_subs.append([Mapping_Dict["Artifacts"][subs[0]], str(subs[1])])
+
+    artifact["subproperties"] = artifact_subs
+
+    Inventory.append(artifact)
+
+Inventory = sorted(Inventory, key=lambda d: d['type']) 
+
+
+f = open("Inventory.json", "w")
+json.dump(Inventory, f, indent = 6)
 f.close()
